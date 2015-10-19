@@ -2,42 +2,24 @@
 
 ## Summary
 
-Python scripts to gather property data from many websites. The websites are often US State government agencies.
+Python scripts to gather Hunting district data from many websites. The websites are often US State government agencies.
 
-Scripts should import data into a Postgres/PostGIS database. [See this Stackoverflow](http://gis.stackexchange.com/questions/110854/importing-shp-to-postgresql).
+Scripts should read data in whatever format it is available, and output a GeoJson file, with properties normalized to a schema that will be shared by all data sets.
 
-## **Project Structure**
+## Inspiration
 
-For each US state added, create a new directory for that state like “CO” for Colorado.
+This project is inspired by http://OpenAddress.io
 
-## **Starting Data**
+## Project Structure
 
-### Montana
-
-* script to gather files from here: http://fwp.mt.gov/doingBusiness/reference/gisData/dataDownload.html
-* only collect rows that start with “Hunting Districts - (2014 and 2015 Seasons)”
-* add README.md in the MT directory with any pertinent docs
-    * how to execute scripts
-    * any manual instructions
-
-### Colorado
-
-* script to gather files from here: https://gisftp02.state.co.us/ (FYI, found via [searching here](http://www.arcgis.com/home/search.html?q=colorado%20parks%20and%20wildlife&t=groups&focus=groups))
-    * collect cStateLevelAgenices/DNR/CPW/From/2015/GISData/AdministrativeData
-* add README.md in the CO directory with any pertinent docs
-    * how to execute scripts
-    * any manual instructions
+The project root contains a directory, sources, that contains JSON files describing each dataset. Data is organized as /sources/:country:/:state_or_province:/:source_name:.json for example /sources/US/MT/deer-elk-lions.json
 
 ## Future Work
 
 * more state coverage
 
 * add scripts to
-    * transform the states data into vector tiles or geojson
+    * transform the states data into vector tiles
     * scripts to merge/process GeoJson into master files
 
 * style sheets to make nice looking raster maps of the data, nationwide
-
-
-
-
