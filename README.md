@@ -4,6 +4,8 @@
 
 Python scripts to gather property data from many websites. The websites are often US State government agencies.
 
+Scripts should import data into a Postgres/PostGIS database. [See this Stackoverflow](http://gis.stackexchange.com/questions/110854/importing-shp-to-postgresql).
+
 ## **Project Structure**
 
 For each US state added, create a new directory for that state like “CO” for Colorado.
