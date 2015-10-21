@@ -1,0 +1,8 @@
+{
+	"country": "US",
+	"state": "Montana",
+	"attribution": "Montana Fish, Wildlife, & Parks",
+	"species": ["antelope"],
+	"filetype": "shp",
+	"url": "http://fwp.mt.gov/gisData/shapefiles/huntDistrictsAntelope2014.zip"
+}
