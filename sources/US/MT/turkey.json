@@ -1,5 +1,8 @@
 {
 	"country": "US",
 	"state": "Montana",
+	"attribution": "Montana Fish, Wildlife, & Parks",
+	"species": ["turkey"],
+	"filetype": "shp",
 	"url": "http://fwp.mt.gov/gisData/shapefiles/huntDistrictsTurkey2014.zip"
 }
