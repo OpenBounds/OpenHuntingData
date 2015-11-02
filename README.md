@@ -8,7 +8,7 @@ Scripts should read data in whatever format it is available, and output a GeoJso
 
 ## Inspiration
 
-This project is inspired by http://OpenAddress.io
+This project is inspired by http://openaddresses.io/
 
 ## Project Structure
 
