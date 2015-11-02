@@ -23,3 +23,18 @@ The project root contains a directory, sources, that contains JSON files describ
     * scripts to merge/process GeoJson into master files
 
 * style sheets to make nice looking raster maps of the data, nationwide
+
+## OpenHuntingData MVP data processing tool
+
+### Requirements
+Go >1.3
+
+### Installation and Execution
+
+```bash
+$ go get github.com/trailbehind/OpenHuntingData
+$ cd $GOPATH/github.com/trailbehind/OpenHuntingData
+$ go build
+$ ./OpenHuntingData -f sources/US/MT/turkey.json # standard output
+$ ./OpenHuntingData -v -f sources/US/MT/turkey.json # verbose output
+```
