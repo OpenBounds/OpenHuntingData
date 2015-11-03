@@ -16,6 +16,9 @@
     "filetype": {
       "type": "string"
     },
+    "file": {
+      "type": "string"
+    },
     "species": {
       "type": "array",
       "items": {
@@ -27,5 +30,5 @@
       "type": "string"
     }
   },
-  "required": ["country", "state", "species"]
+  "required": ["country", "state", "species", "filetype", "attribution", "url"]
 }
