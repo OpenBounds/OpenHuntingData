@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Hunting GeoJSON Schema",
+  "description": "Schema for properties on GeoJSON generated from open hunting data files (usually shp).",
+  "type": "object",
+  "properties": {
+    "country": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "attribution": {
+      "type": "string"
+    },
+    "filetype": {
+      "type": "string"
+    },
+    "species": {
+      "type": "array",
+      "items": {
+        "type:": "string"
+      },
+      "minItems": 1
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "required": ["country", "state", "species"]
+}
