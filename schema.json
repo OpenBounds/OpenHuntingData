@@ -1,0 +1,14 @@
+{
+	"title": "Hunting GeoJSON Schema",
+	"description": "Schema for properties on GeoJSON generated from open hunting data files (usually shp).",
+	"type": "object",
+	"properties": {
+		"country": {
+			"type": "string",
+		},
+		"state": {
+			"type": "string",
+		},
+	},
+	"required": []
+}
