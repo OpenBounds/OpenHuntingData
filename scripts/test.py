@@ -2,6 +2,7 @@ import json
 
 from jsonschema import validate
 
-schema = json.load(open('source.json'))
+wabbit = json.load(open('wabbit.json'))
+schema = json.load(open('../schemas/source.json'))
 
-validate(json.load(open('wabbit.json')), schema)
+validate(wabbit, schema)
