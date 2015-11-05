@@ -1,0 +1,32 @@
+{
+    "title": "Open Hunting Data Source",
+    "properties": {
+        "country": {
+            "type": "string",
+            "description": "ISO 3166-1 alpha-2 country code",
+            "maxLength": 2
+        },
+        "state": {
+            "type": "string",
+            "description": "Full state name"
+        },
+        "attribution": {
+            "type": "string",
+            "description": "Source file attribution"
+        },
+        "species": {
+            "type": "array",
+            "description": "Array of species",
+            "uniqueItems": true
+        },
+        "filetype": {
+            "type": "string",
+            "description": "Source file type"
+        },
+        "url": {
+            "type": "string",
+            "description": "Source file URL"
+        }
+    },
+    "required": ["country", "state", "attribution", "species", "filetype", "url"]
+}
