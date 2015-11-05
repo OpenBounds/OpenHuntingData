@@ -1,9 +1,6 @@
 # Generated Files
 generated/*
 
-# Config
-scripts/config.py
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
