@@ -1,2 +1,4 @@
 click==5.1
+Fiona==1.6.2
 jsonschema==2.5.1
+requests==2.8.1
