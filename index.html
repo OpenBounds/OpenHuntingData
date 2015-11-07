@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Hunting Data</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/primer/primer/master/css/primer.css">
+    <style>
+        .form.form-inline {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        textarea {
+            width: 440px;
+            height: 300px;
+            font-family: monospace;
+            white-space: pre;
+            word-wrap: normal;
+            overflow-x: scroll;
+        }
+
+        #gisturl {
+            width: 325px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://github.com/trailbehind/OpenHuntingData"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+    <div class="container">
+        <div class="columns">
+            <div class="one-half column centered">
+                <br><br>
+
+                <h2>Open Hunting Data Submission</h2>
+
+                <p>
+
+                <form name="submission">
+                    <dl class="form">
+                        <dt>
+                            <label for="url">Public Data URL</label>
+                        </dt>
+                        <dd>
+                            <input type="text" name="url" id="url" placeholder="http://">
+                            <p class="note">
+                                A direct link to a <strong>shapefile</strong>, <strong>geodatabase</strong>, <strong>kml</strong> or <strong>geojson</strong> file.
+                            </p>
+                        </dd>
+                    </dl>
+
+                    <dl class="form">
+                        <dt>
+                            <label for="species">Species</label>
+                        </dt>
+                        <dd>
+                            <input type="text" name="species" id="species" placeholder="Deer, Elk, Mountain Lion">
+                            <p class="note">
+                                Species names seperated by <strong>commas</strong>.
+                            </p>
+                        </dd>
+                    </dl>
+
+                    <dl class="form">
+                        <dt>
+                            <label for="attribution">Attribution</label>
+                        </dt>
+                        <dd>
+                            <input type="text" name="attribution" id="attribution" placeholder="US Fish and Wildlife">
+                        </dd>
+                    </dl>
+
+                    <dl class="form form-inline">
+                        <dt>
+                            <label for="country">Country</label>
+                        </dt>
+                        <dd>
+                            <select name="country" id="country">
+                                <option value="US">US</option>
+                            </select>
+                        </dd>
+                    </dl>
+
+                    <dl class="form form-inline">
+                        <dt>
+                            <label for="state">State</label>
+                        </dt>
+                        <dd>
+                            <select name="state" id="state">
+                                <option value="AL">Alabama</option>
+                                <option value="AK">Alaska</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="CT">Connecticut</option>
+                                <option value="DE">Delaware</option>
+                                <option value="FL">Florida</option>
+                                <option value="GA">Georgia</option>
+                                <option value="HI">Hawaii</option>
+                                <option value="ID">Idaho</option>
+                                <option value="IL">Illinois</option>
+                                <option value="IN">Indiana</option>
+                                <option value="IA">Iowa</option>
+                                <option value="KS">Kansas</option>
+                                <option value="KY">Kentucky</option>
+                                <option value="LA">Louisiana</option>
+                                <option value="ME">Maine</option>
+                                <option value="MD">Maryland</option>
+                                <option value="MA">Massachusetts</option>
+                                <option value="MI">Michigan</option>
+                                <option value="MN">Minnesota</option>
+                                <option value="MS">Mississippi</option>
+                                <option value="MO">Missouri</option>
+                                <option value="MT">Montana</option>
+                                <option value="NE">Nebraska</option>
+                                <option value="NV">Nevada</option>
+                                <option value="NH">New Hampshire</option>
+                                <option value="NJ">New Jersey</option>
+                                <option value="NM">New Mexico</option>
+                                <option value="NY">New York</option>
+                                <option value="NC">North Carolina</option>
+                                <option value="ND">North Dakota</option>
+                                <option value="OH">Ohio</option>
+                                <option value="OK">Oklahoma</option>
+                                <option value="OR">Oregon</option>
+                                <option value="PA">Pennsylvania</option>
+                                <option value="RI">Rhode Island</option>
+                                <option value="SC">South Carolina</option>
+                                <option value="SD">South Dakota</option>
+                                <option value="TN">Tennessee</option>
+                                <option value="TX">Texas</option>
+                                <option value="UT">Utah</option>
+                                <option value="VT">Vermont</option>
+                                <option value="VA">Virginia</option>
+                                <option value="WA">Washington</option>
+                                <option value="WV">West Virginia</option>
+                                <option value="WI">Wisconsin</option>
+                                <option value="WY">Wyoming</option>
+                            </select>
+                        </dd>
+                    </dl>
+
+                    <dl class="form form-inline">
+                        <dt>
+                            <label for="filetype">Filetype</label>
+                        </dt>
+                        <dd>
+                            <select name="filetype" id="filetype">
+                                <option value="shp">shp</option>
+                                <option value="gdb">gdb</option>
+                                <option value="kml">kml</option>
+                                <option value="geojson">geojson</option>
+                            </select>
+                        </dd>
+                    </dl>
+
+                    <button class="btn btn-primary">Generate JSON</button>
+
+                    <br><br>
+
+                    <textarea name="output" spellcheck="false"></textarea>
+                </form>
+
+                <br>
+
+                <button class="btn" id="gist" disabled>Save to Gist</button>
+                <input type="text" name="gisturl" id="gisturl">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.rawgit.com/yanatan16/nanoajax/master/nanoajax.min.js"></script>
+    <script>
+        var form = document.forms['submission']
+          , gist = document.getElementById('gist')
+          , gisturl = document.getElementById('gisturl')
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault()
+
+            var url = form.url.value
+              , obj = {
+                country: form.country.value,
+                state: form.state.value,
+                attribution: form.attribution.value,
+                species: form.species.value.split(', '),
+                filetype: form.filetype.value,
+                url: form.url.value
+            }
+
+            form.output.value = JSON.stringify(obj, null, 3)
+            gisturl.value = ''
+            gist.removeAttribute('disabled')
+        }, false)
+
+        gist.addEventListener('click', function() {
+            gist.setAttribute('disabled', 'disabled')
+
+            var filename = form.species.value.split(', ').join('-').replace(/[\s]/g, '').toLowerCase()
+              , output = form.output.value
+              , body = {files: {}}
+
+            if (output === '') return
+
+            body.files[filename + '.json'] = {content: form.output.value}
+
+            nanoajax.ajax({
+                url: 'https://api.github.com/gists',
+                body: JSON.stringify(body)
+            }, function (code, responseText, request) {
+                gisturl.value = JSON.parse(responseText)['html_url']
+            })
+        }, false)
+    </script>
+</body>
+</html>
