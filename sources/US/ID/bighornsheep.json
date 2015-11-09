@@ -1,0 +1,10 @@
+{
+   "url": "http://fwp.mt.gov/gisData/shapefiles/huntDistrictsBighornSheep2014.zip",
+   "species": [
+      "Bighorn Sheep"
+   ],
+   "attribution": "US Fish and Wildlife",
+   "country": "US",
+   "state": "ID",
+   "filetype": "shp"
+}
