@@ -1,5 +1,7 @@
 # OpenHuntingData
 
+[![Build Status](https://travis-ci.org/OpenBounds/OpenHuntingData.svg?branch=master)](https://travis-ci.org/OpenBounds/OpenHuntingData)
+
 ## Summary
 Python scripts to gather and normalize Hunting district data from many websites. The websites are often US State government agencies.
 
