@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Hunting Data Submission</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/primer/primer/master/css/primer.css">
+    <style>
+        .form.form-inline {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        dl.form > dd input[type="text"] {
+            width: 100%;
+        }
+
+        h2 {
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+
+        .avatar {
+            width: 20px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="columns">
+            <div class="two-thirds column centered" id="authenticated">
+
+                <br><br>
+
+                <a class="btn right" href="https://github.com/login/oauth/authorize?client_id=13da626b7aa24ec2bf23&redirect_uri=http://openbounds.github.io/OpenHuntingData/&scope=public_repo" role="button" id="signin">Sign In</a>
+
+                <h2>Open Hunting Data Submission</h2>
+
+                <div class="blankslate" id="unauthenticated" style="display: none">
+                  <h3>Help grow Open Hunting Data</h3>
+                  <p>
+                    Sign in with GitHub to get started or <a href="http://github.com/trailbehind/OpenHuntingData">learn more</a>.
+                    <br><br>
+                    <a class="btn" href="https://github.com/login/oauth/authorize?client_id=13da626b7aa24ec2bf23&redirect_uri=http://openbounds.github.io/OpenHuntingData/&scope=public_repo" role="button">Sign In with GitHub</a>
+                </p>
+                </div>
+
+                <form name="submission">
+                    <dl class="form">
+                        <dt>
+                            <label for="url">Public Data URL</label>
+                        </dt>
+                        <dd>
+                            <input type="text" name="url" id="url" placeholder="http://">
+                            <p class="note">
+                                A direct link to a <strong>shapefile</strong>, <strong>geodatabase</strong>, <strong>kml</strong> or <strong>geojson</strong> file.
+                            </p>
+                        </dd>
+                    </dl>
+
+                    <div class="columns">
+                        <div class="one-half column">
+                            <dl class="form">
+                                <dt>
+                                    <label for="species">Species</label>
+                                </dt>
+                                <dd>
+                                    <input type="text" name="species" id="species" placeholder="Deer, Elk, Mountain Lion">
+                                    <p class="note">
+                                        Species names seperated by <strong>commas</strong>.
+                                    </p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="one-half column">
+                            <dl class="form">
+                                <dt>
+                                    <label for="attribution">Attribution</label>
+                                </dt>
+                                <dd>
+                                    <input type="text" name="attribution" id="attribution" placeholder="US Fish and Wildlife">
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+
+                    <dl class="form form-inline">
+                        <dt>
+                            <label for="country">Country</label>
+                        </dt>
+                        <dd>
+                            <select name="country" id="country">
+                                <option value="US">US</option>
+                            </select>
+                        </dd>
+                    </dl>
+
+                    <dl class="form form-inline">
+                        <dt>
+                            <label for="state">State</label>
+                        </dt>
+                        <dd>
+                            <select name="state" id="state">
+                                <option value="AL">Alabama</option>
+                                <option value="AK">Alaska</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="CT">Connecticut</option>
+                                <option value="DE">Delaware</option>
+                                <option value="FL">Florida</option>
+                                <option value="GA">Georgia</option>
+                                <option value="HI">Hawaii</option>
+                                <option value="ID">Idaho</option>
+                                <option value="IL">Illinois</option>
+                                <option value="IN">Indiana</option>
+                                <option value="IA">Iowa</option>
+                                <option value="KS">Kansas</option>
+                                <option value="KY">Kentucky</option>
+                                <option value="LA">Louisiana</option>
+                                <option value="ME">Maine</option>
+                                <option value="MD">Maryland</option>
+                                <option value="MA">Massachusetts</option>
+                                <option value="MI">Michigan</option>
+                                <option value="MN">Minnesota</option>
+                                <option value="MS">Mississippi</option>
+                                <option value="MO">Missouri</option>
+                                <option value="MT">Montana</option>
+                                <option value="NE">Nebraska</option>
+                                <option value="NV">Nevada</option>
+                                <option value="NH">New Hampshire</option>
+                                <option value="NJ">New Jersey</option>
+                                <option value="NM">New Mexico</option>
+                                <option value="NY">New York</option>
+                                <option value="NC">North Carolina</option>
+                                <option value="ND">North Dakota</option>
+                                <option value="OH">Ohio</option>
+                                <option value="OK">Oklahoma</option>
+                                <option value="OR">Oregon</option>
+                                <option value="PA">Pennsylvania</option>
+                                <option value="RI">Rhode Island</option>
+                                <option value="SC">South Carolina</option>
+                                <option value="SD">South Dakota</option>
+                                <option value="TN">Tennessee</option>
+                                <option value="TX">Texas</option>
+                                <option value="UT">Utah</option>
+                                <option value="VT">Vermont</option>
+                                <option value="VA">Virginia</option>
+                                <option value="WA">Washington</option>
+                                <option value="WV">West Virginia</option>
+                                <option value="WI">Wisconsin</option>
+                                <option value="WY">Wyoming</option>
+                            </select>
+                        </dd>
+                    </dl>
+
+                    <dl class="form form-inline">
+                        <dt>
+                            <label for="filetype">Filetype</label>
+                        </dt>
+                        <dd>
+                            <select name="filetype" id="filetype">
+                                <option value="shp">shp</option>
+                                <option value="gdb">gdb</option>
+                                <option value="kml">kml</option>
+                                <option value="geojson">geojson</option>
+                            </select>
+                        </dd>
+                    </dl>
+
+                    <dl class="form form-inline right">
+                        <dt>
+                            <label for="filetype">&nbsp;</label>
+                        </dt>
+                        <dd>
+                            <button class="btn btn-primary" id="pr">Submit Pull Request</button>
+                        </dd>
+                    </dl>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="submission/dist/submission.min.js"></script>
+</body>
+</html>
