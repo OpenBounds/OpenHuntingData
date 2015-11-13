@@ -5,9 +5,13 @@
         "features": {
             "type": "array",
             "items": { "$ref": "#/definitions/feature" }
+        },
+        "bbox": {
+            "type": "array",
+            "items": { "type": "number" }
         }
     },
-    "required": [ "type", "features" ],
+    "required": [ "type", "features", "bbox" ],
     "definitions": {
         "feature": {
             "title": "Feature",
