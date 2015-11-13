@@ -1,0 +1,54 @@
+
+#main {
+    position: relative;
+    margin-top: 50px;
+}
+
+.form.form-inline {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+dl.form > dd input[type="text"] {
+    width: 100%;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.avatar {
+    width: 20px;
+    margin-right: 5px;
+}
+
+table {
+    width: 100%;
+    margin: 15px 0;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 6px 15px;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+td input {
+    width: 100%;
+}
+
+th:first-child,
+td:first-child {
+    padding-left: 0;
+}
+
+th:last-child,
+td:last-child {
+    padding-right: 0;
+}

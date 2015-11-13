@@ -4,35 +4,17 @@
     <meta charset="UTF-8">
     <title>Open Hunting Data Submission</title>
     <link rel="stylesheet" href="https://cdn.rawgit.com/primer/primer/master/css/primer.css">
-    <style>
-        .form.form-inline {
-            display: inline-block;
-            margin-right: 10px;
-        }
-
-        dl.form > dd input[type="text"] {
-            width: 100%;
-        }
-
-        h2 {
-            margin-top: 5px;
-            margin-bottom: 30px;
-        }
-
-        .avatar {
-            width: 20px;
-            margin-right: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="submission/dist/submission.min.css">
 </head>
 <body>
     <div class="container">
         <div class="columns">
-            <div class="two-thirds column centered" id="authenticated">
-
-                <br><br>
-
+            <div class="two-thirds column centered" id="main">
                 <a class="btn right" href="https://github.com/login/oauth/authorize?client_id=13da626b7aa24ec2bf23&redirect_uri=http://openbounds.github.io/OpenHuntingData/&scope=public_repo" role="button" id="signin">Sign In</a>
+
+                <div class="menu dropdown-menu">
+                  <a class="menu-item dropdown-item" href="#" id="signout">Sign out</a>
+                </div>
 
                 <h2>Open Hunting Data Submission</h2>
 
@@ -45,7 +27,7 @@
                 </p>
                 </div>
 
-                <form name="submission">
+                <form name="submission" style="display: none">
                     <dl class="form">
                         <dt>
                             <label for="url">Public Data URL</label>
@@ -81,6 +63,35 @@
                                     <input type="text" name="attribution" id="attribution" placeholder="US Fish and Wildlife">
                                 </dd>
                             </dl>
+                        </div>
+                    </div>
+
+                    <div class="columns">
+                        <div class="one-half column">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Property</th>
+                                        <th>Source Property</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><label for="id">ID</label></td>
+                                        <td><input type="text" name="id" id="id" placeholder="ID"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="name">Name</label></td>
+                                        <td><input type="text" name="name" id="name" placeholder="NAME"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="one-half column">
+                            <br><br>
+                            <p class="note">
+                                The property names of the data matching the properties required in the schema.
+                            </p>
                         </div>
                     </div>
 

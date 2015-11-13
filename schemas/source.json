@@ -14,6 +14,14 @@
             "type": "string",
             "description": "Source file attribution"
         },
+        "properties": {
+            "type": "object",
+            "properties": {
+                "id": {"type": "string"},
+                "name": {"type": "string"}
+            },
+            "required": ["id", "name"]
+        },
         "species": {
             "type": "array",
             "description": "Array of species",
@@ -28,5 +36,5 @@
             "description": "Source file URL"
         }
     },
-    "required": ["country", "state", "attribution", "species", "filetype", "url"]
+    "required": ["country", "state", "attribution", "properties", "species", "filetype", "url"]
 }
