@@ -39,37 +39,6 @@
             "required": [ "type", "coordinates" ],
             "oneOf": [
                 {
-                    "title": "Point",
-                    "properties": {
-                        "type": { "enum": [ "Point" ] },
-                        "coordinates": { "$ref": "#/definitions/position" }
-                    }
-                },
-                {
-                    "title": "MultiPoint",
-                    "properties": {
-                        "type": { "enum": [ "MultiPoint" ] },
-                        "coordinates": { "$ref": "#/definitions/positionArray" }
-                    }
-                },
-                {
-                    "title": "LineString",
-                    "properties": {
-                        "type": { "enum": [ "LineString" ] },
-                        "coordinates": { "$ref": "#/definitions/lineString" }
-                    }
-                },
-                {
-                    "title": "MultiLineString",
-                    "properties": {
-                        "type": { "enum": [ "MultiLineString" ] },
-                        "coordinates": {
-                            "type": "array",
-                            "items": { "$ref": "#/definitions/lineString" }
-                        }
-                    }
-                },
-                {
                     "title": "Polygon",
                     "properties": {
                         "type": { "enum": [ "Polygon" ] },
@@ -99,13 +68,6 @@
             "description": "An array of positions",
             "type": "array",
             "items": { "$ref": "#/definitions/position" }
-        },
-        "lineString": {
-            "description": "An array of two or more positions",
-            "allOf": [
-                { "$ref": "#/definitions/positionArray" },
-                { "minItems": 2 }
-            ]
         },
         "linearRing": {
             "description": "An array of four or more positions where the first equals the last",
