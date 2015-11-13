@@ -2,6 +2,10 @@
 	"country": "US",
 	"state": "Montana",
 	"attribution": "Montana Fish, Wildlife, & Parks",
+    "properties": {
+        "id": "",
+        "name": ""
+    },
 	"species": ["black bear"],
 	"filetype": "shp",
 	"url": "http://fwp.mt.gov/gisData/shapefiles/huntDistrictsBlackBear2014.zip"
