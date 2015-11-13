@@ -1,6 +1,7 @@
 
 import * as github from './github'
 import * as utils from './utils'
+import Dropdown from './dropdown'
 
 const BASE_REPO = 'trailbehind/OpenHuntingData'
 const REPO_NAME = 'OpenHuntingData'
@@ -19,6 +20,7 @@ let params = utils.getParams()
  */
 const signinUser = user => {
     let button = window.document.getElementById('signin')
+      , signout = window.document.getElementById('signout')
       , blank  = window.document.getElementById('unauthenticated')
 
     button.setAttribute('href', '#')
@@ -26,6 +28,16 @@ const signinUser = user => {
 
     blank.style.display = 'none'
     form.style.display = 'block'
+
+    signout.addEventListener('click', signoutUser)
+
+    new Dropdown(button)
+}
+
+const signoutUser = () => {
+    github.clearToken()
+
+    window.location.href = window.location.pathname
 }
 
 /**
@@ -155,3 +167,4 @@ if (github.getToken()) {
  * Listen for the form submit event, and submit a pull request of the new source.
  */
 form.addEventListener('submit', submit, false)
+

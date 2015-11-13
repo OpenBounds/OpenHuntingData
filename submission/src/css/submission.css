@@ -1,0 +1,24 @@
+
+#main {
+    position: relative;
+    margin-top: 50px;
+}
+
+.form.form-inline {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+dl.form > dd input[type="text"] {
+    width: 100%;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.avatar {
+    width: 20px;
+    margin-right: 5px;
+}

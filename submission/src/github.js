@@ -12,6 +12,10 @@ let token = window.localStorage.getItem('token')
 
 export const getToken = () => token
 
+export const clearToken = () => {
+    window.localStorage.removeItem('token')
+}
+
 /**
  * Get access token from Github OAuth code.
  * 

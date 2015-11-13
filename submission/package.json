@@ -9,7 +9,9 @@
   },
   "scripts": {
     "lint": "eslint src/*.js",
-    "build": "webpack && uglifyjs dist/submission.js -c -o dist/submission.min.js"
+    "build-css": "cleancss --output dist/submission.min.css src/css/*.css",
+    "build-js": "webpack && uglifyjs dist/submission.js -c -o dist/submission.min.js",
+    "build": "npm run build-js && npm run build-css"
   },
   "author": "OpenBounds",
   "license": "MIT",
@@ -25,6 +27,8 @@
     "babel-eslint": "^4.1.4",
     "babel-loader": "^6.0.1",
     "babel-preset-es2015": "^6.1.2",
+    "babel-preset-stage-0": "^6.1.18",
+    "clean-css": "^3.4.7",
     "eslint": "^1.9.0",
     "uglify": "^0.1.5",
     "webpack": "^1.12.3"
