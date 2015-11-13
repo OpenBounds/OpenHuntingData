@@ -107,9 +107,14 @@ const submit = e => {
         url: form.url.value,
         species: form.species.value.split(', '),
         attribution: form.attribution.value,
+        properties: {},
         country: form.country.value,
         state: form.state.value,
         filetype: form.filetype.value
+    }
+
+    for (let property of ['id', 'name']) {
+        source.properties[property] = form[property].value
     }
 
     github.getUser(user => {

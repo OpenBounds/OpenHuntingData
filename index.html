@@ -18,7 +18,7 @@
 
                 <h2>Open Hunting Data Submission</h2>
 
-                <div class="blankslate" id="unauthenticated">
+                <div class="blankslate" id="unauthenticated" style="display: none">
                   <h3>Help grow Open Hunting Data</h3>
                   <p>
                     Sign in with GitHub to get started or <a href="http://github.com/trailbehind/OpenHuntingData">learn more</a>.
@@ -27,7 +27,7 @@
                 </p>
                 </div>
 
-                <form name="submission" style="display: none">
+                <form name="submission">
                     <dl class="form">
                         <dt>
                             <label for="url">Public Data URL</label>
@@ -63,6 +63,35 @@
                                     <input type="text" name="attribution" id="attribution" placeholder="US Fish and Wildlife">
                                 </dd>
                             </dl>
+                        </div>
+                    </div>
+
+                    <div class="columns">
+                        <div class="one-half column">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Property</th>
+                                        <th>Source Property</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><label for="id">ID</label></td>
+                                        <td><input type="text" name="id" id="id" placeholder="ID"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="name">Name</label></td>
+                                        <td><input type="text" name="name" id="name" placeholder="NAME"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="one-half column">
+                            <br><br>
+                            <p class="note">
+                                The property names of the data matching the properties required in the schema.
+                            </p>
                         </div>
                     </div>
 
