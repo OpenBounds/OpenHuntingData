@@ -1,0 +1,14 @@
+{
+   "url": "http://fwp.mt.gov/gisData/shapefiles/huntDistrictsAntelope2014.zip",
+   "species": [
+      "Antelope"
+   ],
+   "attribution": "US Fish and Wildlife",
+   "properties": {
+      "id": "DISTRICT",
+      "name": "NAME"
+   },
+   "country": "US",
+   "state": "AL",
+   "filetype": "shp"
+}
