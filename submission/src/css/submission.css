@@ -4,9 +4,22 @@
     margin-top: 50px;
 }
 
+#manual textarea {
+    width: 100%;
+    font-family: monospace;
+}
+
+#doneerror {
+    float: right;
+}
+
 .form.form-inline {
     display: inline-block;
     margin-right: 10px;
+}
+
+.form.form-inline:last-child {
+    margin-right: 0;
 }
 
 dl.form > dd input[type="text"] {

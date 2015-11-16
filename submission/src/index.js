@@ -3,7 +3,7 @@ import * as github from './github'
 import * as utils from './utils'
 import Dropdown from './dropdown'
 
-const BASE_REPO = 'trailbehind/OpenHuntingData'
+const BASE_REPO = 'OpenBounds/OpenHuntingData'
 const REPO_NAME = 'OpenHuntingData'
 const TIMEOUT_SECS = 15
 
@@ -11,6 +11,8 @@ const TIMEOUT_SECS = 15
 let params = utils.getParams()
   , form   = window.document.forms['submission']
   , pr = window.document.getElementById('pr')
+  , alert = window.document.getElementById('alert')
+  , manual = window.document.getElementById('manual')
 
 
 /**
@@ -18,7 +20,7 @@ let params = utils.getParams()
  * 
  * @param  {object} user Github user object.
  */
-const signinUser = user => {
+const signinUser = (err, user) => {
     let button = window.document.getElementById('signin')
       , signout = window.document.getElementById('signout')
       , blank  = window.document.getElementById('unauthenticated')
@@ -40,8 +42,8 @@ const signoutUser = () => {
     window.location.href = window.location.pathname
 }
 
-/**
- * Handle UI for start and done submitting events.
+/*
+ * Handle UI changes for start, done and error submitting events.
  */
 const startSubmitting = () => {
     pr.setAttribute('disabled', 'disabled')
@@ -50,8 +52,26 @@ const startSubmitting = () => {
 }
 
 const doneSubmitting = () => {
-    pr.removeAttribute('disabeld')
+    pr.removeAttribute('disabled')
     pr.textContent = 'Submit Pull Request'
+}
+
+const errorSubmitting = (msg, content) => {
+    alert.innerHTML = msg
+    manual.getElementsByTagName('textarea')[0].textContent = content
+
+    alert.style.display = 'block'
+    manual.style.display = 'block'
+}
+
+const doneError = () => {
+    alert.innerHTML = ''
+    manual.getElementsByTagName('textarea')[0].textContent = ''
+
+    alert.style.display = 'none'
+    manual.style.display = 'none'
+
+    doneSubmitting()
 }
 
 /**
@@ -70,13 +90,23 @@ const addSource = (username, repo, source) => {
     let filename = source.species.join('-').replace(/[\s]/g, '').toLowerCase()
       , path = `sources/${source.country}/${source.state}/${filename}.json`
       , branch = `add-${source.country}-${source.state}-${filename}`
-      , message = `add ${source.country}/${source.state}/${filename}.json`
-      , content = window.btoa(JSON.stringify(source, null, 3))
+      , msg = `add ${source.country}/${source.state}/${filename}.json`
+      , errMsg = `Error submitting pull request. Create the file <strong>${path}</strong> with the JSON below.`
+      , raw = JSON.stringify(source, null, 3)
+      , content = window.btoa(raw)
 
-    github.getHead(repo, sha => {
-        github.branchRepo(repo, branch, sha, () => {
-            github.createFile(repo, branch, path, content, message, () => {
-                github.pullRequest(BASE_REPO, username + ':' + branch, message, () => {
+    github.getHead(repo, (err, sha) => {
+        if (err) return errorSubmitting(errMsg, raw)
+
+        github.branchRepo(repo, branch, sha, (err) => {
+            if (err) return errorSubmitting(errMsg, raw)
+
+            github.createFile(repo, branch, path, content, msg, (err) => {
+                if (err) return errorSubmitting(errMsg, raw)
+
+                github.pullRequest(BASE_REPO, username + ':' + branch, msg, (err) => {
+                    if (err) return errorSubmitting(errMsg, raw)
+
                     doneSubmitting()
                 })
             })
@@ -96,6 +126,10 @@ const addSource = (username, repo, source) => {
  */
 const submit = e => {
     let source
+      , filename
+      , path
+      , errMsg
+      , raw
 
     e.preventDefault()
 
@@ -117,31 +151,47 @@ const submit = e => {
         source.properties[property] = form[property].value
     }
 
-    github.getUser(user => {
+    filename = source.species.join('-').replace(/[\s]/g, '').toLowerCase()
+    path = `sources/${source.country}/${source.state}/${filename}.json`
+    errMsg = `Error submitting pull request. Create the file <strong>${path}</strong> with the JSON below.`
+    raw = JSON.stringify(source, null, 3)
+
+    github.getUser((err, user) => {
+        if (err) return errorSubmitting(errMsg, raw)
+
         let username = user.login
           , repo = username + '/' + REPO_NAME
 
-        github.getRepo(repo, response => {
+        github.getRepo(repo, (err, response) => {
+            if (err) return errorSubmitting(errMsg, raw)
+
             if (response) {
                 addSource(username, repo, source)
             } else {
-                github.forkRepo(BASE_REPO, () => {
-                    let count = 0
-                      , ping = window.setInterval(() => {
-                        github.getRepo(repo, response => {
-                            if (response) {
-                                window.clearInterval(ping)
-                                addSource(username, repo, source)
-                            } else {
-                                count += 1
+                github.forkRepo(BASE_REPO, (err) => {
+                    if (err) return errorSubmitting(errMsg, raw)
 
-                                if (count > TIMEOUT_SECS * 2) {
+                    github.getRepo(repo, (err) => {
+                        if (err) return errorSubmitting(errMsg, raw)
+
+                        let count = 0
+                          , ping = window.setInterval(() => {
+                            github.getHead(repo, (err, sha) => {
+                                if (sha) {
                                     window.clearInterval(ping)
-                                    doneSubmitting()
+                                    addSource(username, repo, source)
+                                } else {
+                                    count += 1
+
+                                    if (count > TIMEOUT_SECS * 2) {
+                                        window.clearInterval(ping)
+
+                                        errorSubmitting(errMsg, raw)
+                                    }
                                 }
-                            }
-                        })
-                    }, 500)
+                            })
+                        }, 500)
+                    })
                 })
             }
         })
@@ -173,3 +223,7 @@ if (github.getToken()) {
  */
 form.addEventListener('submit', submit, false)
 
+/*
+ * Clear error message when done button is clicked.
+ */
+window.document.getElementById('doneerror').addEventListener('click', doneError, false)

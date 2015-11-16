@@ -36,18 +36,28 @@ export const accessToken = (code, cb) => {
  * AJAX call with Github Authorization header.
  * 
  * @param  {object}   options nanoajax options
- * @param  {function} cb      callback
+ * @param  {function} cb      callback(err, data)
  */
 export const ajax = (options, cb) => {
     options.headers = {'Authorization': 'token ' + token}
 
-    nanoajax.ajax(options, (code, response) => cb(JSON.parse(response)))
+    nanoajax.ajax(options, (code, response) => {
+        let parsed
+
+        try {
+            parsed = JSON.parse(response)
+        } catch (e) {
+            return cb(e)
+        }
+
+        return cb(null, parsed)
+    })
 }
 
 /**
  * Get user.
  * 
- * @param  {function} cb callback
+ * @param  {function} cb callback(err, data)
  */
 export const getUser = cb => {
     ajax({ url: API_BASE + '/user' }, cb)
@@ -57,15 +67,17 @@ export const getUser = cb => {
  * Get repo if exists.
  *
  * @param  {string}   repo repo to check.
- * @param  {function} cb   callback
+ * @param  {function} cb   callback(err, data)
  */
 export const getRepo = (repo, cb) => {
-    ajax({ url: API_BASE + '/repos/' + repo }, response => {
+    ajax({ url: API_BASE + '/repos/' + repo }, (err, response) => {
+        if (err) return cb(err)
+
         if (response.message && response.message === 'Not Found') {
-            cb(null)
-        } else {
-            cb(response)
+            return cb(null, null)
         }
+
+        cb(null, response)
     })
 }
 
@@ -73,19 +85,25 @@ export const getRepo = (repo, cb) => {
  * Get latest commit SHA on master branch.
  * 
  * @param  {string}   repo repo to get commit from.
- * @param  {function} cb   callback
+ * @param  {function} cb   callback(err, data)
  */
 export const getHead = (repo, cb) => {
-    ajax({ url: API_BASE + '/repos/' + repo + '/git/refs/heads/master' }, response => {
-        cb(response.object.sha)
+    ajax({ url: API_BASE + '/repos/' + repo + '/git/refs/heads/master' }, (err, response) => {
+        if (err) return cb(err)
+
+        if (response.message && response.message === 'Git Repository is empty.') {
+            return cb(null, null)
+        }
+
+        cb(null, response.object.sha)
     })
 }
 
 /**
  * Fork repo.
  *
- * @param  {string}   repo repo to fork, ie. 'trailbehind/OpenHuntingData'
- * @param  {function} cb   callback
+ * @param  {string}   repo repo to fork, ie. 'OpenBounds/OpenHuntingData'
+ * @param  {function} cb   callback(err, data)
  */
 export const forkRepo = (repo, cb) => {
     ajax({
@@ -100,7 +118,7 @@ export const forkRepo = (repo, cb) => {
  * @param  {string}   repo   repo to create the branch in.
  * @param  {string}   branch branch name.
  * @param  {string}   sha    SHA1 to set the branch to.
- * @param  {function} cb     callback
+ * @param  {function} cb     callback(err, data)
  */
 export const branchRepo = (repo, branch, sha, cb) => {
     ajax({
@@ -120,7 +138,7 @@ export const branchRepo = (repo, branch, sha, cb) => {
  * @param  {string}   path    file path.
  * @param  {base64}   content base64 encoded file content.
  * @param  {string}   message commit message.
- * @param  {function} cb      callback
+ * @param  {function} cb      callback(err, data)
  */
 export const createFile = (repo, branch, path, content, message, cb) => {
     ajax({
@@ -140,7 +158,7 @@ export const createFile = (repo, branch, path, content, message, cb) => {
  * @param  {string}   repo    repo to create the pull request in.
  * @param  {string}   head    branch to pull request, ie. user:add-source
  * @param  {string}   message pull request title.
- * @param  {function} cb      callback
+ * @param  {function} cb      callback(err, data)
  */
 export const pullRequest = (repo, head, message, cb) => {
     ajax({
