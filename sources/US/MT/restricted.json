@@ -3,8 +3,8 @@
 	"state": "Montana",
 	"attribution": "Montana Fish, Wildlife, & Parks",
     "properties": {
-        "id": "",
-        "name": ""
+        "id": "DISTRICT",
+        "name": "PORTIONNAM"
     },
 	"species": [],
 	"filetype": "shp",
