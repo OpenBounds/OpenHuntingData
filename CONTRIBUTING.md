@@ -14,7 +14,7 @@ When you fill out the form, it will validate the data, generate a JSON metadata 
 
 ### Improve the Data Manually
 
-You can also manually create JSON metadata files manually, and manually submit a pull request with the file. The file should be similar to what you see under the [sources/US directory](https://github.com/OpenBounds/OpenHuntingData/tree/master/sources/US).
+You can also manually create JSON metadata files, and manually submit a pull request with the file. The file should be similar to what you see under the [sources/US directory](https://github.com/OpenBounds/OpenHuntingData/tree/master/sources/US).
 
 ## Information needed for adding a data source
 To add a new data file, you need to prescribe these pieces of info:
