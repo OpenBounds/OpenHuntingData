@@ -4,7 +4,7 @@ You can contribute to the code if you are a developer, and you can help with the
 ## Improve the Code
 Send pull requests to improve the data processing tools. Please fork the repo and do a PR, and you'll get prompt feedback or a merge.
 
-## Improve to Data
+## Improve the Data
 
 ### Use a Form to Submit New Data
 
