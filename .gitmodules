@@ -1,0 +1,6 @@
+[submodule "submission"]
+	path = submission
+	url = https://github.com/OpenBounds/SubmissionForm.git
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/OpenBounds/Processing.git
