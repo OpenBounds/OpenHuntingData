@@ -1,0 +1,14 @@
+{
+   "url": "http://data.idfggis.opendata.arcgis.com/datasets/b467b48c2cbc46f5b1414e493e7babd9_0.kml?session=105555861.1448058597;%20_gat=1",
+   "species": [
+      "All"
+   ],
+   "attribution": "Idaho Department of Fish and Game",
+   "properties": {
+      "id": "name",
+      "name": "name"
+   },
+   "country": "US",
+   "state": "ID",
+   "filetype": "kml"
+}
