@@ -1,0 +1,24 @@
+{
+   "url": "http://www.arcgis.com/home/item.html?id=93c485b0f27e4ff68c066a4b23cbaad3 ",
+   "species": [
+      "bear",
+      "black bear",
+      "cougar",
+      "deer",
+      "elk",
+      "moose",
+      "mountain lion",
+      "mule deer",
+      "pronghorn",
+      "puma",
+      "white-tailed deer"
+   ],
+   "attribution": "Colorado Department of Natural Resources",
+   "properties": {
+      "id": "GMUID",
+      "name": ""
+   },
+   "country": "US",
+   "state": "CO",
+   "filetype": "shp"
+}
