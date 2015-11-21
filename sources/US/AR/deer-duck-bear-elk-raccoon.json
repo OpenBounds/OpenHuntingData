@@ -1,0 +1,18 @@
+{
+   "url": "http://gis.arkansas.gov/?product=wildlife-management-area-boundary-polygon",
+   "species": [
+      "deer",
+      "duck",
+      "bear",
+      "elk",
+      "raccoon"
+   ],
+   "attribution": "Arkansas Game & Fish Commission",
+   "properties": {
+      "id": "GLOBALID",
+      "name": "FNAME"
+   },
+   "country": "US",
+   "state": "AR",
+   "filetype": "shp"
+}
