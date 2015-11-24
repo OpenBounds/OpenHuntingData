@@ -1,0 +1,14 @@
+{
+   "url": "ftp://ftp.wvgis.wvu.edu/pub/Clearinghouse/boundaries/wildlifeManagementAreas/wvdnrManagedLands_wvdnr_10092015_utm83_shp.zip",
+   "species": [
+      "all"
+   ],
+   "attribution": "West Virginia Division of Natural Resource",
+   "properties": {
+      "id": "",
+      "name": ""
+   },
+   "country": "US",
+   "state": "WV",
+   "filetype": "shp"
+}
