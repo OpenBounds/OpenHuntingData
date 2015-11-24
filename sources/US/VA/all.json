@@ -1,0 +1,14 @@
+{
+   "url": "http://www.dgif.virginia.gov/gis/metadata/DGIF_WMA10lam.shp.xml",
+   "species": [
+      "all"
+   ],
+   "attribution": "Virginia Department of Game and Inland Fisheries",
+   "properties": {
+      "id": "",
+      "name": ""
+   },
+   "country": "US",
+   "state": "VA",
+   "filetype": "shp"
+}
