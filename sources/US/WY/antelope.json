@@ -1,0 +1,14 @@
+{
+   "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/Big%20Game/Antelope_HuntAreasHerdUnits.zip",
+   "species": [
+      "antelope"
+   ],
+   "attribution": "Wyoming Fish and Wildlife",
+   "properties": {
+      "id": "",
+      "name": ""
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp"
+}
