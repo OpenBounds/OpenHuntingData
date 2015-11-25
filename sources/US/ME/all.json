@@ -1,0 +1,14 @@
+{
+   "url": "http://www.maine.gov/megis/catalog/shps/state/wildlife_mgmt_districts.zip",
+   "species": [
+      "all"
+   ],
+   "attribution": "Maine Department of Inland Fisheries and Wildlife",
+   "properties": {
+      "id": "identifier",
+      "name": ""
+   },
+   "country": "US",
+   "state": "ME",
+   "filetype": "shp"
+}
