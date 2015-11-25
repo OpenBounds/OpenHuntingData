@@ -1,0 +1,14 @@
+{
+   "url": "http://data.kansasgis.org/cultural_and_recreational/shp/WIHA/WIHA_Fall2014.zip",
+   "species": [
+      "all"
+   ],
+   "attribution": "Kansas Department of Wildlife and Parks",
+   "properties": {
+      "id": "-",
+      "name": "-"
+   },
+   "country": "US",
+   "state": "KS",
+   "filetype": "shp"
+}
