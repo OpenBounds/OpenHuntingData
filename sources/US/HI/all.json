@@ -1,0 +1,14 @@
+{
+   "url": "http://files.hawaii.gov/dbedt/op/gis/data/huntareas.shp.zip",
+   "species": [
+      "all"
+   ],
+   "attribution": "State of Hawaii, Hawaii Department of Land and Natural Resources, and the Hawaii Department of Fish and Wildlife",
+   "properties": {
+      "id": "HUNTAREAS_",
+      "name": ""
+   },
+   "country": "US",
+   "state": "HI",
+   "filetype": "shp"
+}
