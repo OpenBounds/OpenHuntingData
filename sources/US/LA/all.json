@@ -1,0 +1,14 @@
+{
+   "url": "http://data1.atlas.lsu.edu/lagiscdv2_as_shp/wildlifemareas.zip",
+   "species": [
+      "all"
+   ],
+   "attribution": "Louisiana Department of Wildlife and Fisheries",
+   "properties": {
+      "id": "-",
+      "name": "name"
+   },
+   "country": "US",
+   "state": "LA",
+   "filetype": "shp"
+}
