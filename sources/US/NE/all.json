@@ -1,0 +1,14 @@
+{
+   "url": "http://data.outdoornebraska.gov/datasets/bbb12fbab3154b19803715b6ee561939_35",
+   "species": [
+      "All"
+   ],
+   "attribution": "Nebraska Game and Parks Commission",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "AreaName"
+   },
+   "country": "US",
+   "state": "NE",
+   "filetype": "shp"
+}
