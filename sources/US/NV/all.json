@@ -1,0 +1,14 @@
+{
+   "url": "http://gis.ndow.nv.gov/ndowdata/data/NDOW_GameManagementUnits_2014.zip",
+   "species": [
+      "All"
+   ],
+   "attribution": "Nevada Department of Wildlife",
+   "properties": {
+      "id": "HUNTUNIT",
+      "name": ""
+   },
+   "country": "US",
+   "state": "NV",
+   "filetype": "shp"
+}
