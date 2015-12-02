@@ -8,7 +8,7 @@ Python scripts to gather and normalize Hunting district data from many websites.
 Scripts should read data in whatever format it is available, and output a GeoJson file, with properties normalized to a schema that will be shared by all data sets.
 
 ## Scope
-The goal is to collect boundaries for geographic areas that are used to define hunting regulations. In some states these are called "Hunting Districts", in others they are called "Game Management Units"(GMUs), there are probably additional names in other states.
+The goal is to collect boundaries for geographic areas that are used to define hunting regulations. In some states these are called "Hunting Districts", in others they are called "Game Management Units"(GMUs), and there are probably additional names in other states.
 
 At this time only data for the USA is within the scope of this project.
 
