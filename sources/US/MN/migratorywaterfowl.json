@@ -1,0 +1,14 @@
+{
+   "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_migratory_waterfowl_areas/shp_env_migratory_waterfowl_areas.zip",
+   "species": [
+      "Migratory Waterfowl"
+   ],
+   "attribution": "Minnesota Department of Natural Resources",
+   "properties": {
+      "id": "GNIS_ID",
+      "name": "GNIS_NAME"
+   },
+   "country": "US",
+   "state": "MN",
+   "filetype": "shp"
+}
