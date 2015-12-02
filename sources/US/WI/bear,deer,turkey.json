@@ -1,0 +1,14 @@
+{
+   "url": "ftp://dnrftp01.wi.gov/geodata/wildlife_mgmt/",
+   "species": [
+      "Bear,Deer,Turkey"
+   ],
+   "attribution": "Wisconsin Department of Natural Resource",
+   "properties": {
+      "id": "BMU_unit",
+      "name": ""
+   },
+   "country": "US",
+   "state": "WI",
+   "filetype": "shp"
+}
