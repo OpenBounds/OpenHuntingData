@@ -1,0 +1,14 @@
+{
+   "url": "http://tn.gov/twra/topic/download-data",
+   "species": [
+      "All"
+   ],
+   "attribution": "Tennessee Wildlife Resources Agency",
+   "properties": {
+      "id": "",
+      "name": "NAME"
+   },
+   "country": "US",
+   "state": "AL",
+   "filetype": "shp"
+}
