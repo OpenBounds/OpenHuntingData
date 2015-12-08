@@ -1,0 +1,24 @@
+{
+   "url": "http://rgis.unm.edu/gstore/datasets/1ae3c493-de4b-461e-bfd1-ca42825a9ec5/nm_gmu2010.derived.shp",
+   "species": [
+      "deer",
+      "elk",
+      "pronghorn antelope",
+      "bighorn sheep",
+      "Barbary sheep",
+      "turkey",
+      "bear",
+      "cougar",
+      "Persian ibex",
+      "oryx",
+      "javelina"
+   ],
+   "attribution": "New Mexico Department of Game and Fish",
+   "properties": {
+      "id": "ID",
+      "name": "GMU"
+   },
+   "country": "US",
+   "state": "NM",
+   "filetype": "shp"
+}
