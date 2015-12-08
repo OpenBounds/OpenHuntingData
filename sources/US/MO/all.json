@@ -1,0 +1,14 @@
+{
+   "url": "ftp://msdis.missouri.edu/pub/Environment_Conservation/MO_2011_Department_of_Conservation_Lands_shp.zip",
+   "species": [
+      "All"
+   ],
+   "attribution": "Missouri Department of Conservation",
+   "properties": {
+      "id": "AREA_NUM",
+      "name": "AREA_NAME"
+   },
+   "country": "US",
+   "state": "MO",
+   "filetype": "shp"
+}
