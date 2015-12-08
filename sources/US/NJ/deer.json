@@ -1,0 +1,14 @@
+{
+   "url": "http://www.nj.gov/dep/gis/digidownload/zips/statewide/Grid_deer_unit.zip",
+   "species": [
+      "Deer"
+   ],
+   "attribution": "New Jersey Division of Fish & Wildlife",
+   "properties": {
+      "id": "DMU",
+      "name": ""
+   },
+   "country": "US",
+   "state": "NJ",
+   "filetype": "shp"
+}
