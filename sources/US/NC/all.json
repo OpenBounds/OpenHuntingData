@@ -1,0 +1,14 @@
+{
+   "url": "http://data.nconemap.gov/downloads/vector/gml.zip",
+   "species": [
+      "all"
+   ],
+   "attribution": "North Carolina Department of Environment and Natural Resources, Wildlife Resources Commission and the NC Center for Geographic Information and Analysis",
+   "properties": {
+      "id": "",
+      "name": "GML_TRACT"
+   },
+   "country": "US",
+   "state": "NC",
+   "filetype": "shp"
+}
