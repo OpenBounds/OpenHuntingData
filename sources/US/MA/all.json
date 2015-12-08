@@ -1,0 +1,14 @@
+{
+   "url": "http://wsgw.mass.gov/data/gispub/shape/state/dfwdistricts.zip",
+   "species": [
+      "All"
+   ],
+   "attribution": "Massachusetts Division of Fisheries and Wildlife",
+   "properties": {
+      "id": "DISTRICT",
+      "name": "DISTRICT"
+   },
+   "country": "US",
+   "state": "MA",
+   "filetype": "shp"
+}
