@@ -1,0 +1,14 @@
+{
+   "url": "http://www.nd.gov/gis/apps/DataDownload/?clipping=Full&coord=LL83&format=SHAPE&layers=NDGAMEFISH.UNIT_ELK",
+   "species": [
+      "Elk"
+   ],
+   "attribution": "North Dakota Game and Fish Department",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "UNIT_ID"
+   },
+   "country": "US",
+   "state": "ND",
+   "filetype": "shp"
+}
