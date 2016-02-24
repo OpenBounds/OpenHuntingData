@@ -34,6 +34,10 @@
         "url": {
             "type": "string",
             "description": "Source file URL"
+        },
+        "filenameInZip": {
+            "type": "string",
+            "description": "Source file URL"
         }
     },
     "required": ["country", "state", "attribution", "properties", "species", "filetype", "url"]
