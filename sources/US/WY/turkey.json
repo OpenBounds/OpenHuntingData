@@ -1,0 +1,14 @@
+{
+   "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/Turkey_HuntAreas.zip",
+   "species": [
+      "turkey"
+   ],
+   "attribution": "Wyoming Game and Fish Department",
+   "properties": {
+      "id": "",
+      "name": ""
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp"
+}
