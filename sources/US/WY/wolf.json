@@ -1,0 +1,14 @@
+{
+   "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/Wolf_HuntAreas.zip",
+   "species": [
+      "wolf"
+   ],
+   "attribution": "Wyoming Game and Fish Department",
+   "properties": {
+      "id": "",
+      "name": ""
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp"
+}
