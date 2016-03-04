@@ -1,5 +1,6 @@
 {
    "url": "http://wsgw.mass.gov/data/gispub/shape/state/dfwdistricts.zip",
+   "filenameInZip" : "DFWDISTRICTS_POLY.shp",
    "species": [
       "All"
    ],
