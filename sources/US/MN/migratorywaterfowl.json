@@ -1,5 +1,6 @@
 {
    "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_migratory_waterfowl_areas/shp_env_migratory_waterfowl_areas.zip",
+   "filenameInZip" : "ruffed_grouse_mgmt_areas.shp",
    "species": [
       "Migratory Waterfowl"
    ],
