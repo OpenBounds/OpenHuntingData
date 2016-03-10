@@ -5,8 +5,8 @@
    ],
    "attribution": "Wyoming Game and Fish Department",
    "properties": {
-      "id": "",
-      "name": ""
+      "id": "HUNTAREA",
+      "name": "HAName"
    },
    "country": "US",
    "state": "WY",
