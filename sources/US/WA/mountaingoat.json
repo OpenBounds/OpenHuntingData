@@ -1,12 +1,13 @@
 {
    "url": "https://fortress.wa.gov/dfw/public/PublicDownload/wildlife/hunts2015/Mountain_Goat_Units.zip",
+   "filenameInZip" : "MGU_Legal.shp",
    "species": [
       "mountain goat"
    ],
    "attribution": "Washington Department of Fish and Wildlife",
    "properties": {
-      "id": "",
-      "name": ""
+      "id": "MGU_Id",
+      "name": "MGU_Name"
    },
    "country": "US",
    "state": "WA",
