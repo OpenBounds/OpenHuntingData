@@ -5,8 +5,8 @@
    ],
    "attribution": "Minnesota Department of Natural Resources",
    "properties": {
-      "id": "TRAIL_NAME",
-      "name": "TRAIL_NAME"
+      "id": "TPA",
+      "name": "TPA_TEXT"
    },
    "country": "US",
    "state": "MN",
