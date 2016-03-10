@@ -3,10 +3,10 @@
    "species": [
       "antelope"
    ],
-   "attribution": "Wyoming Fish and Wildlife",
+   "attribution": "Wyoming Game and Fish Department",
    "properties": {
-      "id": "",
-      "name": ""
+      "id": "HUNTAREA",
+      "name": "HUNTNAME"
    },
    "country": "US",
    "state": "WY",
