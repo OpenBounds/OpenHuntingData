@@ -5,8 +5,8 @@
    ],
    "attribution": "Oregon Department Fish and Wildlife",
    "properties": {
-      "id": "",
-      "name": ""
+      "id": "UNIT_NUM",
+      "name": "UNIT_NAME"
    },
    "country": "US",
    "state": "OR",
