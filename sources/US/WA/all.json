@@ -1,12 +1,13 @@
 {
    "url": "https://fortress.wa.gov/dfw/public/PublicDownload/wildlife/hunts2015/Game_Management_Units.zip",
+   "filenameInZip" : "GMU_Generalized.shp",
    "species": [
       "all"
    ],
    "attribution": "Washington Department of Fish and Wildlife",
    "properties": {
-      "id": "",
-      "name": ""
+      "id": "GMU_Num",
+      "name": "GMU_Name"
    },
    "country": "US",
    "state": "WA",
