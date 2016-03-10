@@ -5,8 +5,8 @@
    ],
    "attribution": "West Virginia Division of Natural Resource",
    "properties": {
-      "id": "",
-      "name": ""
+      "id": "OBJECTID",
+      "name": "DNRName"
    },
    "country": "US",
    "state": "WV",
