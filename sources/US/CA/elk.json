@@ -5,8 +5,8 @@
    ],
    "attribution": "California Department of Fish and Wildlife",
    "properties": {
-      "id": "",
-      "name": ""
+      "id": "Hunt_Name",
+      "name": "Hunt_Name"
    },
    "country": "US",
    "state": "CA",
