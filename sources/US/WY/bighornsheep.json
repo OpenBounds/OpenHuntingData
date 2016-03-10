@@ -3,10 +3,10 @@
    "species": [
       "big horn sheep"
    ],
-   "attribution": "Wyoming Game and Fish",
+   "attribution": "Wyoming Game and Fish Department",
    "properties": {
-      "id": "",
-      "name": ""
+      "id": "HUNTAREA",
+      "name": "HUNTNAME"
    },
    "country": "US",
    "state": "WY",
