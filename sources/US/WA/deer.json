@@ -1,12 +1,13 @@
 {
    "url": "https://fortress.wa.gov/dfw/public/PublicDownload/wildlife/hunts2015/Deer_Areas.zip",
+   "filenameInZip" : "DA_Legal.shp"
    "species": [
       "deer"
    ],
    "attribution": "Washington Department of Fish and Wildlife",
    "properties": {
-      "id": "",
-      "name": ""
+      "id": "DA_Id",
+      "name": "DA_Name"
    },
    "country": "US",
    "state": "WA",
