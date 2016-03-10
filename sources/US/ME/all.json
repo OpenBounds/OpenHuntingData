@@ -5,8 +5,8 @@
    ],
    "attribution": "Maine Department of Inland Fisheries and Wildlife",
    "properties": {
-      "id": "identifier",
-      "name": ""
+      "id": "OBJECTID",
+      "name": "IDENTIFIER"
    },
    "country": "US",
    "state": "ME",
