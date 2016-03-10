@@ -5,7 +5,7 @@
    ],
    "attribution": "Kentucky Department of Fish & Wildlife Resources",
    "properties": {
-      "id": "OBJECTID",
+      "id": "FIPS",
       "name": "NAME"
    },
    "country": "US",
