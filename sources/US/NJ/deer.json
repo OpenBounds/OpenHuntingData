@@ -1,12 +1,12 @@
 {
-   "url": "http://www.nj.gov/dep/gis/digidownload/zips/statewide/Grid_deer_unit.zip",
+   "url": "http://www.nj.gov/dep/gis/digidownload/zips/statewide/Envr_admin_deer_zone.zip",
    "species": [
       "Deer"
    ],
    "attribution": "New Jersey Division of Fish & Wildlife",
    "properties": {
-      "id": "DMU",
-      "name": "DMU"
+      "id": "OBJECTID",
+      "name": "DMZ"
    },
    "country": "US",
    "state": "NJ",
