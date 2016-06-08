@@ -49,5 +49,5 @@
             "description": "Name of source file in zip file"
         }
     },
-    "required": ["name", "country", "state", "attribution", "properties", "species", "filetype", "url"]
+    "required": ["country", "state", "attribution", "properties", "species", "filetype", "url"]
 }
