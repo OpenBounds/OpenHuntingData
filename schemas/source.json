@@ -1,6 +1,11 @@
 {
     "title": "Open Hunting Data Source",
     "properties": {
+        "name": {
+            "type": "string",
+            "description": "Descriptive name of this dataset",
+            "pattern": "[\\w ]+$"
+        },
         "country": {
             "type": "string",
             "description": "ISO 3166-1 alpha-2 country code",
