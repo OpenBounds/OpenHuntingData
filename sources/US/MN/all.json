@@ -1,12 +1,13 @@
 {
-   "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_turkey_permit_areas/shp_bdry_turkey_permit_areas.zip",
+   "name" : "MN DNR Enforcement Areas for All Species",
+   "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_enforcement_admin/shp_bdry_dnr_enforcement_admin.zip",
+   "filenameInZip" : "dnr_enforcement_administrative_district_areas.shp",
    "species": [
       "ALL"
    ],
    "attribution": "Minnesota Department of Natural Resources",
    "properties": {
-      "id": "TPA",
-      "name": "TPA_TXT"
+      "id": "ENF_DIST"
    },
    "country": "US",
    "state": "MN",
