@@ -1,5 +1,6 @@
 {
-   "url": "https://fortress.wa.gov/dfw/public/PublicDownload/wildlife/hunts2015/Game_Management_Units.zip",
+   "name" : "WA all hunt units",
+   "url": "https://fortress.wa.gov/dfw/public/PublicDownload/wildlife/hunts2016/Game_Management_Units.zip",
    "filenameInZip" : "SHPFiles/GMU_Generalized.shp",
    "species": [
       "all"
