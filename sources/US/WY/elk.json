@@ -1,5 +1,6 @@
 {
-   "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/Big%20Game/Elk_HuntAreasHerdUnits.zip",
+   "name" : "WY Elk Hunt Areas",
+   "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/Big%20Game/ElkHuntAreas.zip",
    "species": [
       "elk"
    ],
