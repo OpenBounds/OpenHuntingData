@@ -1,5 +1,6 @@
 {
-   "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/Big%20Game/Bison_HuntAreasHerdUnits.zip",
+   "name" : "WY Bison Hunt Areas",
+   "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/Big%20Game/BisonHuntAreas.zip",
    "species": [
       "bison"
    ],
