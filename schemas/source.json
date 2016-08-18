@@ -1,14 +1,21 @@
 {
     "title": "Open Hunting Data Source",
     "properties": {
+        "name": {
+            "type": "string",
+            "description": "Descriptive name of this dataset",
+            "pattern": "[\\w ]+$"
+        },
         "country": {
             "type": "string",
             "description": "ISO 3166-1 alpha-2 country code",
-            "maxLength": 2
+            "pattern": "^[A-Z]{2}$"
+
         },
         "state": {
             "type": "string",
-            "description": "Full state name"
+            "description": "State abbreviation",
+            "pattern": "^[A-Z]{2}$"
         },
         "attribution": {
             "type": "string",
@@ -29,11 +36,17 @@
         },
         "filetype": {
             "type": "string",
-            "description": "Source file type"
+            "description": "Source file type",
+            "enum": [ "shp", "gdb", "kml", "geojson"]
         },
         "url": {
             "type": "string",
-            "description": "Source file URL"
+            "description": "Source file URL",
+            "patter": "^((https|http|ftp|s3):\/\/)?([\\da-zA-Z\\.-]+)\\.([a-zA-Z]{2,16})([\/\\w \\.-\\?\\&]*)*$"
+        },
+        "filenameInZip": {
+            "type": "string",
+            "description": "Name of source file in zip file"
         }
     },
     "required": ["country", "state", "attribution", "properties", "species", "filetype", "url"]

@@ -1,0 +1,14 @@
+{
+   "url": "http://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2016_Moose.zip",
+   "species": [
+      "Moose"
+   ],
+   "attribution": "Utah Division of Wildlife Resources",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "Boundary_N"
+   },
+   "country": "US",
+   "state": "UT",
+   "filetype": "shp"
+}

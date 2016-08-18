@@ -1,7 +1,7 @@
 {
-   "url": "http://data.idfggis.opendata.arcgis.com/datasets/88d9359aee7f4c40a19471dfc6219e08_0.zip?outSR=%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D&session=105555861.1448058597;%20_gat=1",
+   "url": "http://data.idfggis.opendata.arcgis.com/datasets/88d9359aee7f4c40a19471dfc6219e08_0.zip",
    "species": [
-      "Elk"
+      "elk"
    ],
    "attribution": "Idaho Department of Fish and Game",
    "properties": {
