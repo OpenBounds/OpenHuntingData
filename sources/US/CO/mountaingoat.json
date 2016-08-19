@@ -1,5 +1,6 @@
 {
-   "url": "http://www.arcgis.com/home/item.html?id=9892c18797214285ad116b9265dc84ed",
+   "name" : "CO mountain goat hunt units",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/CPW_MtnGoatUnitBoundaries.ZIP",
    "species": [
       "mountain goat"
    ],
