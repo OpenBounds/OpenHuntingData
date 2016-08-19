@@ -1,5 +1,6 @@
 {
-   "url": "http://www.nd.gov/gis/apps/DataDownload/?clipping=Full&coord=LL83&format=SHAPE&layers=NDGAMEFISH.UNIT_TURKEYFALL",
+   "name" : "ND Fall Turkey Hunt Units",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/nd-fall-turkey.zip",
    "species": [
       "Fall Turkey"
    ],
