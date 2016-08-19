@@ -1,5 +1,6 @@
 {
-   "url": "https://fortress.wa.gov/dfw/public/PublicDownload/wildlife/hunts2015/Moose_Units.zip",
+   "name" : "WA Moose Hunt Units",
+   "url": "https://fortress.wa.gov/dfw/public/PublicDownload/wildlife/hunts2016/Moose_Units.zip",
    "filenameInZip" : "SHPFiles/MU_Legal.shp",
    "species": [
       "moose"
