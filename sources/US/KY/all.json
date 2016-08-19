@@ -1,0 +1,14 @@
+{
+   "url": "http://app.fw.ky.gov/kfwis/kygeonet//Public_Hunting_areas.zip",
+   "species": [
+      "all"
+   ],
+   "attribution": "Kentucky Department of Fish & Wildlife Resources",
+   "properties": {
+      "id": "KDFWR_ID",
+      "name": "AREANAME"
+   },
+   "country": "US",
+   "state": "KY",
+   "filetype": "shp"
+}

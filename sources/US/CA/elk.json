@@ -1,0 +1,14 @@
+{
+   "url": "ftp://ftp.dfg.ca.gov/BDB/GIS/BIOS/Public_Datasets/700_799/ds786.zip",
+   "species": [
+      "elk"
+   ],
+   "attribution": "California Department of Fish and Wildlife",
+   "properties": {
+      "id": "Hunt_Name",
+      "name": "Hunt_Name"
+   },
+   "country": "US",
+   "state": "CA",
+   "filetype": "shp"
+}

@@ -1,0 +1,14 @@
+{
+   "url": "http://app.fw.ky.gov/kfwis/kygeonet/Annual_Deer_Mgt_Zones.zip",
+   "species": [
+      "Deer"
+   ],
+   "attribution": "Kentucky Department of Fish & Wildlife Resources",
+   "properties": {
+      "id": "FIPS",
+      "name": "NAME"
+   },
+   "country": "US",
+   "state": "KY",
+   "filetype": "shp"
+}
