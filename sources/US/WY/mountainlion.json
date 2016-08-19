@@ -1,12 +1,13 @@
 {
-   "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/MountainLion_HuntAreasManagementUnits.zip",
+   "name" : "WY Mountain Lion Hunt Area Management Units",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/2015_Mountain_Lion_Hunt_Areas.zip",
    "species": [
       "Mountain Lion"
    ],
    "attribution": "Wyoming Game and Fish Department",
    "properties": {
-      "id": "",
-      "name": ""
+      "id": "HUNTAREA",
+      "name": "MGMTUNIT"
    },
    "country": "US",
    "state": "WY",
