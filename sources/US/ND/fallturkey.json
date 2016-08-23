@@ -1,0 +1,15 @@
+{
+   "name" : "ND Fall Turkey Hunt Units",
+   "url": "http://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/nd-fall-turkey.zip",
+   "species": [
+      "Fall Turkey"
+   ],
+   "attribution": "North Dakota Game and Fish Department",
+   "properties": {
+      "id": "OBJECTID_1",
+      "name": "UNIT_ID"
+   },
+   "country": "US",
+   "state": "ND",
+   "filetype": "shp"
+}

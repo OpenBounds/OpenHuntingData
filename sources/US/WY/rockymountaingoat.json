@@ -1,0 +1,15 @@
+{
+   "name" : "WY Rocky Mountain Goat Hunt Areas",
+   "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/Big%20Game/RockyMountainGoatHuntAreas.zip",
+   "species": [
+      "Rocky Mountain Goat"
+   ],
+   "attribution": "Wyoming Game and Fish Department",
+   "properties": {
+      "id": "HUNTAREA",
+      "name": "HUNTNAME"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp"
+}
