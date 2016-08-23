@@ -1,0 +1,17 @@
+{
+   "name" : "TN mountain goat hunt units",
+   "url": "https://fortress.wa.gov/dfw/public/PublicDownload/wildlife/hunts2016/Mountain_Goat_Units.zip",
+   "filenameInZip" : "SHPFiles/MGU_Legal.shp",
+   "species": [
+       "mountain goat"
+    ],
+    "attribution": "Tenessee Wildlife Resource Agency",
+    "properties": {
+       "id": "MGU_Id",
+       "name": "MGU_Name"
+    },
+    "country": "US",
+    "state": "TN",
+    "filetype": "shp"
+ }
+
