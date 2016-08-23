@@ -1,6 +1,7 @@
 {
-   "url": "https://fortress.wa.gov/dfw/public/PublicDownload/wildlife/hunts2015/Mountain_Goat_Units.zip",
-   "filenameInZip" : "SHP_Files/MGU_Legal.shp",
+   "name" : "WA mountain goat units",
+   "url": "https://fortress.wa.gov/dfw/public/PublicDownload/wildlife/hunts2016/Mountain_Goat_Units.zip",
+   "filenameInZip" : "SHPFiles/MGU_Legal.shp",
    "species": [
       "mountain goat"
    ],
