@@ -1,6 +1,6 @@
 {
    "name" : "ND Fall Turkey Hunt Units",
-   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/nd-fall-turkey.zip",
+   "url": "http://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/nd-fall-turkey.zip",
    "species": [
       "Fall Turkey"
    ],
