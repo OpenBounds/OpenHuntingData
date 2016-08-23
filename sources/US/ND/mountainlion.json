@@ -1,7 +1,8 @@
 {
-   "url": "http://www.nd.gov/gis/apps/DataDownload/?clipping=Full&coord=LL83&format=SHAPE&layers=NDGAMEFISH.UNIT_MOUNTAINLION",
+  "name" : "ND Mountain Lion Hunt Units", 
+  "url": "https://gisdata.nd.gov/hubdata/NDGISHUB_34650A02_1471643036418_7488.zip",
    "species": [
-      "Mountain lion"
+      "mountain lion"
    ],
    "attribution": "North Dakota Game and Fish Department",
    "properties": {
