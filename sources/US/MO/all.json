@@ -1,14 +1,23 @@
 {
+   "name" : "MO Hunt Districts for All Species",
    "url": "ftp://msdis.missouri.edu/pub/Environment_Conservation/MO_2011_Department_of_Conservation_Lands_shp.zip",
    "species": [
-      "All"
+      "all"
    ],
    "attribution": "Missouri Department of Conservation",
    "properties": {
       "id": "AREA_NUM",
-      "name": "AREA_NAME"
+      "name": "AREA_NAME",
+      "county" : "COUNTY"
    },
    "country": "US",
    "state": "MO",
-   "filetype": "shp"
+   "filetype": "shp",
+   "filter" : [
+   		{	
+   			"expression" : "match",
+   			"key" : "AREA_NAME",
+   			"value" : ".* CA"
+   		}
+	]
 }
