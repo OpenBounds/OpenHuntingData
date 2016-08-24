@@ -1,0 +1,4 @@
+{
+    "sources":"sources/[A-Z]{2}/[A-Z]{2}/[a-z-]+.json$",
+    "generated":"generated/[A-Z]{2}/[A-Z]{2}/[a-z-]+.geojson$"
+}

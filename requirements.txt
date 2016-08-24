@@ -1,4 +1,0 @@
-click==5.1
-jsonschema==2.5.1
-requests==2.8.1
-ujson==1.33
