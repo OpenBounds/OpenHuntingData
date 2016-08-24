@@ -1,0 +1,15 @@
+{
+   "name" : "WI Deer Management Zones",
+   "url": "ftp://dnrftp01.wi.gov/geodata/wildlife_mgmt/deer_mgmt_units.zip",
+   "species": [
+      "deer"
+   ],
+   "attribution": "Wisconsin Department of Natural Resources",
+   "properties": {
+      "id": "DEER_MGMT_",
+      "name": "DEER_MGMT_"
+   },
+   "country": "US",
+   "state": "WI",
+   "filetype": "shp"
+}
