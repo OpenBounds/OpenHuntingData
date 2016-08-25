@@ -16,7 +16,8 @@
    ],
    "attribution": "Colorado Department of Natural Resources",
    "properties": {
-      "id": "GMUID"
+      "id": "GMUID",
+      "name" : "GMUID"
    },
    "country": "US",
    "state": "CO",
