@@ -1,0 +1,16 @@
+{
+   "name" : "NE Mountain Lion Units",
+   "url": "http://data.outdoornebraska.gov/datasets/fb8c45017f0e4072b487bc1214bfe808_9.zip",
+   "species": [
+      "Mountain Lion"
+   ],
+   "attribution": "Nebraska Game and Parks Commission",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "UnitName"
+   },
+   "country": "US",
+   "state": "NE",
+   "filetype": "shp"
+}
+
