@@ -1,0 +1,15 @@
+{
+   "name" : "WY Bison Hunt Areas",
+   "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/Big%20Game/BisonHuntAreas.zip",
+   "species": [
+      "bison"
+   ],
+   "attribution": "Wyoming Fish and Wildlife",
+   "properties": {
+      "id": "HUNTAREA",
+      "name": "HUNTNAME"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp"
+}

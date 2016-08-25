@@ -1,0 +1,14 @@
+{
+   "url": "http://www.wildlife.state.nh.us/maps/documents/NHFG_WMU.zip",
+   "species": [
+      "All"
+   ],
+   "attribution": "New Hampshire Fish and Game",
+   "properties": {
+      "id": "WMU",
+      "name": "WMU"
+   },
+   "country": "US",
+   "state": "NH",
+   "filetype": "shp"
+}
