@@ -1,0 +1,17 @@
+{
+   "name" : "ID Mountain Goat Controlled Trapping Units",
+   "url": "http://data.idfggis.opendata.arcgis.com/datasets/d082a40554b14a54b951dfee00a701bd_0.zip",
+   "species": [
+      "Mountain Goat"
+   ],
+   "attribution": "Idaho Department of Fish and Game",
+   "properties": {
+      "id": "AreaID",
+      "name": "HuntArea",
+      "note" : "AreaNote",
+      "area rank" : "AreaRank"
+   },
+   "country": "US",
+   "state": "ID",
+   "filetype": "shp"
+}
