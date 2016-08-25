@@ -1,0 +1,15 @@
+{
+   "name" : "MN Bear Permit Areas",
+   "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_bear_permit_areas/shp_bdry_bear_permit_areas.zip",
+   "species": [
+      "Bear"
+   ],
+   "attribution": "Minnesota Department of Natural Resources",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "BMU_Label"
+   },
+   "country": "US",
+   "state": "MN",
+   "filetype": "shp"
+}
