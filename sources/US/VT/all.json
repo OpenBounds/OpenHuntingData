@@ -1,0 +1,14 @@
+{
+   "url": "http://gis.vtanr.opendata.arcgis.com/datasets/f7d698ab4dcf46579a462b1ebd89f21d_15?geometry=-81.946%2C41.64%2C-67.126%2C44.055",
+   "species": [
+      "ALL "
+   ],
+   "attribution": "VTANR/ Vermont Fish and Wildlife",
+   "properties": {
+      "id": "objectID",
+      "name": ""
+   },
+   "country": "US",
+   "state": "VT",
+   "filetype": "shp"
+}
