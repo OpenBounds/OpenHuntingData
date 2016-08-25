@@ -6,7 +6,8 @@
    ],
    "attribution": "Minnesota Department of Natural Resources",
    "properties": {
-      "id": "TPA"
+      "id": "TPA",
+      "name" : "TPA"
    },
    "country": "US",
    "state": "MN",
