@@ -1,0 +1,17 @@
+{
+   "name" : "ID Antelope Controlled Hunt Units",
+   "url": "http://data.idfggis.opendata.arcgis.com/datasets/0333cc788cd943cabded0aae1ca6914f_0.zip",
+   "species": [
+      "antelope"
+   ],
+   "attribution": "Idaho Department of Fish and Game",
+   "properties": {
+      "id": "AreaID",
+      "name": "HuntArea",
+      "area rank" : "AreaRank",
+      "note" : "AreaNote"
+   },
+   "country": "US",
+   "state": "ID",
+   "filetype": "shp"
+}
