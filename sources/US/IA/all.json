@@ -1,12 +1,20 @@
 {
-   "url": "ftp://ftp.igsb.uiowa.edu/gis_library/IA_state/Admin_Political_Boundary/Public_lands/public_hunting_lands.zip",
+   "name" : "IA Hunting Zones - All Species",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/IA-hunting.zip",
    "species": [
       "all"
    ],
    "attribution": "Iowa Department of Natural Resources",
    "properties": {
-      "id": "Hunt_ID",
-      "name": "AREA_NAME"
+      "id": "OBJECTID",
+      "name": "OBJECTID",
+      "nonresident deer" : "NR_Deer",
+      "nonresident spring turkey" : "NR_S_Trky",
+      "resident fall turkey" : "R_F_Trky",
+      "canada goose" : "CAGO",
+      "waterfowl" : "Waterfowl",
+      "bobcat" : "Bobcat",
+      "grouse" : "Grouse"
    },
    "country": "US",
    "state": "IA",
