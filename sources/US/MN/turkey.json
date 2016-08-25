@@ -1,4 +1,5 @@
 {
+   "name" : "MN Turkey Permit Areas",
    "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_turkey_permit_areas/shp_bdry_turkey_permit_areas.zip",
    "species": [
       "Turkey"
@@ -6,7 +7,7 @@
    "attribution": "Minnesota Department of Natural Resources",
    "properties": {
       "id": "TPA",
-      "name": "TPA_TXT"
+      "name" : "TPA"
    },
    "country": "US",
    "state": "MN",
