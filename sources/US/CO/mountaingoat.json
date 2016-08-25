@@ -1,0 +1,15 @@
+{
+   "name" : "CO mountain goat hunt units",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/CPW_MtnGoatUnitBoundaries.ZIP",
+   "species": [
+      "mountain goat"
+   ],
+   "attribution": "Colorado Department of Natural Resources",
+   "properties": {
+      "id": "MGGMU",
+      "name": "MGGMUNAME"
+   },
+   "country": "US",
+   "state": "CO",
+   "filetype": "shp"
+}

@@ -1,0 +1,19 @@
+{
+   "name" : "NE Deer Firearm Units",
+   "url": "http://data.outdoornebraska.gov/datasets/630a395b4c724867a3cf4536b57c7988_17.zip",
+   "species": [
+      "Deer"
+   ],
+   "attribution": "Nebraska Game and Parks Commission",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "UnitName",
+      "bag limit" : "BagLimit",
+      "season" : "Season",
+      "weapon" : "Weapon",
+      "rules" : "Rules"
+   },
+   "country": "US",
+   "state": "NE",
+   "filetype": "shp"
+}

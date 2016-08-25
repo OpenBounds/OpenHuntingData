@@ -1,0 +1,14 @@
+{
+   "url": "http://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2016_Bison.zip",
+   "species": [
+      "bison"
+   ],
+   "attribution": "Utah Division of Wildlife Resources",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "Boundary_N"
+   },
+   "country": "US",
+   "state": "UT",
+   "filetype": "shp"
+}
