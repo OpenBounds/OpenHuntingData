@@ -1,0 +1,16 @@
+{
+   "name" : "ID Controlled Hunt Areas - Turkey",
+   "url": "http://data.idfggis.opendata.arcgis.com/datasets/42b77ccd075c40c2a73a2416b8bd25f3_0.zip",
+   "species": [
+      "Turkey"
+   ],
+   "attribution": "Idaho Department of Fish and Game",
+   "properties": {
+      "id": "AreaID",
+      "name": "HuntArea", 
+      "note" : "AreaNote"
+   },
+   "country": "US",
+   "state": "ID",
+   "filetype": "shp"
+}
