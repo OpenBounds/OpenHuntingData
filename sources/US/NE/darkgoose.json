@@ -1,0 +1,21 @@
+{
+   "name" : "Dark Goose Units",
+   "url": "http://data.outdoornebraska.gov/datasets/4299279b50334a1e9d4ae257650055c0_1.zip",
+   "species": [
+      "Dark Goose"
+   ],
+   "attribution": "Nebraska Game and Parks Commission",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "Zone",
+      "season" : "Season",
+      "notes" : "Notes",
+      "daily bag limit" : "DailyBagLi",
+      "possession" : "Possession",
+      "shooting hours" : "ShootingHo",
+      "notes" : "Notes"
+   },
+   "country": "US",
+   "state": "NE",
+   "filetype": "shp"
+}
