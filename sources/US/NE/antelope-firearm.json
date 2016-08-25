@@ -1,0 +1,19 @@
+{
+   "name" : "NE Antelope Firearm Units",
+   "url": "http://data.outdoornebraska.gov/datasets/649e2c0d2d924a77863cb97523dff97f_25.zip",
+   "species": [
+      "Antelope"
+   ],
+   "attribution": "Nebraska Game and Parks Commission",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "UnitName",
+      "harvest type" : "HarvestTyp",
+      "season" : "Season",
+      "unit type" : "UnitType"
+   },
+   "country": "US",
+   "state": "NE",
+   "filetype": "shp"
+}
+

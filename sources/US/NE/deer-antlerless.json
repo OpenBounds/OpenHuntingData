@@ -1,0 +1,24 @@
+{
+   "name" : "NE Deer Antlerless Only Season Choice Units",
+   "url": "http://data.outdoornebraska.gov/datasets/3be033202e20411fa20251c7a08a1964_19.zip",
+   "species": [
+      "Deer Antlerless"
+   ],
+   "attribution": "Nebraska Game and Parks Commission",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "UnitName",
+      "season" : "Season",
+      "bag limit" : "BagLimit",
+      "weapon" : "Weapon",
+      "muzzleload" : "Muzzleload",
+      "rules" : "Rules",
+      "unit type" : "UnitType",
+      "archery season" : "ArcherySea",
+      "firearm antler" : "FirearmAnt",
+      "firearm antlerless" : "Antlerless"
+   },
+   "country": "US",
+   "state": "NE",
+   "filetype": "shp"
+}

@@ -1,0 +1,20 @@
+{
+   "name" : "NE Duck Units",
+   "url": "http://data.outdoornebraska.gov/datasets/90c0fcd6695342a78593a0ae8d77bcaf_3.zip",
+   "species": [
+      "Duck"
+   ],
+   "attribution": "Nebraska Game and Parks Commission",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "Zone",
+      "season" : "Season",
+      "shooting hours" : "ShootingHo",
+      "daily bag limit" : "DailyBagLi",
+      "possession" : "Possession",
+      "notes" : "Notes"
+   },
+   "country": "US",
+   "state": "NE",
+   "filetype": "shp"
+}

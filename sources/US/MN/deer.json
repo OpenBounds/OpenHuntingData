@@ -1,0 +1,22 @@
+{
+   "name" : "MN Deer Permit Areas",
+   "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_deer_permit_areas/shp_bdry_deer_permit_areas.zip",
+   "species": [
+      "Deer"
+   ],
+   "attribution": "Minnesota Department of Natural Resources",
+   "properties": {
+      "id": "DPA",
+      "name": "MapTitle",
+      "archery" : "Archery",
+      "firearm a" : "FirearmA",
+      "firearm b" : "FirearmB",
+      "youth" : "Youth",
+      "early antler" : "EarlyAntle",
+      "muzzleload" : "Muzzleload",
+      "firearm type" : "FirearmTyp"      
+   },
+   "country": "US",
+   "state": "MN",
+   "filetype": "shp"
+}

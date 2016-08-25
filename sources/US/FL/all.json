@@ -1,0 +1,15 @@
+{
+   "name" : "Florida WMAs",
+   "url": "http://geodata.myfwc.com/datasets/d7f8470d9df1451d8e950cdd409bee66_9.zip",
+   "species": [
+      "all"
+   ],
+   "attribution": "Florida Fish and Wildlife Conservation Commission",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "NAME"
+   },
+   "country": "US",
+   "state": "FL",
+   "filetype": "shp"
+}

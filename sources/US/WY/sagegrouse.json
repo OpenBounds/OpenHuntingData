@@ -1,0 +1,14 @@
+{
+   "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/SageGrouse_HuntAreas.zip",
+   "species": [
+      "sage grouse"
+   ],
+   "attribution": "Wyoming Game and Fish Department",
+   "properties": {
+      "id": "HUNTAREA",
+      "name": "HUNTAREA"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp"
+}
