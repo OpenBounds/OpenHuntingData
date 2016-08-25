@@ -1,0 +1,18 @@
+{
+   "name" : "ID Beaver Controlled Trapping Units",
+   "url": "http://data.idfggis.opendata.arcgis.com/datasets/1fb2bd98c8c846e687a6057abcf5065b_0.zip",
+   "species": [
+      "beaver"
+   ],
+   "attribution": "Idaho Department of Fish and Game",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "Unit",
+      "season" : "Season_Dat",
+      "note" : "Area_Desc",
+      "limit" : "NumBeaver"
+   },
+   "country": "US",
+   "state": "ID",
+   "filetype": "shp"
+}
