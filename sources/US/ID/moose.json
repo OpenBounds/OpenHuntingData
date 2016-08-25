@@ -1,0 +1,16 @@
+{
+   "name" : "ID Moose Controlled Hunt Areas",
+   "url": "http://data.idfggis.opendata.arcgis.com/datasets/d380e869c3a1469eac4de2ecd3a1f0f7_0.zip",
+   "species": [
+      "Moose"
+   ],
+   "attribution": "Idaho Department of Fish and Game",
+   "properties": {
+      "id": "AreaID",
+      "name": "HuntArea",
+      "note" : "AreaNote"
+   },
+   "country": "US",
+   "state": "ID",
+   "filetype": "shp"
+}
