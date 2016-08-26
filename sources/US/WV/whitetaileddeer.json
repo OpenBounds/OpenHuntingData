@@ -1,0 +1,16 @@
+{
+   "name" : "WV White-Tailed Deer Hunting Regulation Splits",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/wvhuntingregulationsplits.zip",
+   "species": [
+      "White-Tailed Deer"
+   ],
+   "attribution": "West Virginia Division of Natural Resources, Wildlife Division",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "NAME"
+   },
+   "country": "US",
+   "state": "WV",
+   "filetype": "shp"
+}
+

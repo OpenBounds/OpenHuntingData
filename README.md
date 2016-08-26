@@ -8,20 +8,29 @@ Python scripts to gather and normalize Hunting district data from many websites.
 Scripts should read data in whatever format it is available, and output a GeoJson file, with properties normalized to a schema that will be shared by all data sets.
 
 ## Scope
-The first phase of this project will be focued on the US.
+The goal is to collect boundaries for geographic areas that are used to define hunting regulations. In some states these are called "Hunting Districts", in others they are called "Game Management Units"(GMUs), and there are probably additional names in other states.
 
-### Interested in:
+At this time only data for the USA is within the scope of this project.
+
+### Types of data that are outside the scope of this project:
+* Species Occurrence
+* Land ownership
+* Trails
+* Roads
+* Motor Vehichle use restrictions
+* Wildlife management districts that only apply to non-game species. This includes cricital habitat designations.
+* In most states areas known as "Wildlife Management Areas" are not applicable, because this is actually a designation of land ownership and management priorities, and not of hunting regulations.
+
+### Attributes within scope of this project:
 * Geometry, including holes
 * State
 * Area name
 * Area number/identifier
 * Huntable species
 
-### Not interested in:
+### Attributes outside the scope of this project:
 * Regulations
 * Access Restrictions
-* Species Occurrence
-* Land ownership
 
 ### Possibly:
 * URL for more info?

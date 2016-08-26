@@ -1,0 +1,25 @@
+{
+   "name" : "CO Big Game GMUs",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/CPW_GMUBoundaries.zip",
+   "species": [
+      "bear",
+      "black bear",
+      "cougar",
+      "deer",
+      "elk",
+      "moose",
+      "mountain lion",
+      "mule deer",
+      "pronghorn",
+      "puma",
+      "white-tailed deer"
+   ],
+   "attribution": "Colorado Department of Natural Resources",
+   "properties": {
+      "id": "GMUID",
+      "name" : "GMUID"
+   },
+   "country": "US",
+   "state": "CO",
+   "filetype": "shp"
+}

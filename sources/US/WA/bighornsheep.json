@@ -1,0 +1,16 @@
+{
+   "name" : "WA Bighorn Sheep Hunt Units",
+   "url": "https://fortress.wa.gov/dfw/public/PublicDownload/wildlife/hunts2016/Bighorn_Sheep_Units.zip",
+   "filenameInZip" : "SHPFiles/BSU_Legal.shp",
+   "species": [
+      "big horn sheep"
+   ],
+   "attribution": "Washington Department of Fish and Wildlife",
+   "properties": {
+      "id": "BSU_ID",
+      "name": "BSU_Name"
+   },
+   "country": "US",
+   "state": "WA",
+   "filetype": "shp"
+}

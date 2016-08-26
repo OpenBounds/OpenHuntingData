@@ -1,6 +1,7 @@
 {
+    "name": "Antelope Hunting Districts",
 	"country": "US",
-	"state": "Montana",
+	"state": "MT",
 	"attribution": "Montana Fish, Wildlife, & Parks",
     "properties": {
         "id": "DISTRICT",

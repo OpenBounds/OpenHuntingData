@@ -1,0 +1,15 @@
+{
+   "name" : "ID GMUs",
+   "url": "http://data.idfggis.opendata.arcgis.com/datasets/b467b48c2cbc46f5b1414e493e7babd9_0.zip",
+   "species": [
+      "All"
+   ],
+   "attribution": "Idaho Department of Fish and Game",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "NAME"
+   },
+   "country": "US",
+   "state": "ID",
+   "filetype": "shp"
+}
