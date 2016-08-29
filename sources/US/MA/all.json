@@ -1,13 +1,13 @@
 {
-   "url": "http://wsgw.mass.gov/data/gispub/shape/state/dfwdistricts.zip",
-   "filenameInZip" : "DFWDISTRICTS_POLY.shp",
+   "name" : "MA Deer Units",
+   "url": "https://s3.amazonaws.com/data.openbounds.org/USAHunting/manual-downloads/MA_WMZ_Poly2.zip",
    "species": [
-      "All"
+      "Deer"
    ],
    "attribution": "Massachusetts Division of Fisheries and Wildlife",
    "properties": {
-      "id": "DISTRICT",
-      "name": "DISTRICT"
+      "id": "DMZ",
+      "name": "DMZ"
    },
    "country": "US",
    "state": "MA",
