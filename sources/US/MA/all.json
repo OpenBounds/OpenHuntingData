@@ -1,9 +1,7 @@
 {
    "name" : "MA Deer Units",
    "url": "https://s3.amazonaws.com/data.openbounds.org/USAHunting/manual-downloads/MA_WMZ_Poly2.zip",
-   "species": [
-      "Deer"
-   ],
+   "species": ["Deer"],
    "attribution": "Massachusetts Division of Fisheries and Wildlife",
    "properties": {
       "id": "OBJECTID",
