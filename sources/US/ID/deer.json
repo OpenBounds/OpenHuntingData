@@ -1,0 +1,17 @@
+{
+   "name" : "ID Deer Controlled Hunt Areas",
+   "url": "http://data.idfggis.opendata.arcgis.com/datasets/b774c9d5ffeb475bbd80f2300092bb20_0.zip",
+   "species": [
+      "deer"
+   ],
+   "attribution": "Idaho Department of Fish and Game",
+   "properties": {
+      "id": "AreaID",
+      "name": "HuntArea",
+      "note" : "AreaNote",
+      "area rank" : "AreaRank"
+   },
+   "country": "US",
+   "state": "ID",
+   "filetype": "shp"
+}

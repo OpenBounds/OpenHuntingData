@@ -1,0 +1,16 @@
+{
+	"name" : "CO Bighorn Sheep Hunt Units",
+        "country": "US",
+        "state": "CO",
+        "attribution": "Colorado Parks and Wildlife",
+    	"properties": {
+        	"id": "BSGMU",
+        	"name": "GMU_NAME"
+    },
+        "species": [
+		"bighorn sheep"
+	],
+        "filetype": "shp",
+        "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/CPW_BighornUnitBoundaries.ZIP"
+}
+

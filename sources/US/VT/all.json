@@ -1,0 +1,16 @@
+{
+   "name" : "VT WMAs",
+   "url": "http://gis.vtanr.opendata.arcgis.com/datasets/f7d698ab4dcf46579a462b1ebd89f21d_15.zip",
+   "species": [
+      "all"
+   ],
+   "attribution": "VTANR/Vermont Fish and Wildlife",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "UNIT",
+      "subunit" : "SUBUNIT"
+   },
+   "country": "US",
+   "state": "VT",
+   "filetype": "shp"
+}

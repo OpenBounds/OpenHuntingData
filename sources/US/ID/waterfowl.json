@@ -1,0 +1,23 @@
+{
+   "name" : "ID Waterfowl Hunt Areas",
+   "url": "http://data.idfggis.opendata.arcgis.com/datasets/4e66cb98004a44b195b68bc28c235880_0.zip",
+   "species": [
+      "duck",
+      "merganser",
+      "Wilson's snipe",
+      "American coots",
+      "Canada goose",
+      "white-fronted goose",
+      "light goose",
+      "sandhill crane"
+   ],
+   "attribution": "Idaho Department of Fish and Game",
+   "properties": {
+      "id": "FID",
+      "name": "Area_Name",
+      "note" : "AreaNote" 
+   },
+   "country": "US",
+   "state": "ID",
+   "filetype": "shp"
+}

@@ -1,0 +1,15 @@
+{
+   "name" : "RI Deer Hunt Areas",
+   "url": "https://s3.amazonaws.com/data.openbounds.org/USAHunting/manual-downloads/RI_Deer_Management_Unit.zip",
+   "species": [
+      "deer"
+   ],
+   "attribution": "Rhode Island Department of Environmental Management",
+   "properties": {
+      "id": "DeerMU",
+      "name": "DeerMU"
+   },
+   "country": "US",
+   "state": "RI",
+   "filetype": "shp"
+}
