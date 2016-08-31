@@ -1,0 +1,15 @@
+{
+   "name" : "Florida Black Bear Management Units",
+   "url": "http://geodata.myfwc.com/datasets/1af166d8eb6b485b8b0061183cf7a8aa_14.zip",
+   "species": [
+      "Black Bear"
+   ],
+   "attribution": "Florida Fish and Wildlife Conservation Commission",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "BMU_Name"
+   },
+   "country": "US",
+   "state": "FL",
+   "filetype": "shp"
+}
