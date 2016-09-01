@@ -1,13 +1,13 @@
 {
-   "name" : "Florida WMAs",
-   "url": "http://geodata.myfwc.com/datasets/d7f8470d9df1451d8e950cdd409bee66_9.zip",
+   "name" : "FL Black Bear Management Units",
+   "url": "http://geodata.myfwc.com/datasets/1af166d8eb6b485b8b0061183cf7a8aa_14.zip",
    "species": [
-      "all"
+      "Black Bear"
    ],
    "attribution": "Florida Fish and Wildlife Conservation Commission",
    "properties": {
       "id": "OBJECTID",
-      "name": "NAME"
+      "name": "BMU_Name"
    },
    "country": "US",
    "state": "FL",
