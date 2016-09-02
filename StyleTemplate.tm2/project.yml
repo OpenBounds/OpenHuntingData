@@ -1,0 +1,25 @@
+
+_properties: {}
+attribution: OpenBounds Project
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -111
+  - 44
+  - 10
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers:
+  - regions
+  - regions_labels
+maxzoom: 16
+minzoom: 5
+name: test
+source: "__SOURCE__"
+styles: 
+  - style.mss
+template: ''
