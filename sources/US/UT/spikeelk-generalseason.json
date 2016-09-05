@@ -1,7 +1,8 @@
 {
+   "name": "UT Spike Elk General Season units",
    "url": "http://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2016_SpikeElk_Gen.zip",
    "species": [
-      "Spike Elk-general season"
+      "Elk"
    ],
    "attribution": "Utah Division of Wildlife Resources",
    "properties": {

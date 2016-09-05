@@ -1,8 +1,9 @@
 {
+   "name": "MN Ruffed Grouse Management Areas",
    "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_ruffed_grouse_mgmt_areas/shp_bdry_ruffed_grouse_mgmt_areas.zip",
    "filenameInZip" : "ruffed_grouse_mgmt_areas.shp", 
    "species": [
-      "Ruffled Grouse"
+      "Ruffed Grouse"
    ],
    "attribution": "Minnesota Department of Natural Resources",
    "properties": {

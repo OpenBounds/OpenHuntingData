@@ -1,7 +1,8 @@
 {
+   "name": "UT Deer units",
    "url": "http://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2016_DeerGen.zip",
    "species": [
-      "Deer-General Season"
+      "Deer"
    ],
    "attribution": "Utah Division of Wildlife Resources",
    "properties": {

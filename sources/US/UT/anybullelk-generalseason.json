@@ -1,7 +1,8 @@
 {
+   "name": "UT Bull Elk units",
    "url": "http://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2016_AnyBullElk_Gen.zip",
    "species": [
-      "Any Bull Elk-general season"
+      "Elk"
    ],
    "attribution": "Utah Division of Wildlife Resources",
    "properties": {
