@@ -10,7 +10,7 @@ if [ ! -e tilelive ]; then
 fi
 
 echo "Generating geojson"
-DOWNLOAD_CACHE=cache python ./Processing/process.py sources/ $RESULT_DIR 2>&1 
+#DOWNLOAD_CACHE=cache python ./Processing/process.py sources/ $RESULT_DIR 2>&1 
 
 VECTOR_MAXZOOM=13
 VECTOR_MINZOOM=5
@@ -118,7 +118,7 @@ for i in $RESULT_DIR/*/*/*.geojson; do
     python ./Processing/upload_mbtiles.py --extension ".png" \
      --threads 100 \
      $RASTER_MBTILES \
-     s3://data.openbounds.org/USAHunting/raster/`dirname $i`/`basename $i .geojson`
+     s3://data.openbounds.org/USAHunting/raster/`dirname $i`/`basename $i .geojson`/
 
     rm -r $WORK_DIR
 done
