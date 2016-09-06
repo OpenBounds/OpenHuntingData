@@ -1,7 +1,8 @@
 {
+   "name": "UT limited entry Deer units",
    "url": "http://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2016_DeerLE.zip",
    "species": [
-      "Deer-Limited Entry"
+      "Deer"
    ],
    "attribution": "Utah Division of Wildlife Resources",
    "properties": {

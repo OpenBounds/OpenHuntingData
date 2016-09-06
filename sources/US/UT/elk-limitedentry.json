@@ -1,7 +1,8 @@
 {
+   "name": "UT limited entrty Elk units",
    "url": "http://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2016_ElkLE.zip",
    "species": [
-      "Elk-Limited Entry"
+      "Elk"
    ],
    "attribution": "Utah Division of Wildlife Resources",
    "properties": {
