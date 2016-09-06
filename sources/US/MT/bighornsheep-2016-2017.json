@@ -1,0 +1,16 @@
+{
+  "name": "Bighorn Sheep Hunting Districts 2016-2017",
+  "country": "US",
+  "state": "MT",
+  "attribution": "Montana Fish, Wildlife, & Parks",
+  "year": "2016,2017",
+  "properties": {
+    "id": "DISTRICT",
+    "name": "NAME"
+  },
+  "species": [
+    "bighorn sheep"
+  ],
+  "filetype": "shp",
+  "url": "http://data.mtfwp.opendata.arcgis.com/datasets/1903388828974d68a38247db93759e52_0.zip"
+}

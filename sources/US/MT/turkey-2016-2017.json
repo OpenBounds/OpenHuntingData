@@ -1,0 +1,16 @@
+{
+  "name": "Turkey Hunting Districts 2016-2017",
+  "country": "US",
+  "state": "MT",
+  "attribution": "Montana Fish, Wildlife, & Parks",
+  "year": "2016,2017",
+  "properties": {
+    "id": "DISTRICT",
+    "name": "NAME"
+  },
+  "species": [
+    "turkey"
+  ],
+  "filetype": "shp",
+  "url": "http://data.mtfwp.opendata.arcgis.com/datasets/a063d01c1b8d4a79a594348dd04e3245_0.zip"
+}

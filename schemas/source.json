@@ -21,6 +21,11 @@
             "type": "string",
             "description": "Source file attribution"
         },
+        "year": {
+            "type": "string",
+            "description": "Years this data is valid for. Multiple years should be , separated.",
+            "pattern":"^[0-9,]+$"
+        },
         "properties": {
             "type": "object",
             "properties": {
@@ -42,7 +47,7 @@
         "url": {
             "type": "string",
             "description": "Source file URL",
-            "patter": "^((https|http|ftp|s3):\/\/)?([\\da-zA-Z\\.-]+)\\.([a-zA-Z]{2,16})([\/\\w \\.-\\?\\&]*)*$"
+            "#pattern": "^((https|http|ftp|s3):\/\/)?([\\da-zA-Z\\.-]+)\\.([a-zA-Z]{2,16})([\/\\w \\.-\\?\\&]*)*$"
         },
         "filenameInZip": {
             "type": "string",

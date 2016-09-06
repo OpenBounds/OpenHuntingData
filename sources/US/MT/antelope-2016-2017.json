@@ -1,0 +1,16 @@
+{
+  "name": "Antelope Hunting Districts 2016-2017",
+  "country": "US",
+  "state": "MT",
+  "attribution": "Montana Fish, Wildlife, & Parks",
+  "year": "2016,2017",
+  "properties": {
+    "id": "DISTRICT",
+    "name": "NAME"
+  },
+  "species": [
+    "antelope"
+  ],
+  "filetype": "shp",
+  "url": "http://data.mtfwp.opendata.arcgis.com/datasets/1a35c4bbdfdc411ca8758f45d861b583_0.zip"
+}
