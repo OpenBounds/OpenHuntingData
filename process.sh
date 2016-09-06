@@ -17,16 +17,27 @@ VECTOR_MINZOOM=5
 
 echo "Generating vector tiles"
 for i in $RESULT_DIR/*/*/*.geojson; do
+    if [[ $i == *AK* ]]; then
+        echo "skipping " $i
+        continue
+    fi
+
     if [[ $i == *.labels.geojson* ]]; then
         echo "skipping " $i
         continue
     fi
 
-    echo Processing $i
-
     # Final vector output
     VECTOR_MBTILES=`pwd`/`dirname $i`/`basename $i .geojson`.pbf.mbtiles
     RASTER_MBTILES=`pwd`/`dirname $i`/`basename $i .geojson`.png.mbtiles
+
+    #Dont process if output exists
+    if [[ -f $RASTER_MBTILES && -f $VECTOR_MBTILES ]];then
+        echo "skipping $i, result MBTiles exist"
+        continue
+    fi
+
+    echo Processing $i
 
     WORK_DIR=`mktemp -d`
     echo Using work dir $WORK_DIR
@@ -88,22 +99,26 @@ for i in $RESULT_DIR/*/*/*.geojson; do
     cat StyleTemplate.tm2/project.yml | sed s/__SOURCE__/mbtiles:\\/\\/${VECTOR_MBTILES//\//\\/}/ > $STYLE/project.yml
 
     echo "Generating raster tiles"
-    BOUNDS=`sqlite3 $VECTOR_MBTILES "select value from metadata where name='bounds'"`
     RASTER_MINZOOM=$VECTOR_MINZOOM
     RASTER_MAXZOOM=15
+
+    BOUNDS=`sqlite3 $VECTOR_MBTILES "select value from metadata where name='bounds'"`
     echo zoom: $RASTER_MINZOOM-$RASTER_MAXZOOM bounds:$BOUNDS
-    echo ./tilelive/bin/tilelive-copy \
-     --minzoom=$RASTER_MINZOOM \
-     --maxzoom=$RASTER_MAXZOOM \
-     --bounds=$BOUNDS \
-     "tmstyle://$STYLE" \
-     mbtiles://$RASTER_MBTILES
+
+    WORKING_RASTER_MBTILES=$WORK_DIR/`basename $i .geojson`.png.mbtiles
     ./tilelive/bin/tilelive-copy \
      --minzoom=$RASTER_MINZOOM \
      --maxzoom=$RASTER_MAXZOOM \
      --bounds=$BOUNDS \
      "tmstyle://$STYLE" \
-     mbtiles://$RASTER_MBTILES
+     mbtiles://$WORKING_RASTER_MBTILES
+
+    mv $WORKING_RASTER_MBTILES $RASTER_MBTILES
+
+    python ./Processing/upload_mbtiles.py --extension ".png" \
+     --threads 100 \
+     $RASTER_MBTILES \
+     s3://data.openbounds.org/USAHunting/raster/`dirname $i`/`basename $i .geojson`
 
     rm -r $WORK_DIR
 done
