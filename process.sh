@@ -17,11 +17,6 @@ VECTOR_MINZOOM=5
 
 echo "Generating vector tiles"
 for i in $RESULT_DIR/*/*/*.geojson; do
-    if [[ $i == *AK* ]]; then
-        echo "skipping " $i
-        continue
-    fi
-
     if [[ $i == *.labels.geojson* ]]; then
         echo "skipping " $i
         continue
@@ -103,6 +98,13 @@ for i in $RESULT_DIR/*/*/*.geojson; do
     RASTER_MAXZOOM=15
 
     BOUNDS=`sqlite3 $VECTOR_MBTILES "select value from metadata where name='bounds'"`
+
+    if [[ $i == *AK* ]]; then
+        echo "Alaska, overriding bounds"
+        BOUNDS="-168.18,58.4,-140.67,71.55"
+        RASTER_MAXZOOM=14
+    fi
+
     echo zoom: $RASTER_MINZOOM-$RASTER_MAXZOOM bounds:$BOUNDS
 
     WORKING_RASTER_MBTILES=$WORK_DIR/`basename $i .geojson`.png.mbtiles
@@ -112,6 +114,20 @@ for i in $RESULT_DIR/*/*/*.geojson; do
      --bounds=$BOUNDS \
      "tmstyle://$STYLE" \
      mbtiles://$WORKING_RASTER_MBTILES
+
+
+    if [[ $i == *AK* ]]; then
+        echo "Alaska, tiling additional bboxes"
+        for BOUNDS in "-141.13,54.52,-129.81,60.63" "-161.53,55.8,-150.22,58.52" "-167.12,53.96,-159.97,56.8" "-172.28,51.84,-165.13,54.83" "-179.96,51.23,-171.77,52.94"; do
+            echo $BOUNDS
+            ./tilelive/bin/tilelive-copy \
+             --minzoom=$RASTER_MINZOOM \
+             --maxzoom=$RASTER_MAXZOOM \
+             --bounds=$BOUNDS \
+             "tmstyle://$STYLE" \
+             mbtiles://$WORKING_RASTER_MBTILES
+        done
+    fi
 
     mv $WORKING_RASTER_MBTILES $RASTER_MBTILES
 
