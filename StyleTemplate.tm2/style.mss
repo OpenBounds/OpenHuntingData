@@ -2,8 +2,16 @@ Map { font-directory: url("./fonts"); }
 
 
 #regions {
-  line-width:1;
-  line-color: black;
+      	::case {
+      	  line-width: 2;
+      	  line-color: #fff;
+    	}
+    	::fill {
+      	  line-width: 1;
+      	  line-color: black;
+    	}
+}
+
   [zoom > 10] {
     text-face-name: 'Source Sans Pro Bold';
     text-name:'[name]';
