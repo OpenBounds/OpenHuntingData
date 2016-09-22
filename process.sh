@@ -91,7 +91,7 @@ for i in $RESULT_DIR/*/*/*.geojson; do
     echo "Generating style from template"
     STYLE=$WORK_DIR/style.tmstyle/
     cp -r StyleTemplate.tm2 $STYLE
-    cat StyleTemplate.tm2/project.yml | sed s/__SOURCE__/mbtiles:\\/\\/${VECTOR_MBTILES//\//\\/}/ > $STYLE/project.yml
+    cat StyleTemplate.tm2/project.yml | sed s/http:\\/\\/__SOURCE__/mbtiles:\\/\\/${VECTOR_MBTILES//\//\\/}/ > $STYLE/project.yml
 
     echo "Generating raster tiles"
     RASTER_MINZOOM=$VECTOR_MINZOOM
