@@ -19,7 +19,7 @@ layers:
 maxzoom: 16
 minzoom: 5
 name: test
-source: "__SOURCE__"
+source: "http://__SOURCE__"
 styles: 
   - style.mss
 template: ''
