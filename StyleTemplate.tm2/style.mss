@@ -7,7 +7,7 @@ Map { font-directory: url("./fonts"); }
   [zoom > 10] {
     text-face-name: 'Source Sans Pro Bold';
     text-name:'[name]';
-    text-size: 12;
+    text-size: 14;
     text-placement:line;
     text-fill: black;
     text-halo-fill: white;
@@ -22,7 +22,7 @@ Map { font-directory: url("./fonts"); }
 #regions_labels {
   text-face-name: 'Source Sans Pro Bold';
   text-name:'[name]';
-  text-size: 12;
+  text-size: 14;
   text-halo-fill: white;
   text-halo-radius:2;
   text-placement: point;
