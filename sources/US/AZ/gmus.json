@@ -1,0 +1,15 @@
+{
+   "name" : "AZ Game Management Units",
+   "url": "https://s3.amazonaws.com/data.openbounds.org/USAHunting/manual-downloads/az-gmus.geojson",
+   "species": [
+      "all"
+   ],
+   "attribution": "Arizona Game and Fish Department",
+   "properties": {
+      "id": "GMUNAME",
+      "name": "GMUNAME"
+   },
+   "country": "US",
+   "state": "AZ",
+   "filetype": "geojson"
+}
