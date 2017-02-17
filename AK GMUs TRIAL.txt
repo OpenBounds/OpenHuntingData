@@ -1,0 +1,14 @@
++{
+ +   "name" : "AK Game Management Units and Subunits Trial",
+ +   "url": "http://adfg.maps.arcgis.com/home/item.html?id=f1019b8731aa4ec4921501d035c7ba5e": [
+ +      "all"
+ +   ],
+ +   "attribution": "Alaska Department of Fish and Game",
+ +   "properties": {
+ +      "id": "UnitSub",
+ +      "name": "SubLabel"
+ +   },
+ +   "country": "US",
+ +   "state": "AK",
+ +   "filetype": "shp"
+ +}
