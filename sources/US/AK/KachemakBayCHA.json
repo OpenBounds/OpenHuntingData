@@ -1,6 +1,6 @@
 {
     "name" : "AK Kachemak Bay CHA",
-    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ak-KachemakBay_CHA.zip",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ak-KachemakBay-CHA.zip",
     "species": [
        "all"
     ],
