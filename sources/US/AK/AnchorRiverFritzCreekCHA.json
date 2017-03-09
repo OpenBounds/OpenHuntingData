@@ -1,0 +1,15 @@
+{
+    "name" : "AK Anchor River/Fritz Creek CHA",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ak-AnchorRiverFritzCreek%20CHA.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "Alaska Department of Fish and Game",
+    "properties": {
+       "id": "Name",
+       "name": "descriptio"
+    },
+    "country": "US",
+    "state": "AK",
+    "filetype": "shp"
+}
