@@ -1,0 +1,15 @@
+{
+    "name" : "Alaska Special Hunting Regulation Areas",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ak-special-regulation-areas.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "Alaska Department of Fish and Game",
+    "properties": {
+       "id": "AREANAME",
+       "name": "SHORTNAME"
+    },
+    "country": "US",
+    "state": "AK",
+    "filetype": "shp"
+}
