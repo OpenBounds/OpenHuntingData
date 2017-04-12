@@ -88,6 +88,16 @@ for i in $RESULT_DIR/*/*/*.geojson; do
         mv $DATA_MBTILES $VECTOR_MBTILES
     fi
 
+    echo "Uploading vector tiles"
+    python ./Processing/upload_mbtiles.py --extension ".pbf" \
+     --threads 100 \
+     $VECTOR_MBTILES \
+     s3://data.openbounds.org/USAHunting/vector/`dirname $i`/`basename $i .geojson`/
+
+    echo "Generating mapbox gl style"
+
+    echo "Uploading mapbox gl style"
+
     echo "Generating style from template"
     STYLE=$WORK_DIR/style.tmstyle/
     cp -r StyleTemplate.tm2 $STYLE
