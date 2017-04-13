@@ -62,6 +62,7 @@
         "text-font": [
           "Bold"
         ],
+        "text-max-angle": 20,
         "text-ignore-placement": false,
         "text-justify": "center",
         "text-keep-upright": false,
