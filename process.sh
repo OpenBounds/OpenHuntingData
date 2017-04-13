@@ -94,10 +94,6 @@ for i in $RESULT_DIR/*/*/*.geojson; do
      $VECTOR_MBTILES \
      s3://data.openbounds.org/USAHunting/vector/`dirname $i`/`basename $i .geojson`/
 
-    echo "Generating mapbox gl style"
-
-    echo "Uploading mapbox gl style"
-
     echo "Generating style from template"
     STYLE=$WORK_DIR/style.tmstyle/
     cp -r StyleTemplate.tm2 $STYLE
@@ -151,3 +147,8 @@ done
 
 echo "Uploading to s3"
 s3cmd sync $RESULT_DIR s3://data.openbounds.org/USAHunting/
+
+mkdir styles
+./build-gl-style.py styles generated/catalog.geojson
+s3cmd sync styles s3://data.openbounds.org/USAHunting/
+rm -rf styles
