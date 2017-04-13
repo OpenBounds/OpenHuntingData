@@ -1,0 +1,107 @@
+{
+  "version": 8,
+  "name": "OpenHuntingData",
+  "center": [
+    -118.291995,
+    36.578581
+  ],
+  "zoom": 12,
+  "bearing": 0,
+  "pitch": 0,
+  "sources": {
+    "data": {
+      "type": "vector",
+      "tiles": [
+        "https://s3.amazonaws.com/data.openbounds.org/USAHunting/vector/US/MT/deerelklion/{z}/{x}/{y}.pbf"
+      ],
+      "minzoom": 5,
+      "maxzoom": 13
+    }
+  },
+  "glyphs": "https://static.gaiagps.com/GaiaTopoGL/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#EBEBEB"
+      }
+    },
+    {
+      "id": "regions-case",
+      "type": "line",
+      "source": "data",
+      "source-layer": "regions",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 6
+      }
+    },
+    {
+      "id": "regions",
+      "type": "line",
+      "source": "data",
+      "source-layer": "regions",
+      "paint": {
+        "line-color": "#000000",
+        "line-width": 2
+      }
+    },
+    {
+      "id": "line_labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "regions",
+      "minzoom": 10,
+      "layout": {
+        "symbol-avoid-edges": false,
+        "symbol-placement": "line",
+        "text-allow-overlap": false,
+        "text-anchor": "center",
+        "text-field": "{name}",
+        "text-font": [
+          "Bold"
+        ],
+        "text-ignore-placement": false,
+        "text-justify": "center",
+        "text-keep-upright": false,
+        "text-line-height": 1,
+        "text-offset": [
+          0,
+          1
+        ],
+        "text-rotation-alignment": "auto",
+        "text-size": 14,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "#000000",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 2
+      }
+    },
+    {
+      "id": "point_labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "regions_labels",
+      "maxzoom": 12,
+      "layout": {
+        "text-field": "{name}",
+        "text-size": 14,
+        "symbol-placement": "point",
+        "symbol-avoid-edges": true,
+        "visibility": "visible",
+        "text-font": [
+          "Bold"
+        ]
+      },
+      "paint": {
+        "text-color": "#000000",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 2
+      }
+    }
+  ],
+  "id": "template"
+}
