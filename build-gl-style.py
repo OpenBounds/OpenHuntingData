@@ -18,7 +18,7 @@ def change_source_url(style, source_id, new_url):
     return style
 
 
-def generate_style(template, source, destination_dir, name=None, center=None, prefix=""):
+def generate_style(template, source, destination, name=None, center=None):
     with open(template, "rb") as f:
         style_template = json.load(f)
 
@@ -35,14 +35,8 @@ def generate_style(template, source, destination_dir, name=None, center=None, pr
         "https://s3.amazonaws.com/data.openbounds.org/USAHunting/vector/" + \
         source + "/{z}/{x}/{y}.pbf")
 
-    with open(os.path.join(destination_dir, prefix + "server.json"), "wb") as f:
+    with open(os.path.join(destination), "wb") as f:
         json.dump(server_style, f, sort_keys=True, indent=4, separators=(',', ': '))
-
-    client_style = dict(style_template)
-    change_source_url(client_style, "data", "g://%s/{z}/{x}/{y}" % source.replace("/", "_")[:source_key_max_length])
-
-    with open(os.path.join(destination_dir, prefix + "client.json"), "wb") as f:
-        json.dump(client_style, f, sort_keys=True, indent=4, separators=(',', ': '))
 
 
 def generate_styles_from_catalog(template, catalog_path, destination_dir):
@@ -52,9 +46,9 @@ def generate_styles_from_catalog(template, catalog_path, destination_dir):
         # Data extraction 
         feature_geometry = shape(feature['geometry'])
         path = feature['properties']['path'].split('.')[0]
-        generate_style(template, path, destination_dir, 
+        generate_style(template, path, 
+            os.path.join(destination_dir, path.replace("/", "_")[:source_key_max_length] + ".json"),
             name=feature['properties']['name'],
-            prefix=path.replace("/", "_")[:source_key_max_length] + "-",
             center=feature_geometry.centroid.coords[0])
 
 
