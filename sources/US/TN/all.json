@@ -1,0 +1,14 @@
+{
+   "url": "http://www.tn.gov/assets/entities/twra/gis/attachments/TWRA_HuntableLands_December2015.zip",
+   "species": [
+      "all"
+   ],
+   "attribution": "Tenessee Wildlife Resource Agency",
+   "properties": {
+      "id": "NAME",
+      "name": "NAME"
+   },
+   "country": "US",
+   "state": "TN",
+   "filetype": "shp"
+}
