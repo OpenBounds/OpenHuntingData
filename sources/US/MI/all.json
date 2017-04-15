@@ -1,0 +1,14 @@
+{
+   "url": "http://gis.michigan.opendata.arcgis.com/datasets/7ea0bef6759a45eaac926750cdeb3e41_1",
+   "species": [
+      "All"
+   ],
+   "attribution": "Michigan Department of Natural Resources",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "DISTRICT_NAME"
+   },
+   "country": "US",
+   "state": "MI",
+   "filetype": "shp"
+}
