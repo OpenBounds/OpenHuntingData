@@ -1,0 +1,14 @@
+{
+   "url": "tpwd.texas.gov/gis/data/baselayers/wildlife-management-areas",
+   "species": [
+      "ALL "
+   ],
+   "attribution": "Texas Parks and Wildlife",
+   "properties": {
+      "id": "",
+      "name": ""
+   },
+   "country": "US",
+   "state": "TX",
+   "filetype": "shp"
+}
