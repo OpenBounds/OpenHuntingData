@@ -1,0 +1,14 @@
+{
+   "url": "http://fwp.mt.gov/gisData/shapefiles/wmaPolys.zip",
+   "species": [
+      "All"
+   ],
+   "attribution": " Montana Fish, Wildlife & Parks",
+   "properties": {
+      "id": "SITEID",
+      "name": "NAME"
+   },
+   "country": "US",
+   "state": "MT",
+   "filetype": "shp"
+}
