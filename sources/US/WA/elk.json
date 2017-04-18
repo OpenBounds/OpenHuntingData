@@ -1,0 +1,15 @@
+{
+   "url": "https://fortress.wa.gov/dfw/public/PublicDownload/wildlife/hunts2015/Elk_Areas.zip",
+   "filenameInZip" : "EA_Legal.shp",
+   "species": [
+      "elk"
+   ],
+   "attribution": "Washington Department of Fish and Wildlife",
+   "properties": {
+      "id": "EA_ID",
+      "name": "EA_Name"
+   },
+   "country": "US",
+   "state": "WA",
+   "filetype": "shp"
+}
