@@ -67,10 +67,10 @@ for i in $RESULT_DIR/*/*/*.geojson; do
     fi
 
     echo "Uploading vector tiles"
-    # python ./Processing/upload_mbtiles.py --extension ".pbf" \
-    #  --threads 100 \
-    #  $VECTOR_MBTILES \
-    #  s3://data.openbounds.org/USAHunting/vector/`dirname $i`/`basename $i .geojson`/
+    python ./Processing/upload_mbtiles.py --extension ".pbf" \
+     --threads 100 \
+     $VECTOR_MBTILES \
+     s3://data.openbounds.org/USAHunting/vector/`dirname $i`/`basename $i .geojson`/
 
     rm -r $WORK_DIR
 done
