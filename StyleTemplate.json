@@ -21,13 +21,6 @@
   "glyphs": "https://static.gaiagps.com/GaiaTopoGL/glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
-      "id": "background",
-      "type": "background",
-      "paint": {
-        "background-color": "#EBEBEB"
-      }
-    },
-    {
       "id": "regions-case",
       "type": "line",
       "source": "data",
