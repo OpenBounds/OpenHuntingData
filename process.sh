@@ -12,7 +12,7 @@ if [ ! -e tl ]; then
 fi
 
 echo "Generating geojson"
-#DOWNLOAD_CACHE=cache python ./Processing/process.py sources/ $RESULT_DIR 2>&1 
+DOWNLOAD_CACHE=cache python ./Processing/process.py sources/ $RESULT_DIR 2>&1 
 
 VECTOR_MAXZOOM=13
 VECTOR_MINZOOM=5
@@ -72,51 +72,6 @@ for i in $RESULT_DIR/*/*/*.geojson; do
      $VECTOR_MBTILES \
      s3://data.openbounds.org/USAHunting/vector/`dirname $i`/`basename $i .geojson`/
 
-    echo "Generating style from template"
-    STYLE=$WORK_DIR/style.tmstyle/
-    cp -r StyleTemplate.tm2 $STYLE
-    cat StyleTemplate.tm2/project.yml | sed s/http:\\/\\/__SOURCE__/mbtiles:\\/\\/${VECTOR_MBTILES//\//\\/}/ > $STYLE/project.yml
-
-    echo "Generating raster tiles"
-    RASTER_MINZOOM=$VECTOR_MINZOOM
-    RASTER_MAXZOOM=15
-
-    BOUNDS=`sqlite3 $VECTOR_MBTILES "select value from metadata where name='bounds'" | sed 's/,/ /g'`
-
-    if [[ $i == *AK* ]]; then
-        echo "Alaska, overriding bounds"
-        BOUNDS="-168.18 58.4 -140.67 71.55"
-        RASTER_MAXZOOM=14
-    fi
-
-    echo zoom: $RASTER_MINZOOM-$RASTER_MAXZOOM bounds:$BOUNDS
-
-    WORKING_RASTER_MBTILES=$WORK_DIR/`basename $i .geojson`.png.mbtiles
-    ./tl/bin/tl.js copy \
-     -z $RASTER_MINZOOM -Z $RASTER_MAXZOOM \
-     -b "$BOUNDS" \
-     "tmstyle://$STYLE" \
-     mbtiles://$WORKING_RASTER_MBTILES 2>&1 | pv -l > /dev/null
-
-    if [[ $i == *AK* ]]; then
-        echo "Alaska, tiling additional bboxes"
-        for BOUNDS in "-141.13 54.52 -129.81 60.63" "-161.53 55.8 -150.22 58.52" "-167.12 53.96 -159.97 56.8" "-172.28 51.84 -165.13 54.83" "-179.96 51.23 -171.77 52.94"; do
-            echo $BOUNDS
-            ./tl/bin/tl.js copy \
-             -z $RASTER_MINZOOM -Z $RASTER_MAXZOOM \
-             -b "$BOUNDS" \
-             "tmstyle://$STYLE" \
-             mbtiles://$WORKING_RASTER_MBTILES 2>&1 | pv -l > /dev/null
-        done
-    fi
-
-    mv $WORKING_RASTER_MBTILES $RASTER_MBTILES
-
-    python ./Processing/upload_mbtiles.py --extension ".png" \
-     --threads 100 \
-     $RASTER_MBTILES \
-     s3://data.openbounds.org/USAHunting/raster/`dirname $i`/`basename $i .geojson`/
-
     rm -r $WORK_DIR
 done
 
@@ -124,6 +79,6 @@ echo "Uploading to s3"
 s3cmd sync $RESULT_DIR s3://data.openbounds.org/USAHunting/
 
 mkdir styles
-./build-gl-style.py styles generated/catalog.geojson
+./build-gl-style.py styles generated/catalog.geojson > styles/styles.json
 s3cmd sync styles s3://data.openbounds.org/USAHunting/
 rm -rf styles

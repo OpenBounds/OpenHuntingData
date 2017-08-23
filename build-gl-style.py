@@ -42,15 +42,23 @@ def generate_style(template, source, destination, name=None, center=None):
 def generate_styles_from_catalog(template, catalog_path, destination_dir):
     with open(catalog_path, "rb") as f:
         catalog = json.load(f)
+    tileserver_config = {}
+
     for feature in catalog['features']:
         # Data extraction 
         feature_geometry = shape(feature['geometry'])
         path = feature['properties']['path'].split('.')[0]
-        generate_style(template, path, 
-            os.path.join(destination_dir, path.replace("/", "_")[:source_key_max_length] + ".json"),
+        filename = path.replace("/", "_")[:source_key_max_length] + ".json"
+        generate_style(template, path,
+            os.path.join(destination_dir, filename),
             name=feature['properties']['name'],
             center=feature_geometry.centroid.coords[0])
-
+        tileserver_config["/OpenHuntingData/" + path] = {
+            "source": "gl:///opt/styles/OpenHuntingData/" + filename,
+            "sourceMaxZoom": 13,
+            "headers": {},
+        }
+    print json.dumps(tileserver_config, sort_keys=True, indent=4, separators=(',', ': '))
 
 def _main():
     usage = "usage: %prog destination source"
