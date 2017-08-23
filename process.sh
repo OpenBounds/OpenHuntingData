@@ -1,11 +1,13 @@
 #!/bin/bash
 RESULT_DIR=generated
 
-if [ ! -e tilelive ]; then
-    git clone https://github.com/mapbox/tilelive.git
-    cd tilelive
+set -ex
+
+if [ ! -e tl ]; then
+    git clone https://github.com/mojodna/tl.git
+    cd tl
     npm install
-    npm install mbtiles tilelive-merge tilelive-tmstyle
+    npm install mbtiles tilelive-tmstyle tilelive-vector
     cd ..
 fi
 
@@ -53,34 +55,10 @@ for i in $RESULT_DIR/*/*/*.geojson; do
          -Z $VECTOR_MINZOOM \
          -z 10
 
-        echo "generating tile list"
-        QUERY="SELECT zoom_level, tile_column, (1 << zoom_level) - 1 - tile_row from tiles"
-        sqlite3 $DATA_MBTILES "$QUERY" | sed -e 's/|/\//g' > $WORK_DIR/data.tiles
-        sqlite3 $LABELS_MBTILES "$QUERY" | sed -e 's/|/\//g' > $WORK_DIR/labels.tiles
-        cat $WORK_DIR/data.tiles $WORK_DIR/labels.tiles | sort | uniq > $WORK_DIR/combined.tiles
-
-        echo Merging data and label mbtiles `cat $WORK_DIR/combined.tiles | wc -l` tiles
+        echo Merging data and label mbtiles
 
         COMBINED_MBTILES=$WORK_DIR/combined.mbtiles 
-
-        ./tilelive/bin/tilelive-copy \
-         --concurrency=1 \
-         --scheme=list \
-         --list=$WORK_DIR/combined.tiles \
-         "merge:\?source=mbtiles://$DATA_MBTILES&source=mbtiles://$LABELS_MBTILES" \
-         "mbtiles://$COMBINED_MBTILES"
-         #For some reason --concurrency=1 makes this run an order of magnitude faster than the default 
-         #concurrency level
-
-        #hack to make tilelive-copy copy over the metadata, because it doesnt do it in list mode
-        ./tilelive/bin/tilelive-copy \
-         --concurrency=1 \
-         --scheme=pyramid \
-         --minzoom=0 \
-         --maxzoom=1 \
-         "merge:\?source=mbtiles://$DATA_MBTILES&source=mbtiles://$LABELS_MBTILES" \
-         "mbtiles://$COMBINED_MBTILES"
-#        sqlite3 $COMBINED_MBTILES "select * from metadata"
+        mortar --output $COMBINED_MBTILES $DATA_MBTILES $LABELS_MBTILES
 
         mv $COMBINED_MBTILES $VECTOR_MBTILES
     else
@@ -103,35 +81,32 @@ for i in $RESULT_DIR/*/*/*.geojson; do
     RASTER_MINZOOM=$VECTOR_MINZOOM
     RASTER_MAXZOOM=15
 
-    BOUNDS=`sqlite3 $VECTOR_MBTILES "select value from metadata where name='bounds'"`
+    BOUNDS=`sqlite3 $VECTOR_MBTILES "select value from metadata where name='bounds'" | sed 's/,/ /g'`
 
     if [[ $i == *AK* ]]; then
         echo "Alaska, overriding bounds"
-        BOUNDS="-168.18,58.4,-140.67,71.55"
+        BOUNDS="-168.18 58.4 -140.67 71.55"
         RASTER_MAXZOOM=14
     fi
 
     echo zoom: $RASTER_MINZOOM-$RASTER_MAXZOOM bounds:$BOUNDS
 
     WORKING_RASTER_MBTILES=$WORK_DIR/`basename $i .geojson`.png.mbtiles
-    ./tilelive/bin/tilelive-copy \
-     --minzoom=$RASTER_MINZOOM \
-     --maxzoom=$RASTER_MAXZOOM \
-     --bounds=$BOUNDS \
+    ./tl/bin/tl.js copy \
+     -z $RASTER_MINZOOM -Z $RASTER_MAXZOOM \
+     -b "$BOUNDS" \
      "tmstyle://$STYLE" \
-     mbtiles://$WORKING_RASTER_MBTILES
-
+     mbtiles://$WORKING_RASTER_MBTILES 2>&1 | pv -l > /dev/null
 
     if [[ $i == *AK* ]]; then
         echo "Alaska, tiling additional bboxes"
-        for BOUNDS in "-141.13,54.52,-129.81,60.63" "-161.53,55.8,-150.22,58.52" "-167.12,53.96,-159.97,56.8" "-172.28,51.84,-165.13,54.83" "-179.96,51.23,-171.77,52.94"; do
+        for BOUNDS in "-141.13 54.52 -129.81 60.63" "-161.53 55.8 -150.22 58.52" "-167.12 53.96 -159.97 56.8" "-172.28 51.84 -165.13 54.83" "-179.96 51.23 -171.77 52.94"; do
             echo $BOUNDS
-            ./tilelive/bin/tilelive-copy \
-             --minzoom=$RASTER_MINZOOM \
-             --maxzoom=$RASTER_MAXZOOM \
-             --bounds=$BOUNDS \
+            ./tl/bin/tl.js copy \
+             -z $RASTER_MINZOOM -Z $RASTER_MAXZOOM \
+             -b "$BOUNDS" \
              "tmstyle://$STYLE" \
-             mbtiles://$WORKING_RASTER_MBTILES
+             mbtiles://$WORKING_RASTER_MBTILES 2>&1 | pv -l > /dev/null
         done
     fi
 
