@@ -26,10 +26,9 @@ for i in $RESULT_DIR/*/*/*.geojson; do
 
     # Final vector output
     VECTOR_MBTILES=`pwd`/`dirname $i`/`basename $i .geojson`.pbf.mbtiles
-    RASTER_MBTILES=`pwd`/`dirname $i`/`basename $i .geojson`.png.mbtiles
 
     #Dont process if output exists
-    if [[ -f $RASTER_MBTILES && -f $VECTOR_MBTILES ]];then
+    if [[ -f $VECTOR_MBTILES ]];then
         echo "skipping $i, result MBTiles exist"
         continue
     fi
