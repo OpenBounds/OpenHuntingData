@@ -12,5 +12,7 @@
    },
    "country": "US",
    "state": "WA",
-   "filetype": "shp"
+   "filetype": "shp",
+    "year": "2016",
+    "source": ""
 }

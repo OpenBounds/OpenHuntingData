@@ -1,0 +1,17 @@
+{
+    "name" : "WA Wildlife Areas",
+    "url": "http://geo.wa.gov/datasets/89e677d17858438b9befb2963f0bd92f_0.geojson",
+    "species": [
+       "all"
+    ],
+    "attribution": "Washington Department of Fish and Wildlife",
+    "properties": {
+       "id": "GMU_Num",
+       "name": "GUM_Name"
+    },
+    "country": "US",
+    "state": "WA",
+    "filetype": "geojson",
+    "year": "2017",
+    "source": "http://geo.wa.gov/datasets/89e677d17858438b9befb2963f0bd92f_0"
+}
