@@ -45,7 +45,6 @@ This project is inspired by http://openaddresses.io/
 ## Future Work
 * more state coverage
 * add scripts to
-    * transform the states data into vector tiles
     * scripts to merge/process GeoJson into master files
 
 * style sheets to make nice looking raster maps of the data, nationwide
