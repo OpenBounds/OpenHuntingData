@@ -23,8 +23,8 @@
         },
         "year": {
             "type": "string",
-            "description": "Years this data is valid for. Multiple years should be , separated.",
-            "pattern":"^[0-9,]+$"
+            "description": "Years this data is valid for. Multiple years should be , or - separated.",
+            "pattern":"^([0-9,]+)|([0-9]{4}-[0-9]{4})$"
         },
         "properties": {
             "type": "object",
