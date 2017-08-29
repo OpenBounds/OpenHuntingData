@@ -77,7 +77,11 @@ done
 echo "Uploading to s3"
 s3cmd sync $RESULT_DIR s3://data.openbounds.org/USAHunting/
 
-mkdir styles
-./build-gl-style.py styles generated/catalog.geojson > styles/styles.json
-s3cmd sync styles s3://data.openbounds.org/USAHunting/
-rm -rf styles
+STYLE_DIR=styles
+if [ -e $STYLE_DIR ]; then
+    rm -rf $STYLE_DIR
+fi
+
+mkdir $STYLE_DIR
+./build-gl-style.py $STYLE_DIR generated/catalog.geojson > $STYLE_DIR/styles.json
+s3cmd sync $STYLE_DIR s3://data.openbounds.org/USAHunting/
