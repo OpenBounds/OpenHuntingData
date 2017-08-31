@@ -3,14 +3,6 @@ RESULT_DIR=generated
 
 set -ex
 
-if [ ! -e tl ]; then
-    git clone https://github.com/mojodna/tl.git
-    cd tl
-    npm install
-    npm install mbtiles tilelive-tmstyle tilelive-vector
-    cd ..
-fi
-
 echo "Generating geojson"
 DOWNLOAD_CACHE=cache python ./Processing/process.py sources/ $RESULT_DIR 2>&1 
 
