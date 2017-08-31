@@ -1,0 +1,16 @@
+{
+    "name" : "LA WMAs & Wildlife Refuges 2016",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/LDWF_WMA_Refuge.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "Louisiana Department of Wildlife and Fisheries",
+    "properties": {
+       "name": "Name"
+    },
+    "country": "US",
+    "state": "LA",
+    "filetype": "shp",
+     "year": "2016",
+    "source": "http://www.wlf.louisiana.gov/wma-map-download"
+}
