@@ -6,7 +6,8 @@
     ],
     "attribution": "Louisiana Department of Wildlife and Fisheries",
     "properties": {
-       "id": "Name"
+       "id": "Name",
+       "name": "Name"
     },
     "country": "US",
     "state": "LA",
