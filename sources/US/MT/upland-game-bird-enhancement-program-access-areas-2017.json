@@ -1,0 +1,16 @@
+{
+  "name": "MT Upland Game Bird Enhancement Program Access Area Boundaries 2017",
+  "country": "US",
+  "state": "MT",
+  "attribution": "Montana Fish, Wildlife, & Parks",
+  "year": "2017",
+  "properties": {
+    "id": "PROJ_ID",
+    "name": "MAP_LABEL"
+  },
+  "species": [
+    "Upland Game Birds"
+  ],
+  "filetype": "shp",
+  "url": "http://data-mtfwp.opendata.arcgis.com/datasets/e7196b220e034420b8a405d620e21abd_0.zip"
+}

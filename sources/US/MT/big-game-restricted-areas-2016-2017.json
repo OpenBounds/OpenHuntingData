@@ -1,0 +1,16 @@
+{
+  "name": "MT Big Game Hunting District Restricted Areas 2016-2017",
+  "country": "US",
+  "state": "MT",
+  "attribution": "Montana Fish, Wildlife, & Parks",
+  "year": "2016,2017",
+  "properties": {
+    "id": "PORTIONNAM",
+    "name": "PORTIONNAM"
+  },
+  "species": [
+    "all"
+  ],
+  "filetype": "shp",
+  "url": "http://data-mtfwp.opendata.arcgis.com/datasets/f94d4378d75d40a38844d0a7dfc07529_0.zip"
+}
