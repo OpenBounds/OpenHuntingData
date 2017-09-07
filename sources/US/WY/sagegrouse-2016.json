@@ -1,5 +1,5 @@
 {
-   "name": "WY Sage Grouse hunt areas",
+   "name": "WY Sage Grouse Hunt Areas",
    "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/SageGrouse_HuntAreas.zip",
    "species": [
       "sage grouse"
@@ -11,5 +11,6 @@
    },
    "country": "US",
    "state": "WY",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2016"
 }

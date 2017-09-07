@@ -7,9 +7,10 @@
    "attribution": "Wyoming Fish and Wildlife",
    "properties": {
       "id": "HUNTAREA",
-      "name": "HUNTNAME"
+      "name": "HUNTAREA"
    },
    "country": "US",
    "state": "WY",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2016"
 }

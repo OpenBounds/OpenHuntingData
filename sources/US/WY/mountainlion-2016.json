@@ -1,0 +1,18 @@
+{
+   "name" : "WY Mountain Lion Hunt Areas",
+   "url": "https://opendata.arcgis.com/datasets/7b2e8a8947a743c48c7ff6fc15c71762_0.geojson",
+   "species": [
+      "Mountain Lion"
+   ],
+   "attribution": "Wyoming Game and Fish Department",
+   "properties": {
+      "id": "HUNTAREA",
+      "name": "HUNTAREA"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp",
+   "year": "2016",
+   "source": "http://wyoming-wgfd.opendata.arcgis.com/datasets/mountain-lion-hunt-areas"
+    
+}

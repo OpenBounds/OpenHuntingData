@@ -1,13 +1,13 @@
 {
-   "name" : "WY Mule Deer Hunt Areas",
+   "name" : "WY Moose Hunt Areas",
    "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/Big%20Game/MuleDeerHuntAreas.zip",
    "species": [
-      "mule deer"
+      "moose"
    ],
    "attribution": "Wyoming Game and Fish Department",
    "properties": {
       "id": "HUNTAREA",
-      "name": "HUNTNAME"
+      "name": "HUNTAREA"
    },
    "country": "US",
    "state": "WY",

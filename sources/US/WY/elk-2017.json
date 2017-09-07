@@ -1,0 +1,17 @@
+{
+   "name" : "WY Elk Hunt Areas",
+   "url": "https://opendata.arcgis.com/datasets/96a3f0784bcc42db8ece2d4e9fb0a734_0.geojson",
+   "species": [
+      "elk"
+   ],
+   "attribution": "Wyoming Fish and Wildlife",
+   "properties": {
+      "id": "HUNTAREA",
+      "name": "HUNTAREA"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp",
+   "year": "2017",
+   "source": "http://wyoming-wgfd.opendata.arcgis.com/datasets/elk-hunt-areas"
+}

@@ -1,0 +1,17 @@
+{
+   "name": "WY Pheasant Hunt Areas",
+   "url": "https://opendata.arcgis.com/datasets/b58c3bb57b0a4a59b83b6a78400fdd43_0.geojson",
+   "species": [
+      "pheasant"
+   ],
+   "attribution": "Wyoming Game and Fish Department",
+   "properties": {
+      "id": "HUNTAREA",
+      "name": "HUNTAREA"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp",
+   "year": "2015",
+   "source": "http://wyoming-wgfd.opendata.arcgis.com/datasets/2015-pheasant-hunt-areas"
+}
