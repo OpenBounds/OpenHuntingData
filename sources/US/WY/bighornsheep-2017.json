@@ -1,0 +1,17 @@
+{
+    "name" : "WY Bighorn Sheep Hunt Areas",
+    "url": "https://opendata.arcgis.com/datasets/53234a37cd224b63af511bd81b145dd8_0.geojson",
+    "species": [
+      "big horn sheep"
+   ],
+   "attribution": "Wyoming Game and Fish Department",
+   "properties": {
+      "id": "HUNTAREA",
+      "name": "HUNTAREA"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "geojson",
+   "year": "2017",
+   "source": "http://wyoming-wgfd.opendata.arcgis.com/datasets/bighorn-sheep-hunt-areas"
+}

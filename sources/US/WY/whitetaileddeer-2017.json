@@ -1,0 +1,17 @@
+{
+   "name" : "WY White-Tailed Deer Hunt Areas",
+   "url": "https://opendata.arcgis.com/datasets/953b6697ecfd42e38e1107aa162e709c_0.geojson",
+   "species": [
+      "White Tailed Deer"
+   ],
+   "attribution": "Wyoming Game and Fish Department",
+   "properties": {
+      "id": "HUNTAREA",
+      "name": "HUNTAREA"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "geojson",
+   "year": "2017",
+   "source": "http://wyoming-wgfd.opendata.arcgis.com/datasets/white-tailed-deer-hunt-areas"
+}

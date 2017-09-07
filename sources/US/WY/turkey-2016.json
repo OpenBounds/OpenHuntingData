@@ -1,8 +1,8 @@
 {
-   "name": "WY Black Bear hunt areas",
-   "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/BlackBear_HuntAreasManagementUnits.zip",
+   "name": "WY Turkey Hunt Areas",
+   "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/Turkey_HuntAreas.zip",
    "species": [
-      "Black Bear"
+      "turkey"
    ],
    "attribution": "Wyoming Game and Fish Department",
    "properties": {
@@ -11,5 +11,6 @@
    },
    "country": "US",
    "state": "WY",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2016"
 }

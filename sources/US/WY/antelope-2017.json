@@ -1,0 +1,17 @@
+{
+   "name": "WY Antelope Hunt Areas",
+   "url": "https://opendata.arcgis.com/datasets/a8f4aa4b22994398904dffce6f5fc064_0.geojson",
+   "species": [
+      "antelope"
+   ],
+   "attribution": "Wyoming Game and Fish Department",
+   "properties": {
+      "id": "HUNTAREA",
+      "name": "HUNTAREA"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "geojson",
+   "year": "2017",
+   "source": "http://wyoming-wgfd.opendata.arcgis.com/datasets/antelope-hunt-areas"
+}
