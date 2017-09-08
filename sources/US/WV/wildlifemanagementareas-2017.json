@@ -1,0 +1,17 @@
+{
+    "name" : "WV Wildlife Management Areas 2017",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/wvdnrManagedLands_wvdnr_20170731_utm83_shp.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "West Virginia Division of Natural Resources",
+    "properties": {
+       "id": "Unit_Nm",
+       "name": "Unit_Nm"
+    },
+    "country": "US",
+    "state": "WV",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://wvgis.wvu.edu/data/dataset.php?ID=59"
+}
