@@ -17,7 +17,7 @@ At this time only data for the USA is within the scope of this project.
 * Land ownership
 * Trails
 * Roads
-* Motor Vehichle use restrictions
+* Motor Vehicle use restrictions
 * Wildlife management districts that only apply to non-game species. This includes cricital habitat designations.
 * In most states areas known as "Wildlife Management Areas" are not applicable, because this is actually a designation of land ownership and management priorities, and not of hunting regulations.
 
