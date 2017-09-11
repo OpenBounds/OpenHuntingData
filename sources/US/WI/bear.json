@@ -11,6 +11,8 @@
    },
    "country": "US",
    "state": "WI",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2008",
+   "source": "ftp://dnrftp01.wi.gov/geodata/wildlife_mgmt"
 }
 

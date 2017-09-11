@@ -1,13 +1,13 @@
 {
-   "name" : "WI Turkey Management Zones",
-   "url": "ftp://dnrftp01.wi.gov/geodata/wildlife_mgmt/turkey_mgmt_zones.ZIP",
+   "name" : "WI Deer Management Zones",
+   "url": "ftp://dnrftp01.wi.gov/geodata/wildlife_mgmt/deer_mgmt_zones.zip",
    "species": [
-      "turkey"
+      "deer"
    ],
    "attribution": "Wisconsin Department of Natural Resources",
    "properties": {
-      "id": "TURKEY_MGM",
-      "name": "TURKEY_MGM"
+      "id": "DEER_MANAG",
+      "name": "DEER_MANAG"
    },
    "country": "US",
    "state": "WI",
