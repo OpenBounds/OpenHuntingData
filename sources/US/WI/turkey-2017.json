@@ -1,15 +1,17 @@
 {
-   "name" : "WI Turkey Management Zones",
+   "name" : "WI Turkey Management Zones 2017",
    "url": "ftp://dnrftp01.wi.gov/geodata/wildlife_mgmt/turkey_mgmt_zones.ZIP",
    "species": [
       "turkey"
    ],
    "attribution": "Wisconsin Department of Natural Resources",
    "properties": {
-      "id": "TMU_ID",
-      "name": "TMU_ID"
+      "id": "TURKEY_MGM",
+      "name": "TURKEY_MGM"
    },
    "country": "US",
    "state": "WI",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "ftp://dnrftp01.wi.gov/geodata/wildlife_mgmt"
 }

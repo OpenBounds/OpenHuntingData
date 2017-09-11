@@ -1,0 +1,17 @@
+{
+   "name" : "WI Deer Management Metro Subunits 2017",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/WI-deer_metro_subunits.zip",
+   "species": [
+      "deer"
+   ],
+   "attribution": "Wisconsin Department of Natural Resources",
+   "properties": {
+      "id": "METRO_SUBU",
+      "name": "METRO_SUBU"
+   },
+   "country": "US",
+   "state": "WI",
+   "filetype": "shp",
+   "year": "2017",
+   "source": "ftp://dnrftp01.wi.gov/geodata/wildlife_mgmt"
+}
