@@ -1,0 +1,18 @@
+{
+   "name" : "VT Wildlife Management Areas",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/vt-wildlife-management-areas.zip",
+   "species": [
+      "all"
+   ],
+   "attribution": "Vermont Fish and Wildlife Department",
+   "properties": {
+      "id": "WMA_name",
+      "name": "WMA_name",
+      
+   },
+   "country": "US",
+   "state": "VT",
+   "filetype": "shp",
+   "year": "2012",
+   "source": "http://anrgeodata.vermont.gov/datasets/anr-land-dataset-unit"
+}
