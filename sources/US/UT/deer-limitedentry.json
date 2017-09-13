@@ -1,15 +1,17 @@
 {
-   "name": "UT limited entry Deer units",
-   "url": "http://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2016_DeerLE.zip",
+   "name": "UT Deer Limited Entry Units",
+   "url": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2017_DeerLE.zip",
    "species": [
       "Deer"
    ],
    "attribution": "Utah Division of Wildlife Resources",
    "properties": {
-      "id": "OBJECTID",
+      "id": "Boundary_N",
       "name": "Boundary_N"
    },
    "country": "US",
    "state": "UT",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/disclaim.htm"
 }

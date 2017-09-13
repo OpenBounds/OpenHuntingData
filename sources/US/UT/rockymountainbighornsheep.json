@@ -1,15 +1,17 @@
 {
-   "name": "UT Rocky Mountain Bighorn sheep units",
-   "url": "http://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2016_RMBighorn.zip",
+   "name": "UT Rocky Mountain Bighorn Sheep Hunt Units",
+   "url": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2017_RMBighorn.zip",
    "species": [
       "Rocky Mountain Bighorn Sheep"
    ],
    "attribution": "Utah Division of Wildlife Resources",
    "properties": {
-      "id": "OBJECTID",
+      "id": "Boundary_N",
       "name": "Boundary_N"
    },
    "country": "US",
    "state": "UT",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/disclaim.htm"
 }
