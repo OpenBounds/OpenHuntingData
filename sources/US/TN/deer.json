@@ -1,0 +1,17 @@
+{
+    "name" : "TN Deer Hunting Units",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/TN-deer-hunting-units.zip",
+    "species": [
+       "deer"
+    ],
+    "attribution": "Tennessee Wildlife Resource Agency",
+    "properties": {
+       "id": "NAME",
+       "name": "NAME"
+    },
+    "country": "US",
+    "state": "TN",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://www.tn.gov/assets/entities/twra/attachments/huntguide.pdf https://www.arcgis.com/home/item.html?id=47aa2778faa74389aa06c34bc767f41c"
+}

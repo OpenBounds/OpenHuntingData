@@ -1,0 +1,17 @@
+{
+    "name" : "TN Waterfowl Draw Blinds 2017-2018",
+    "url": "https://opendata.arcgis.com/datasets/bd0c32aacb024bed8b4383a2b8dde145_1.geojson",
+    "species": [
+       "waterfowl"
+    ],
+    "attribution": "Tennessee Wildlife Resource Agency",
+    "properties": {
+       "id": "BLINDNUM",
+       "name": "BLINDNUM"
+    },
+    "country": "US",
+    "state": "TN",
+    "filetype": "geojson",
+    "year": "2017",
+    "source": "http://tn-tnmap.opendata.arcgis.com/datasets/TWRA::drawblinds-1"
+}

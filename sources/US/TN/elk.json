@@ -1,0 +1,17 @@
+{
+    "name" : "TN Elk Hunt Zones",
+    "url": "https://opendata.arcgis.com/datasets/b97f1ce0d0214a55962934fd46f3ea22_0.geojson",
+    "species": [
+       "elk"
+    ],
+    "attribution": "Tennessee Wildlife Resource Agency",
+    "properties": {
+       "id": "NAME",
+       "name": "NAME"
+    },
+    "country": "US",
+    "state": "TN",
+    "filetype": "geojson",
+    "year": "2017",
+    "source": "http://tn-tnmap.opendata.arcgis.com/datasets/TWRA::elkhuntzones-2017"
+}

@@ -1,16 +1,17 @@
 {
-        "name" : "TVA Recreational Lands with Hunting Access",
-        "country": "US",
-        "state": "TN",
-        "attribution": "Tennessee Valley Authority",
-    	"properties": {
-        "id": "OBJECTID",
-        "name": "RESERVOIR",
-        "restrictions" : "RESTRICTED"
-    	},
-        "species": [
-	  "all"
-	],
-        "filetype": "shp",
-        "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/tva-new.zip"
+    "name" : "TVA Recreational Lands with Hunting Access",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/tva-new.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "Tennessee Valley Authority",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "RESERVOIR",
+       "restrictions" : "RESTRICTED"
+    },
+    "country": "US",
+    "state": "TN",
+    "filetype": "shp",
+    "year": "2016"
 }

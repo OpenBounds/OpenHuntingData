@@ -1,0 +1,17 @@
+{
+    "name" : "TN Wildlife Management Areas",
+    "url": "https://opendata.arcgis.com/datasets/8e9f8135c6594c959ae777d1c6830127_0.geojson",
+    "species": [
+       "all"
+    ],
+    "attribution": "Tennessee Wildlife Resource Agency",
+    "properties": {
+       "id": "OTHER",
+       "name": "OTHER"
+    },
+    "country": "US",
+    "state": "TN",
+    "filetype": "geojson",
+    "year": "2017",
+    "source": "http://tn-tnmap.opendata.arcgis.com/datasets/TWRA::huntingallowedlands"
+}
