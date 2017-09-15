@@ -6,8 +6,8 @@
    ],
    "attribution": "Vermont Fish and Wildlife Department",
    "properties": {
-      "id": "WMA_name",
-      "name": "WMA_name"
+      "id": "ANRUnit",
+      "name": "ANRUnit"
    },
    "country": "US",
    "state": "VT",
