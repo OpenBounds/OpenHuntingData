@@ -6,8 +6,8 @@
     ],
     "attribution": "Tennessee Wildlife Resource Agency",
     "properties": {
-       "id": "OTHER",
-       "name": "OTHER"
+       "id": "Label",
+       "name": "Label"
     },
     "country": "US",
     "state": "TN",
