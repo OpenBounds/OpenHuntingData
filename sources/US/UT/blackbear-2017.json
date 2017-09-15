@@ -1,8 +1,8 @@
 {
-   "name": "UT Cooperative Wildlife Management Units 2017",
-   "url": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2017_CWMUs.zip",
+   "name": "UT Black Bear Hunt Units 2017",
+   "url": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2017_Black_Bear.zip",
    "species": [
-      "all"
+      "black bear"
    ],
    "attribution": "Utah Division of Wildlife Resources",
    "properties": {

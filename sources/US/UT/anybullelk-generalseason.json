@@ -1,17 +1,16 @@
 {
-   "name": "UT Elk General Season Any Bull Units",
-   "url": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2017_AnyBullElk_Gen.zip",
+   "name": "UT Elk General Season Any Bull Units 2016",
+   "url": "http://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2016_AnyBullElk_Gen.zip",
    "species": [
       "Elk"
    ],
    "attribution": "Utah Division of Wildlife Resources",
    "properties": {
-      "id": "Boundary_N",
+      "id": "OBJECTID",
       "name": "Boundary_N"
    },
    "country": "US",
    "state": "UT",
    "filetype": "shp",
-   "year": "2017",
-   "source": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/disclaim.htm"
+   "year": "2016"
 }

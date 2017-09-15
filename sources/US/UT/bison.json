@@ -1,17 +1,16 @@
 {
-   "name": "UT Bison Hunt Units",
-   "url": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2017_Bison.zip",
+   "name": "UT Bison Hunt Units 2016",
+   "url": "http://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2016_Bison.zip",
    "species": [
       "bison"
    ],
    "attribution": "Utah Division of Wildlife Resources",
    "properties": {
-      "id": "Boundary_N",
+      "id": "OBJECTID",
       "name": "Boundary_N"
    },
    "country": "US",
    "state": "UT",
    "filetype": "shp",
-   "year": "2017",
-   "source": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/disclaim.htm"
+   "year": "2016"
 }

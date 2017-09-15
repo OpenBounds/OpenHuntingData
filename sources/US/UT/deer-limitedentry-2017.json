@@ -1,8 +1,8 @@
 {
-   "name": "UT Cooperative Wildlife Management Units 2017",
-   "url": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2017_CWMUs.zip",
+   "name": "UT Deer Limited Entry Units 2017",
+   "url": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2017_DeerLE.zip",
    "species": [
-      "all"
+      "Deer"
    ],
    "attribution": "Utah Division of Wildlife Resources",
    "properties": {
