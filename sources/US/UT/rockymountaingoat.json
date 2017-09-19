@@ -1,5 +1,5 @@
 {
-   "name": "UT Mountain Goat units",
+   "name": "UT Mountain Goat Hunt Units 2016",
    "url": "http://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2016_RMGoat.zip",
    "species": [
       "Rocky Mountain Goat"
@@ -11,5 +11,6 @@
    },
    "country": "US",
    "state": "UT",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2016"
 }

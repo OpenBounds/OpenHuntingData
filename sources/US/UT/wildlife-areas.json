@@ -1,0 +1,17 @@
+{
+    "name" : "UT Wildlife Management Areas",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ut-wildlife-areas.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "Utah Division of Wildlife Resources",
+    "properties": {
+       "id": "LABEL_STAT",
+       "name": "LABEL_STAT"
+    },
+    "country": "US",
+    "state": "UT",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://gis.utah.gov/data/cadastre/land-ownership/"
+}

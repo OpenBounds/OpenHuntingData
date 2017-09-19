@@ -1,5 +1,5 @@
 {
-   "name": "UT Bull Elk units",
+   "name": "UT Elk General Season Any Bull Units 2016",
    "url": "http://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2016_AnyBullElk_Gen.zip",
    "species": [
       "Elk"
@@ -11,5 +11,6 @@
    },
    "country": "US",
    "state": "UT",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2016"
 }

@@ -1,0 +1,17 @@
+{
+   "name": "UT Elk Limited Entry Units 2017",
+   "url": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2017_ElkLE.zip",
+   "species": [
+      "Elk"
+   ],
+   "attribution": "Utah Division of Wildlife Resources",
+   "properties": {
+      "id": "Boundary_N",
+      "name": "Boundary_N"
+   },
+   "country": "US",
+   "state": "UT",
+   "filetype": "shp",
+   "year": "2017",
+   "source": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/disclaim.htm"
+}

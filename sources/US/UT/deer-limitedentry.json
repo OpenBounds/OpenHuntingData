@@ -1,5 +1,5 @@
 {
-   "name": "UT limited entry Deer units",
+   "name": "UT Deer Limited Entry Units 2016",
    "url": "http://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2016_DeerLE.zip",
    "species": [
       "Deer"
@@ -11,5 +11,6 @@
    },
    "country": "US",
    "state": "UT",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2016"
 }
