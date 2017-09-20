@@ -11,7 +11,7 @@
    },
    "country": "US",
    "state": "OR",
-   "filetype": "shp"
-   "year": "2017"
+   "filetype": "shp",
+   "year": "2017",
    "source": "https://nrimp.dfw.state.or.us/DataClearinghouse/default.aspx?p=202&XMLname=861.xml & https://nrimp.dfw.state.or.us/DataClearinghouse/default.aspx?p=202&XMLname=1115.xml"   
 }
