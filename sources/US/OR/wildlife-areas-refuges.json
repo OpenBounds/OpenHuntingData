@@ -1,0 +1,17 @@
+{
+   "name": "OR Wildlife Management Units",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/OR_WIldlifeAreas_Refuges.zip",
+   "species": [
+      "all"
+   ],
+   "attribution": "Oregon Department of Fish and Wildlife",
+   "properties": {
+      "id": "Name",
+      "name": "Name"
+   },
+   "country": "US",
+   "state": "OR",
+   "filetype": "shp",
+   "year": "2017",
+   "source": "https://nrimp.dfw.state.or.us/DataClearinghouse/default.aspx?p=202&XMLname=861.xml & https://nrimp.dfw.state.or.us/DataClearinghouse/default.aspx?p=202&XMLname=1115.xml"   
+}

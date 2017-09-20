@@ -1,15 +1,17 @@
 {
-   "name": "OR Wildlife management units",
+   "name": "OR Wildlife Management Units",
    "url": "https://nrimp.dfw.state.or.us/web%20stores/data%20libraries/files/ODFW/ODFW_805_5_wildlife_mgmt_units.zip",
    "species": [
       "all"
    ],
-   "attribution": "Oregon Department Fish and Wildlife",
+   "attribution": "Oregon Department of Fish and Wildlife",
    "properties": {
       "id": "UNIT_NUM",
       "name": "UNIT_NAME"
    },
    "country": "US",
    "state": "OR",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2010",
+   "source": "https://nrimp.dfw.state.or.us/DataClearinghouse/default.aspx?p=202&XMLname=805.xml"   
 }
