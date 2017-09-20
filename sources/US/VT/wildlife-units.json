@@ -1,6 +1,7 @@
 {
    "name" : "VT Wildlife Management Units",
-   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/vt-wildlifle-management-untis.zip",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/vt-wildlife-management-units.zip",
+   "filenameInZip": "vt-wildlife-management-units.shp",
    "species": [
       "all"
    ],
