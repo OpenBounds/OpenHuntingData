@@ -1,13 +1,13 @@
 {
    "name": "NV Game Management Units",
-   "url": "http://gis.ndow.nv.gov/ndowdata/data/NDOW_GameManagementUnits_2016.zip",
+   "url": "http://gis.ndow.nv.gov/ndowdata/data/NDOW_WildlifeManagementAreas_2016.zip",
    "species": [
       "All"
    ],
    "attribution": "Nevada Department of Wildlife",
    "properties": {
-      "id": "HUNTUNIT",
-      "name": "HUNTUNIT"
+      "id": "WMA_NAME",
+      "name": "WMA_NAME"
    },
    "country": "US",
    "state": "NV",
