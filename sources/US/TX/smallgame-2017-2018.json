@@ -1,0 +1,26 @@
+{
+    "name" : "TX Public Dove and Small Game Hunting Areas 2017-2018",
+    "url": "https://tpwd.texas.gov/huntwild/hunt/public/annual_public_hunting/resources/map/Dove_SmallGameGPS_2017_18.zip",
+    "filenameInZip": "DoveLeasePoly.kmz",
+    "species": [
+       "dove",
+       "feral hog",
+       "teal",
+       "waterfowl",
+       "cranes",
+       "quail",
+       "pheasant",
+       "rabbit",
+       "coyote"
+    ],
+    "attribution": "Texas Parks & Wildlife",
+    "properties": {
+       "id": "Name",
+       "name": "Name"
+    },
+    "country": "US",
+    "state": "TX",
+    "filetype": "kmz",
+    "year": "2017",
+    "source": "https://tpwd.texas.gov/huntwild/hunt/public/annual_public_hunting/"
+}
