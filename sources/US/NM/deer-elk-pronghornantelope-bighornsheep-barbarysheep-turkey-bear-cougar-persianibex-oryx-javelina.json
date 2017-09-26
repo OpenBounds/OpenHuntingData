@@ -1,6 +1,6 @@
 {
    "name": "NM Game Management Units",
-   "url": "http://rgis.unm.edu/gstore/datasets/1ae3c493-de4b-461e-bfd1-ca42825a9ec5/nm_gmu2010.original.zip",
+   "url": "http://www.wildlife.state.nm.us/download/hunting/maps/NM_GMU_Shapefile-201606.zip",
    "species": [
       "deer",
       "elk",
@@ -21,5 +21,7 @@
    },
    "country": "US",
    "state": "NM",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2016",
+   "source": "http://www.wildlife.state.nm.us/hunting/maps/big-game-unit-maps-pdfs/"
 }
