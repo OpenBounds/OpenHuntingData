@@ -1,0 +1,19 @@
+{
+    "name" : "TX Dove Hunting Zones",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/TX-dovezones.zip",
+    "species": [
+       "morning dove",
+       "white-winged dove",
+       "White-tipped dove"
+    ],
+    "attribution": "Texas Parks & Wildlife",
+    "properties": {
+       "id": "DoveZone",
+       "name": "DoveZone"
+    },
+    "country": "US",
+    "state": "TX",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://tpwd.maps.arcgis.com/apps/webappviewer/index.html?id=c9788957300943559f7b49206e8ef153"
+}
