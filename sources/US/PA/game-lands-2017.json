@@ -1,0 +1,17 @@
+{
+    "name" : "PA State Game Lands",
+    "url": "ftp://ftp.pasda.psu.edu/pub/pasda/pgc/PGC_StateGameland2017.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "Pennsylvania Game Commission",
+    "properties": {
+       "id": "NAME",
+       "name": "NAME"
+    },
+    "country": "US",
+    "state": "PA",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=86"
+}
