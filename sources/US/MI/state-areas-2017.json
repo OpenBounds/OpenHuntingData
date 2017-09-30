@@ -1,0 +1,17 @@
+{
+    "name" : "MI State Forest, Wildlife, and Game Areas Open to Hunting 2017",
+    "url": "http://gis-midnr.opendata.arcgis.com/datasets/403b88ca6cc443a59e54eb28e4f4de98_5#",
+    "species": [
+       "all"
+    ],
+    "attribution": "Michigan Department of Natural Resources",
+    "properties": {
+       "id": "UNITNAME",
+       "name": "UNITNAME"
+    },
+    "country": "US",
+    "state": "MI",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://gis-midnr.opendata.arcgis.com/datasets/403b88ca6cc443a59e54eb28e4f4de98_5"
+}

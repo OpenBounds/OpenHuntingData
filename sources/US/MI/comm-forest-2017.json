@@ -1,0 +1,17 @@
+{
+    "name" : "MI Commercial Forest Hunting Lands 2017",
+    "url": "https://opendata.arcgis.com/datasets/b1e8b023f10a44fc82f34fc23b7332b9_3.geojson",
+    "species": [
+       "all"
+    ],
+    "attribution": "Michigan Department of Natural Resources",
+    "properties": {
+       "id": "Townname",
+       "name": "Townname"
+    },
+    "country": "US",
+    "state": "MI",
+    "filetype": "geojson",
+    "year": "2017",
+    "source": "http://gis-midnr.opendata.arcgis.com/datasets/b1e8b023f10a44fc82f34fc23b7332b9_3"
+}

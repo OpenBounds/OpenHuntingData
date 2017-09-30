@@ -1,0 +1,17 @@
+{
+    "name" : "MI State Parks Huntable Lands 2017",
+    "url": "https://opendata.arcgis.com/datasets/3e28c59c21de444dabf083283e38f5f2_6.geojson",
+    "species": [
+       "all"
+    ],
+    "attribution": "Michigan Department of Natural Resources",
+    "properties": {
+       "id": "FACILITY",
+       "name": "FACILITY"
+    },
+    "country": "US",
+    "state": "MI",
+    "filetype": "geojson",
+    "year": "2017",
+    "source": "http://gis-midnr.opendata.arcgis.com/datasets/3e28c59c21de444dabf083283e38f5f2_6"
+}
