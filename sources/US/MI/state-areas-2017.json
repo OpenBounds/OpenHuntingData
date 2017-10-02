@@ -1,6 +1,6 @@
 {
     "name" : "MI State Forest, Wildlife, and Game Areas Open to Hunting 2017",
-    "url": "http://gis-midnr.opendata.arcgis.com/datasets/403b88ca6cc443a59e54eb28e4f4de98_5#",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/MI-State_Forest_Wildlife_and_Game_Areas_Open_to_Hunting.zip",
     "species": [
        "all"
     ],
