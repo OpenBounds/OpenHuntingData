@@ -1,0 +1,17 @@
+{
+    "name" : "OK Wildlife Management Units",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/OK-WMAs.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "Oklahoma Department of Wildlife Conservation",
+    "properties": {
+       "id": "WMANAME",
+       "name": "WMANAME"
+    },
+    "country": "US",
+    "state": "OK",
+    "filetype": "shp",
+     "year": "2017",
+    "source": "http://www.wildlifedepartment.com/hunting/where-to-hunt & http://maps.wildlifedepartment.okstate.edu/publicapps/odwc_WMA_map/"
+}
