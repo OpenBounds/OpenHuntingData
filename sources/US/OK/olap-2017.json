@@ -1,0 +1,17 @@
+{
+    "name" : "OK Land Access Program 2017",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/OK-olap2017.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "Oklahoma Department of Wildlife Conservation",
+    "properties": {
+       "id": "OLAPID",
+       "name": "OLAPID"
+    },
+    "country": "US",
+    "state": "OK",
+    "filetype": "shp",
+     "year": "2017",
+    "source": "http://www.wildlifedepartment.com/olap & http://odwc.maps.arcgis.com/apps/webappviewer/index.html?id=27811f67fe294f08aae8f73d405f3c24"
+}
