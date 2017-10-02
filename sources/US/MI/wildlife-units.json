@@ -1,0 +1,17 @@
+{
+    "name" : "MI Wildlife Management Units",
+    "url": "https://opendata.arcgis.com/datasets/b0c0353c7b8949cba7ff3f6a073ed2d0_0.geojson",
+    "species": [
+       "all"
+    ],
+    "attribution": "Michigan Department of Natural Resources",
+    "properties": {
+       "id": "MGMT_UNIT",
+       "name": "MGMT_UNIT"
+    },
+    "country": "US",
+    "state": "MI",
+    "filetype": "geojson",
+    "year": "2017",
+    "source": "http://gis-midnr.opendata.arcgis.com/datasets/b0c0353c7b8949cba7ff3f6a073ed2d0_0"
+}

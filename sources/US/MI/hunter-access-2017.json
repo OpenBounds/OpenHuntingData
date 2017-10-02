@@ -1,0 +1,17 @@
+{
+    "name" : "MI Hunter Access Program Land Areas 2017",
+    "url": "https://opendata.arcgis.com/datasets/45eb3aa7cb014130b0d509b7f51b6918_2.geojson",
+    "species": [
+       "all"
+    ],
+    "attribution": "Michigan Department of Natural Resources",
+    "properties": {
+       "id": "HAP_Olabel",
+       "name": "HAP_Olabel"
+    },
+    "country": "US",
+    "state": "MI",
+    "filetype": "geojson",
+    "year": "2017",
+    "source": "http://gis-midnr.opendata.arcgis.com/datasets/45eb3aa7cb014130b0d509b7f51b6918_2"
+}
