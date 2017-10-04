@@ -1,0 +1,24 @@
+{
+   "name": "MN Furbearer Zones",
+   "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_north_south_furbearer_zones/shp_bdry_north_south_furbearer_zones.zip",
+   "filenameInZip" : "North_South_Furbearer_Zones.shp", 
+   "species": [
+      "badger",
+      "beaver",
+      "fox",
+      "mink",
+      "opossum",
+      "otter",
+      "raccoon"
+   ],
+   "attribution": "Minnesota Department of Natural Resources",
+   "properties": {
+      "id": "Name",
+      "name": "Name"
+   },
+   "country": "US",
+   "state": "MN",
+   "filetype": "shp",
+   "year": "2016",
+   "source": "https://gisdata.mn.gov/dataset/bdry-north-south-furbearer-zones"
+}

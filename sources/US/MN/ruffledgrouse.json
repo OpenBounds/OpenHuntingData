@@ -12,5 +12,7 @@
    },
    "country": "US",
    "state": "MN",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "https://gisdata.mn.gov/dataset/bdry-ruffed-grouse-mgmt-areas"
 }
