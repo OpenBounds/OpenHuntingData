@@ -1,0 +1,18 @@
+{
+    "name" : "MN Walk-In Access Sites 2017",
+    "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_walk_in_access_sites/shp_bdry_dnr_walk_in_access_sites.zip",
+    "filenameInZip": "walk_in_access_sites.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "Minnesota Department of Natural Resources",
+    "properties": {
+       "id": "MAP_TITLE",
+       "name": "MAP_TITLE"
+    },
+    "country": "US",
+    "state": "MN",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://gisdata.mn.gov/dataset/bdry-dnr-walk-in-access-sites"
+}

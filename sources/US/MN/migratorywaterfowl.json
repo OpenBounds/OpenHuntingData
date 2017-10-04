@@ -1,15 +1,10 @@
 {
-   "name" : "MN Migratory Waterfowl Hunt Zones",
+   "name" : "MN Waterfowl Zones",
    "url": "https://s3.amazonaws.com/data.openbounds.org/USAHunting/manual-downloads/mn-waterfowlhuntzonesgisdata.zip",
    "species": [
       "duck",
       "coot",
-      "goose",
-      "mourning dove",
-      "woodcock",
-      "sora rail",
-      "virginia rail",
-      "common snipe"
+      "goose"
    ],
    "attribution": "Minnesota Department of Natural Resources",
    "properties": {
@@ -18,5 +13,7 @@
    },
    "country": "US",
    "state": "MN",
-   "filetype": "shp"
+   "filetype": "shp",
+    "year": "2017",
+    "source": "http://www.dnr.state.mn.us/regulations/hunting/index.html"
 }

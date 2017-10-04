@@ -1,6 +1,7 @@
 {
    "name" : "MN Turkey Permit Areas",
    "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_turkey_permit_areas/shp_bdry_turkey_permit_areas.zip",
+   "filenameInZip": "turkey_permit_areas.shp",
    "species": [
       "Turkey"
    ],
@@ -11,5 +12,7 @@
    },
    "country": "US",
    "state": "MN",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "https://gisdata.mn.gov/dataset/bdry-turkey-permit-areas"
 }

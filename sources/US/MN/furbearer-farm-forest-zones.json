@@ -1,0 +1,24 @@
+{
+   "name": "MN Furbearer Farmland and Forest Zones",
+   "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_farmland_forest_zones/shp_bdry_farmland_forest_zones.zip",
+   "filenameInZip" : "Farmland_Forest_Zones.shp", 
+   "species": [
+      "badger",
+      "beaver",
+      "fox",
+      "mink",
+      "opossum",
+      "otter",
+      "raccoon"
+   ],
+   "attribution": "Minnesota Department of Natural Resources",
+   "properties": {
+      "id": "Name",
+      "name": "Name"
+   },
+   "country": "US",
+   "state": "MN",
+   "filetype": "shp",
+   "year": "2016",
+   "source": "https://gisdata.mn.gov/dataset/bdry-farmland-forest-zones"
+}

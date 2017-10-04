@@ -1,0 +1,18 @@
+{
+    "name" : "MN Wildlife Management Areas",
+    "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_wildlife_mgmt_areas_pub/shp_bdry_dnr_wildlife_mgmt_areas_pub.zip",
+    "filenameInZip": "dnr_wildlife_management_area_boundaries_publicly_accessible.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "Minnesota Department of Natural Resources",
+    "properties": {
+       "id": "name",
+       "name": "name"
+    },
+    "country": "US",
+    "state": "MN",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://gisdata.mn.gov/dataset/bdry-dnr-wildlife-mgmt-areas-pub"
+}
