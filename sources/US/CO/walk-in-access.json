@@ -1,7 +1,7 @@
 {
    "name" : "CO Walk In Access - 2017",
    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/co-CPWWalkInAccess08152017.zip",
-   "filenameInZip": "CPWWalkInAccess08152017.shp"
+   "filenameInZip": "CPWWalkInAccess08152017.shp",
    "species": [
       "all"
    ],
