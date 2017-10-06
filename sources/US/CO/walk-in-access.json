@@ -1,0 +1,18 @@
+{
+   "name" : "CO Walk In Access - 2017",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/co-CPWWalkInAccess08152017.zip",
+   "filenameInZip": "CPWWalkInAccess08152017.shp"
+   "species": [
+      "all"
+   ],
+   "attribution": "Colorado Parks and Wildlife",
+   "properties": {
+      "id": "COVER",
+      "name": "COVER"
+   },
+   "country": "US",
+   "state": "CO",
+   "filetype": "shp",
+   "year": "2017",
+   "source": "http://www.arcgis.com/home/item.html?id=d50af5fb22764db198ba826e35f117a8"
+}

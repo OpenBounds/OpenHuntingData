@@ -1,6 +1,7 @@
 {
-   "name" : "CO Big Game GMUs",
-   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/CPW_GMUBoundaries.zip",
+   "name" : "CO Game Management Units - Big Game",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/co-BigGameGMUBoundaries08152017.zip",
+   "filenameInZip": "BigGameGMUBoundaries08152017.shp",
    "species": [
       "bear",
       "black bear",
@@ -14,12 +15,14 @@
       "puma",
       "white-tailed deer"
    ],
-   "attribution": "Colorado Department of Natural Resources",
+   "attribution": "Colorado Parks and Wildlife",
    "properties": {
       "id": "GMUID",
       "name" : "GMUID"
    },
    "country": "US",
    "state": "CO",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "http://www.arcgis.com/home/item.html?id=93c485b0f27e4ff68c066a4b23cbaad3"
 }
