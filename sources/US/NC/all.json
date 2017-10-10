@@ -1,17 +1,19 @@
 {
-   "name" : "NC Hunt Units for All Species",
-   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/NCWRC_gamelands.zip",
+   "name" : "NC Game Lands",
+   "url": "http://data.nconemap.gov/downloads/vector/gml.zip",
+   "filenameInZip": "gml.shp",
    "species": [
       "all"
    ],
-   "attribution": "North Carolina Department of Environment and Natural Resources, Wildlife Resources Commission and the NC Center for Geographic Information and Analysis",
+   "attribution": "North Carolina Wildlife Resources Commission",
    "properties": {
-      "id": "OBJECTID",
-      "name": "GML_TRACT",
-      "gameland" : "GML_HAB",
-      "type" : "GML_TYPE"
+      "id": "GML_HAB",
+      "name": "GML_HAB"
    },
    "country": "US",
    "state": "NC",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "http://data.nconemap.com/geoportal/catalog/main/home.page"
 }
+
