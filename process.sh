@@ -57,11 +57,11 @@ for i in $RESULT_DIR/*/*/*.geojson; do
         mv $DATA_MBTILES $VECTOR_MBTILES
     fi
 
-    echo "Uploading vector tiles"
+    S3_LOCATION=s3://data.openbounds.org/USAHunting/vector/`dirname ${i#*/}`/`basename $i .geojson`/
+    echo "Uploading vector tiles to $S3_LOCATION"
     python ./Processing/upload_mbtiles.py --extension ".pbf" \
      --threads 100 \
-     $VECTOR_MBTILES \
-     s3://data.openbounds.org/USAHunting/vector/`dirname $i`/`basename $i .geojson`/
+     $VECTOR_MBTILES $S3_LOCATION
 
     rm -r $WORK_DIR
 done
