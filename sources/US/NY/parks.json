@@ -1,0 +1,17 @@
+{
+    "name" : "NY State Parks Open for Hunting",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ny-stateparks.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "New York Department of Environmental Conservation",
+    "properties": {
+       "id": "NAME",
+       "name": "NAME"
+    },
+    "country": "US",
+    "state": "NY",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://www.dec.ny.gov/outdoor/45415.html & State Parks layer filtered against http://www.dec.ny.gov/outdoor/88898.html"
+}
