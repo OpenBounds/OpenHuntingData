@@ -1,0 +1,17 @@
+{
+    "name" : "NY State Forests Open for Hunting",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ny-stateforest.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "New York Department of Environmental Conservation",
+    "properties": {
+       "id": "FACILITY",
+       "name": "FACILITY"
+    },
+    "country": "US",
+    "state": "NY",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://www.dec.ny.gov/outdoor/45415.html & DEC Lands layer filtered against http://www.dec.ny.gov/lands/34531.html"
+}

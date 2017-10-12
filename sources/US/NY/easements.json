@@ -1,0 +1,17 @@
+{
+    "name" : "NY Conservation Easements Open for Hunting 2017",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ny-easements-2017.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "New York Department of Environmental Conservation",
+    "properties": {
+       "id": "FACILITY",
+       "name": "FACILITY"
+    },
+    "country": "US",
+    "state": "NY",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://www.dec.ny.gov/outdoor/45415.html & Conservation Easement layer filtered against http://www.dec.ny.gov/lands/41156.html"
+}

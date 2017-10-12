@@ -1,0 +1,21 @@
+{
+    "name" : "NY Waterfowl Hunting Zones",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ny-waterfowlzones.zip",
+    "species": [
+       "Ducks",
+       "Coots",
+       "Mergansers",
+       "Snow Geese",
+       "Brant"
+    ],
+    "attribution": "New York Department of Environmental Conservation",
+    "properties": {
+       "id": "Name",
+       "name": "Name"
+    },
+    "country": "US",
+    "state": "NY",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://www.dec.ny.gov/pubs/103457.html"
+}

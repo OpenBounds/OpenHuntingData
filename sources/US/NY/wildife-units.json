@@ -1,0 +1,17 @@
+{
+    "name" : "NY Wildlife Management Units",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/NY-WMUs.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "New York Department of Environmental Conservation",
+    "properties": {
+       "id": "UNIT",
+       "name": "UNIT"
+    },
+    "country": "US",
+    "state": "NY",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://www.dec.ny.gov/outdoor/45415.html & Wildlife Management Unit layer"
+}
