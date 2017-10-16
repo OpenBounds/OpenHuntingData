@@ -1,0 +1,18 @@
+{
+    "name" : "MO Conservation Areas Open for Hunting",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/mo-conservations-areas.zip",
+    "filenameInZip": "MO-MDC_Lands.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "Missouri Department of Conservation",
+    "properties": {
+       "id": "Area_Name",
+       "name": "Area_Name"
+    },
+    "country": "US",
+    "state": "MO",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://mdcgis.maps.arcgis.com/apps/Viewer/index.html?appid=90fa4db152ec4190bcc1dee12a524538 & MDC Lands layer filtered against all hunting activities search results from: http://mdc7.mdc.mo.gov/applications/moatlas/AdvancedSearch.aspx"
+}

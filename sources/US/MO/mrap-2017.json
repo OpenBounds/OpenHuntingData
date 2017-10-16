@@ -1,0 +1,18 @@
+{
+    "name" : "MO MRAP Hunting Areas 2017",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/mo-outdoor-rec-access-2017.zip",
+    "filenameInZip": "MO-MRAP.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "Missouri Department of Conservation",
+    "properties": {
+       "id": "Area_Name",
+       "name": "Area_Name"
+    },
+    "country": "US",
+    "state": "MO",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://mdcgis.maps.arcgis.com/home/index.html & select Missouri Outdoor Recreational Access Program"
+}
