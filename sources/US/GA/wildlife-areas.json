@@ -1,0 +1,18 @@
+{
+    "name" : "GA Wildlife Management Areas",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ga-wildlife-management-areas.zip",
+    "filenameInZip": "dnr17c.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "Georgia Dept. of Nat. Resources Wildlife Resources Division",
+    "properties": {
+       "id": "NAME",
+       "name": "NAME"
+    },
+    "country": "US",
+    "state": "GA",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://data.georgiaspatial.org/index.asp?body=preview&dataId=69"
+}
