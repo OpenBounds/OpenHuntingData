@@ -1,0 +1,18 @@
+{
+    "name" : "OH State Parks Open for Hunting",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/oh-stateparks.zip",
+    "filenameInZip": "OH-StateParks.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "Ohio Dept. of Natural Resources Division of Wildlife",
+    "properties": {
+       "id": "Name_Label",
+       "name": "Name_Label"
+    },
+    "country": "US",
+    "state": "OH",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://gis.ohiodnr.gov/MapViewer/?config=ODNRLands & Lands&Facilities layers filtered against http://wildlife.ohiodnr.gov/portals/wildlife/pdfs/public%20areas/Public%20hunting%20areas.pdf"
+}
