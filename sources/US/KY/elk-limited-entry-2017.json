@@ -1,0 +1,18 @@
+{
+   "name": "KY Elk Limited Entry Areas 2017",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ky-elk-limited-entry-2017.zip",
+   "filenameInZip": "KY-ElkLimitedEntry.shp",
+   "species": [
+      "elk"
+   ],
+   "attribution": "Kentucky Department of Fish & Wildlife Resources",
+   "properties": {
+      "id": "AreaName",
+      "name": "AreaName"
+   },
+   "country": "US",
+   "state": "KY",
+   "filetype": "shp",
+    "year": "2017",
+    "source": "https://www.arcgis.com/home/webmap/viewer.html?webmap=07e6ddb4b0f5496c9d01883e40237af4&extent=-84.7664,36.303,-82.5883,37.8435 & elk limited entry areas layer"
+}

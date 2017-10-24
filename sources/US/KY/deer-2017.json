@@ -1,0 +1,18 @@
+{
+   "name": "KY Deer Management Zones 2017",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ky-annual-deer-zone-2017.zip",
+   "filenameInZip": "Annual_Deer_Mgt_Zones.shp",
+   "species": [
+      "Deer"
+   ],
+   "attribution": "Kentucky Department of Fish & Wildlife Resources",
+   "properties": {
+      "id": "NAME",
+      "name": "NAME"
+   },
+   "country": "US",
+   "state": "KY",
+   "filetype": "shp",
+    "year": "2017",
+    "source": "http://kygisserver.ky.gov/geoportal/catalog/main/home.page & search for annual deer zones"
+}

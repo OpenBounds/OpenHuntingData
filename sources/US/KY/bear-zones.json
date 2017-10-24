@@ -1,0 +1,17 @@
+{
+   "name": "KY Bear Zones",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ky-bear-zones-final.zip",
+   "species": [
+      "bear"
+   ],
+   "attribution": "Kentucky Department of Fish & Wildlife Resources",
+   "properties": {
+      "id": "NAME",
+      "name": "NAME"
+   },
+   "country": "US",
+   "state": "KY",
+   "filetype": "shp",
+    "year": "2017",
+    "source": "http://www.arcgis.com/home/webmap/viewer.html?webmap=fc0d26ac525442f485bec81359c01a56&extent=-86.2019,35.8987,-81.2306,39.1009 & combining all the bear layers into one shp"
+}

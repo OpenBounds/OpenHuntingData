@@ -1,6 +1,7 @@
 {
-   "name": "KY Hunting areas",
+   "name": "KY Wildlife Management Areas & Public Hunting Areas",
    "url": "http://app.fw.ky.gov/kfwis/kygeonet//Public_Hunting_areas.zip",
+   "filenameInZip": "Public_hunting_areas.shp",
    "species": [
       "all"
    ],
@@ -11,5 +12,7 @@
    },
    "country": "US",
    "state": "KY",
-   "filetype": "shp"
+   "filetype": "shp",
+    "year": "2016",
+    "source": "http://kygisserver.ky.gov/geoportal/catalog/main/home.page & search for public hunting"
 }
