@@ -11,5 +11,7 @@
    },
    "country": "US",
    "state": "CA",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "http://portal.gis.ca.gov/geoportal/catalog/search/search.page & search for deer hunt"
 }

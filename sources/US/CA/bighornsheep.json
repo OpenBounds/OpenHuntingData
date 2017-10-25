@@ -2,14 +2,16 @@
    "name": "CA Bighorn Sheep Hunt Zones",
    "url": "ftp://ftp.dfg.ca.gov/BDB/GIS/BIOS/Public_Datasets/700_799/ds784.zip",
    "species": [
-      "big horn sheep"
+      "bighorn sheep"
    ],
    "attribution": "California Department of Fish and Wildlife",
    "properties": {
       "id": "Zone",
-      "name": "Hunt_Name"
+      "name": "Zone"
    },
    "country": "US",
    "state": "CA",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "http://portal.gis.ca.gov/geoportal/catalog/search/search.page & search for bighorn hunt"
 }
