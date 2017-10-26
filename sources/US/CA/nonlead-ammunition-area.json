@@ -6,8 +6,8 @@
    ],
    "attribution": "California Department of Fish and Wildlife",
    "properties": {
-      "id": "ZONE_LTR",
-      "name": "Zone_Name"
+      "id": "Name",
+      "name": "Name"
    },
    "country": "US",
    "state": "CA",
