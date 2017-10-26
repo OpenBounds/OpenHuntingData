@@ -7,7 +7,7 @@
     ],
     "attribution": "Alabama Dept. of Conservation and Natural Resources",
     "properties": {
-       "id": "ONBJECTID",
+       "id": "OBJECTID",
        "name": "Name"
     },
     "country": "US",
