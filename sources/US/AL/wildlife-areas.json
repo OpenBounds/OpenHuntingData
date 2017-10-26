@@ -1,0 +1,18 @@
+{
+    "name" : "AL Wildlife Management Areas",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/AL-WMAs.zip",
+    "filenameInZip": "AL-WMAs.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "Alabama Dept. of Conservation and Natural Resources",
+    "properties": {
+       "id": "ONBJECTID",
+       "name": "Name"
+    },
+    "country": "US",
+    "state": "AL",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://conservationgis.alabama.gov/dcnr/ & Wildlife Management Areas layer"
+}

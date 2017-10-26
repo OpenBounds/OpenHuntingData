@@ -1,0 +1,18 @@
+{
+    "name" : "AL ADA Accessible Hunting Areas",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/AL-ADA-HuntAreas.zip",
+    "filenameInZip": "AL-ADA-HuntAreas.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "Alabama Dept. of Conservation and Natural Resources",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "Name"
+    },
+    "country": "US",
+    "state": "AL",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://conservationgis.alabama.gov/dcnr/ & Physically Disabled Hunting Areas layer"
+}
