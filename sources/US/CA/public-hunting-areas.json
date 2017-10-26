@@ -1,0 +1,18 @@
+{
+   "name": "CA Wildlife Areas & Reserves",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ca-public-access-lands.zip",
+   "filenameInZip": "CA-PublicAccessLands.shp",
+   "species": [
+      "all"
+   ],
+   "attribution": "California Department of Fish and Wildlife",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "PROP_NAME"
+   },
+   "country": "US",
+   "state": "CA",
+   "filetype": "shp",
+   "year": "2017",
+   "source": "https://map.dfg.ca.gov/lands/ & CDFW Public Access Lands layer with fishing access polygons removed"
+}

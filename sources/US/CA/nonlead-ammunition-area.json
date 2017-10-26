@@ -1,0 +1,17 @@
+{
+   "name": "CA Nonlead Ammunition Area",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ca-nonlead-area.zip",
+   "species": [
+      "all"
+   ],
+   "attribution": "California Department of Fish and Wildlife",
+   "properties": {
+      "id": "Name",
+      "name": "Name"
+   },
+   "country": "US",
+   "state": "CA",
+   "filetype": "shp",
+    "year": "2017",
+    "source": "KML download https://www.wildlife.ca.gov/Hunting/Deer#54774-zones--hunts & Condor layer"
+}

@@ -1,0 +1,17 @@
+{
+   "name": "CA Sooty (Blue) & Ruffed Grouse Hunt Zone",
+   "url": "ftp://ftp.dfg.ca.gov/BDB/GIS/BIOS/Public_Datasets/1300_1399/ds1341.zip",
+   "species": [
+      "grouse"
+   ],
+   "attribution": "California Department of Fish and Wildlife",
+   "properties": {
+      "id": "Species",
+      "name": "Species"
+   },
+   "country": "US",
+   "state": "CA",
+   "filetype": "shp",
+   "year": "2017",
+   "source": "http://portal.gis.ca.gov/geoportal/catalog/search/search.page & search for grouse hunt"
+}
