@@ -8,7 +8,7 @@
     "attribution": "Virginia Dept. of Game & Inland Fisheries",
     "properties": {
        "id": "Number",
-       "name": "WMA-NAME"
+       "name": "WMA_NAME"
 },
     "country": "US",
     "state": "VA",
