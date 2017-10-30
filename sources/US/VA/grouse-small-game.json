@@ -1,0 +1,20 @@
+{
+    "name" : "VA Potential Ruffed Grouse and Small Game Habitat",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/VA-Potential-Ruffed-Grouse-habitat.zip",
+    "species": [
+       "grouse",
+       "rabbit",
+       "quail",
+       "squirrel"
+    ],
+    "attribution": "Virginia Dept. of Game & Inland Fisheries",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "TimberAge"
+},
+    "country": "US",
+    "state": "VA",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://services2.arcgis.com/qsZIVOgnyrsajEtb/ArcGIS/rest/services/YoungForest/FeatureServer & Combine this layers: Stands 5-9, Stands 10-14, Stands 15-20"
+}

@@ -1,0 +1,17 @@
+{
+    "name" : "VA State Forests Open for Hunting",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/VA-StateForest.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "Virginia Department of Forestry",
+    "properties": {
+       "id": "OBJECTISD_1",
+       "name": "SF_Name"
+},
+    "country": "US",
+    "state": "VA",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://inforest.frec.vt.edu/ & State Forests layer"
+}
