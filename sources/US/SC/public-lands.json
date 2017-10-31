@@ -1,0 +1,17 @@
+{
+    "name" : "SC Wildlife Management Areas & Public Lands Open for Hunting",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/sc-wildlife-management-areas.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "South Carolina Dept. of Natural Resources",
+    "properties": {
+       "id": "Loc_Nm",
+       "name": "Loc_Nm"
+    },
+    "country": "US",
+    "state": "SC",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://gapanalysis.usgs.gov/padus/data/download/ filtered against https://www2.dnr.sc.gov/ManagedLands/ManagedLand/ActivityResult & https://scdnr.maps.arcgis.com/apps/Viewer/index.html?appid=72fd99d8d05e4dceaf0ddc5344980ba1"
+}
