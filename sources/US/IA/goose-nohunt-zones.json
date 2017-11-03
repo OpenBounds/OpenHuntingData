@@ -1,0 +1,18 @@
+{
+    "name" : "IA Areas Closed for Canada Goose Hunting",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/IA-ClosedGooseArea.zip",
+    "filenameInZip": "IA-ClosedGooseArea.shp",
+    "species": [
+       "canada goose"
+    ],
+    "attribution": "Iowa Dept. of Natural Resources",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "CAGO"
+    },
+    "country": "US",
+    "state": "IA",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://programs.iowadnr.gov/maps/huntingatlas/default.html & the Closed Canada Goose Area layer"
+}
