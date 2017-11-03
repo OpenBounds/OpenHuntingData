@@ -1,0 +1,18 @@
+{
+    "name" : "ND Turkey - Spring Units",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/nd-small-game-units.zip",
+    "filenameInZip": "NDGAMEFISH_UNIT_TURKEYSPRING_polygon.shp",
+    "species": [
+       "turkey"
+    ],
+    "attribution": "North Dakota Game & Fish Dept.",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "UNIT_ID"
+    },
+    "country": "US",
+    "state": "ND",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://gishubdata.nd.gov/dataset/spring-turkey-hunting-units"
+}
