@@ -1,0 +1,20 @@
+{
+    "name" : "ND Waterfowl Hunting Units",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/nd-small-game-units.zip",
+    "filenameInZip": "NDGAMEFISH_UNIT_HUNTING_polygon.shp",
+    "species": [
+       "ducks",
+       "coots",
+       "mergansers"
+    ],
+    "attribution": "North Dakota Game & Fish Dept.",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "UNIT_TYPE"
+    },
+    "country": "US",
+    "state": "ND",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://gishubdata.nd.gov/dataset/hunting-units"
+}

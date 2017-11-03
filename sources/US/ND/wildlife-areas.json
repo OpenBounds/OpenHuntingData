@@ -1,0 +1,18 @@
+{
+    "name" : "ND Wildlife Management Areas",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/nd-wildlife-areas.zip",
+    "filenameInZip": "NDGAMEFISH_WMA_LANDSVW_polygon.shp",
+    "species": [
+       "all"
+   ],
+    "attribution": "North Dakota Game & Fish Dept.",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "UNIT_NAME"
+    },
+    "country": "US",
+    "state": "ND",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://gishubdata.nd.gov/dataset/wildlife-management-areas"
+}
