@@ -1,0 +1,20 @@
+{
+    "name" : "IA Waterfowl Zones",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ia-waterfowl-zones.zip",
+    "filenameInZip": "waterfowl-zones.shp",
+    "species": [
+       "ducks",
+       "geese",
+       "waterfowl"
+    ],
+    "attribution": "Iowa Dept. of Natural Resources",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "Waterfowl"
+    },
+    "country": "US",
+    "state": "IA",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://programs.iowadnr.gov/geospatial/rest/services/Recreation/Hunting/MapServer/7 & filtered for waterfowl"
+}

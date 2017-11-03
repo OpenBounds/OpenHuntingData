@@ -1,0 +1,18 @@
+{
+    "name" : "IA Habitat & Access Program (IHAP) 2017-2018",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/IA-Access2017.zip",
+    "filenameInZip": "IA-Access2017.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "Iowa Dept. of Natural Resources",
+    "properties": {
+       "id": "OBJECTID_1",
+       "name": "AREA_NAME"
+    },
+    "country": "US",
+    "state": "IA",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://programs.iowadnr.gov/maps/huntingatlas/default.html & the Iowa Habitat Access Program Tracts: Sept 1-May 31 layer"
+}

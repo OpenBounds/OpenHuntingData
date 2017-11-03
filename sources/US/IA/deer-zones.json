@@ -1,0 +1,18 @@
+{
+    "name" : "IA Deer Zones",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ia-deer-zones.zip",
+    "filenameInZip": "deer-zones.shp",
+    "species": [
+       "deer"
+    ],
+    "attribution": "Iowa Dept. of Natural Resources",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "NR_Deer"
+    },
+    "country": "US",
+    "state": "IA",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://programs.iowadnr.gov/geospatial/rest/services/Recreation/Hunting/MapServer/7 & filtered for deer"
+}

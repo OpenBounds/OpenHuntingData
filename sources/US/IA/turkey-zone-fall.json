@@ -1,0 +1,18 @@
+{
+    "name" : "IA Fall Turkey Zones",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ia-turkey-zones-fall.zip",
+    "filenameInZip": "turkey-zones-fall.shp",
+    "species": [
+       "turkey"
+    ],
+    "attribution": "Iowa Dept. of Natural Resources",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "R_F_Trky"
+    },
+    "country": "US",
+    "state": "IA",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://programs.iowadnr.gov/geospatial/rest/services/Recreation/Hunting/MapServer/7 & filtered for turkey"
+}
