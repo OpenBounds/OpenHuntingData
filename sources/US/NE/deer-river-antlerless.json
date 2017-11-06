@@ -1,6 +1,6 @@
 {
    "name" : "NE Deer - River Antlerless Private Land Only Units",
-   "url": "https://opendata.arcgis.com/datasets/630a395b4c724867a3cf4536b57c7988_17.zip",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ne-bighorn-and-deer-river-antlerless-data.zip",
    "filenameInZip": "Deer_River_Antlerless_Units.shp",
    "species": [
       "Deer"
