@@ -1,6 +1,7 @@
 {
-   "name" : "NE Deer Firearm Units",
+   "name" : "NE Deer - River Antlerless Private Land Only Units",
    "url": "https://opendata.arcgis.com/datasets/630a395b4c724867a3cf4536b57c7988_17.zip",
+   "filenameInZip": "Deer_River_Antlerless_Units.shp",
    "species": [
       "Deer"
    ],
@@ -13,5 +14,5 @@
    "state": "NE",
    "filetype": "shp",
    "year": "2017",
-   "source": "http://data.outdoornebraska.gov/datasets/deer-firearm-units"
+   "source": "http://data.outdoornebraska.gov/datasets/deer-river-antlerless-units & edit polygon name"
 }

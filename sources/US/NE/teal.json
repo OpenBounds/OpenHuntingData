@@ -1,18 +1,17 @@
 {
-   "name" : "NE Waterfowl Teal Zones",
-   "url": "http://data.outdoornebraska.gov/datasets/fd84a033938e41f3811a4ea89c5c6f68_7.zip",
+   "name" : "NE Waterfowl - Teal Zones",
+   "url": "https://opendata.arcgis.com/datasets/fd84a033938e41f3811a4ea89c5c6f68_7.zip",
    "species": [
       "Teal"
    ],
    "attribution": "Nebraska Game and Parks Commission",
    "properties": {
       "id": "OBJECTID",
-      "name": "Zone",
-      "season" : "Season",
-      "possession" : "Possession",
-      "shooting hours" : "ShootingHo"
+      "name": "Zone"
    },
    "country": "US",
    "state": "NE",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "http://data.outdoornebraska.gov/datasets/waterfowl-teal-zones"
 }
