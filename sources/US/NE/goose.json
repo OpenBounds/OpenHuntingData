@@ -1,19 +1,20 @@
 {
-   "name" : "NE Waterfowl Light Goose Conservation Order Zones",
-   "url": "http://data.outdoornebraska.gov/datasets/fab556a9a51c4ac385544cbb8830839d_5.zip",
+   "name" : "NE Waterfowl - Light Goose Conservation Order Zones",
+   "url": "https://opendata.arcgis.com/datasets/fab556a9a51c4ac385544cbb8830839d_5.zip",
    "species": [
-      "Light Goose"
+      "specklebelly goose",
+      "snow goose",
+      "Blue goose",
+      "Ross's goose"
    ],
    "attribution": "Nebraska Game and Parks Commission",
    "properties": {
       "id": "OBJECTID",
-      "name": "Zone",
-      "season" : "Season",
-      "notes" : "Notes",
-      "daily bag limit" : "DailyBagLi",
-      "possession" : "Possession"
+      "name": "Zone"
    },
    "country": "US",
    "state": "NE",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "http://data.outdoornebraska.gov/datasets/waterfowl-light-goose-conservation-order-zones"
 }

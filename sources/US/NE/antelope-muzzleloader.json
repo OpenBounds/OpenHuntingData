@@ -1,18 +1,17 @@
 {
    "name" : "NE Antelope Muzzleloader Units",
-   "url": "http://data.outdoornebraska.gov/datasets/1574e7c06ef94696ac7e0e32fb881cc1_23.zip",
+   "url": "https://opendata.arcgis.com/datasets/1574e7c06ef94696ac7e0e32fb881cc1_23.zip",
    "species": [
       "Antelope"
    ],
    "attribution": "Nebraska Game and Parks Commission",
    "properties": {
       "id": "OBJECTID",
-      "name": "UnitName",
-      "season" : "Season",
-      "limit" : "Limit",
-      "rules" : "Rules"
+      "name": "UnitName"
    },
    "country": "US",
    "state": "NE",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "http://data.outdoornebraska.gov/datasets/antelope-muzzleloader-units"
 }

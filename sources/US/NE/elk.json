@@ -1,17 +1,17 @@
 {
    "name" : "NE Elk Units",
-   "url": "http://data.outdoornebraska.gov/datasets/2a8faeff80c241c4ab47ec70520d2c2f_11.zip",
+   "url": "https://opendata.arcgis.com/datasets/2a8faeff80c241c4ab47ec70520d2c2f_11.zip",
    "species": [
       "Elk"
    ],
    "attribution": "Nebraska Game and Parks Commission",
    "properties": {
       "id": "OBJECTID",
-      "name": "UnitName",
-      "antler season" : "AntlerSeas",
-      "antlerless season" : "Antlerless"
+      "name": "UnitName"
    },
    "country": "US",
    "state": "NE",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "http://data.outdoornebraska.gov/datasets/elk-units"
 }
