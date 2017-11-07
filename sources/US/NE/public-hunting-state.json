@@ -1,0 +1,17 @@
+{
+    "name" : "NE Wildlife Management Areas, State Recreations Areas, & Waterfowl Production Areas",
+    "url": "https://opendata.arcgis.com/datasets/bbb12fbab3154b19803715b6ee561939_35.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "Nebraska Game and Parks",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "HuntingA_2"
+    },
+    "country": "US",
+    "state": "NE",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://data.outdoornebraska.gov/datasets/bbb12fbab3154b19803715b6ee561939_35"
+}

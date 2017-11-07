@@ -1,9 +1,9 @@
 {
-   "name" : "NE Bighorn Sheep Unit",
+   "name" : "NE Deer - River Antlerless Private Land Only Units",
    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ne-bighorn-and-deer-river-antlerless-data.zip",
-   "filenameInZip": "Bighorn_Sheep_Unit.shp",
+   "filenameInZip": "Deer_River_Antlerless_Units.shp",
    "species": [
-      "Bighorn Sheep"
+      "Deer"
    ],
    "attribution": "Nebraska Game and Parks Commission",
    "properties": {
@@ -14,5 +14,5 @@
    "state": "NE",
    "filetype": "shp",
    "year": "2017",
-   "source": "http://data.outdoornebraska.gov/datasets/bighorn-sheep-unit & edit polygon name"
+   "source": "http://data.outdoornebraska.gov/datasets/deer-river-antlerless-units & edit polygon name"
 }

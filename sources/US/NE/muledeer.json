@@ -1,21 +1,17 @@
 {
-   "name" : "NE Mule Deer Conservation and Protection Zones",
-   "url": "http://data.outdoornebraska.gov/datasets/8f376a2fe9b248e491b1011a70cdc5e7_13.zip",
+   "name" : "NE Mule Deer Conservation Areas & Protection Zone",
+   "url": "https://opendata.arcgis.com/datasets/8f376a2fe9b248e491b1011a70cdc5e7_13.zip",
    "species": [
       "Mule Deer"
    ],
    "attribution": "Nebraska Game and Parks Commission",
    "properties": {
       "id": "OBJECTID",
-      "name": "UnitName",
-      "season" : "FirearmSea",
-      "bag limits" : "BagLimits",
-      "weapon" : "Weapon",
-      "muzzleload" : "Muzzleload",
-      "rules" : "Rules",
-      "type" : "Type"
+      "name": "UnitName"
    },
    "country": "US",
    "state": "NE",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "http://data.outdoornebraska.gov/datasets/mule-deer-conservation-and-protection-zones"
 }

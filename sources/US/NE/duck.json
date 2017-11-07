@@ -1,20 +1,24 @@
 {
-   "name" : "NE Duck Units",
-   "url": "http://data.outdoornebraska.gov/datasets/90c0fcd6695342a78593a0ae8d77bcaf_3.zip",
+   "name" : "NE Waterfowl - Duck Zones",
+   "url": "https://opendata.arcgis.com/datasets/90c0fcd6695342a78593a0ae8d77bcaf_3.zip",
    "species": [
-      "Duck"
+      "mallard",
+      "wood duck",
+      "scaup",
+      "redhead",
+      "pintail",
+      "canvasback",
+      "merganser",
+      "coot"
    ],
    "attribution": "Nebraska Game and Parks Commission",
    "properties": {
       "id": "OBJECTID",
-      "name": "Zone",
-      "season" : "Season",
-      "shooting hours" : "ShootingHo",
-      "daily bag limit" : "DailyBagLi",
-      "possession" : "Possession",
-      "notes" : "Notes"
+      "name": "Zone"
    },
    "country": "US",
    "state": "NE",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2017",
+   "source": "http://data.outdoornebraska.gov/datasets/waterfowl-duck-zones"
 }

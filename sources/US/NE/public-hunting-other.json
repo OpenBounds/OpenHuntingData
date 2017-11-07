@@ -1,0 +1,17 @@
+{
+    "name" : "NE Federal & Conservation Group Lands Open for Hunting",
+    "url": "https://opendata.arcgis.com/datasets/ee0b86b85bda40e1b2311661896b15df_63.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "Nebraska Game and Parks",
+    "properties": {
+       "id": "GIS_WEBSDE",
+       "name": "GIS_WEBS_9"
+    },
+    "country": "US",
+    "state": "NE",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://data.outdoornebraska.gov/datasets/ee0b86b85bda40e1b2311661896b15df_63"
+}
