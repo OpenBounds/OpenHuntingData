@@ -49,10 +49,16 @@ def generate_styles_from_catalog(template, catalog_path, destination_dir):
         feature_geometry = shape(feature['geometry'])
         path = feature['properties']['path'].split('.')[0]
         filename = path.replace("/", "_")[:source_key_max_length] + ".json"
+        try:
+            center = feature_geometry.centroid.coords[0]
+        except:
+            logging.error(feature)
+            logging.error("Failed to get centroid for file " + filename)
+
         generate_style(template, path,
             os.path.join(destination_dir, filename),
             name=feature['properties']['name'],
-            center=feature_geometry.centroid.coords[0])
+            center=center)
         tileserver_config["/OpenHuntingData/" + path] = {
             "source": "gl:///opt/styles/OpenHuntingData/" + filename,
             "sourceMaxZoom": 13,
