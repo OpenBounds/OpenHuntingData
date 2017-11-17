@@ -1,0 +1,17 @@
+{
+    "name" : "IN Public Lands Open for Hunting",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/IN-HuntAreas.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "Indiana Department of Natural Resources",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "PROPERTY"
+    },
+    "country": "US",
+    "state": "IN",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://indnr.maps.arcgis.com/apps/webappviewer/index.html?id=05e37ac12a1345ceb1673228fb2793ce"
+}
