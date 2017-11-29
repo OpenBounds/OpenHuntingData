@@ -1,0 +1,18 @@
+{
+    "name" : "AR Bear Zones",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ar-hunting-zones.zip",
+    "filenameInZip": "AR-Bear.shp",
+    "species": [
+       "bear"
+    ],
+    "attribution": "Arkansas Game and Fish Commission",
+    "properties": {
+       "id": "objectid_1",
+       "name": "flabel"
+    },
+    "country": "US",
+    "state": "AR",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://gis.agfc.com/ & Bear Zones layer within the Reference Layers"
+}

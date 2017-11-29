@@ -1,0 +1,18 @@
+{
+    "name" : "AR Elk Zones",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ar-hunting-zones.zip",
+    "filenameInZip": "AR-Elk.shp",
+    "species": [
+       "elk"
+    ],
+    "attribution": "Arkansas Game and Fish Commission",
+    "properties": {
+       "id": "objectid",
+       "name": "fname"
+    },
+    "country": "US",
+    "state": "AR",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://gis.agfc.com/ & Elk Zones layer within the Reference Layers"
+}

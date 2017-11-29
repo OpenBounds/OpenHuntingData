@@ -1,0 +1,18 @@
+{
+    "name" : "AR Wildlife Management Areas",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ar-wmas-private-lands.zip",
+    "filenameInZip": "AR-WMA.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "Arkansas Game and Fish Commission",
+    "properties": {
+       "id": "objectid",
+       "name": "flabel"
+    },
+    "country": "US",
+    "state": "AR",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://gis.agfc.com/ & WMA Boundaries layer"
+}
