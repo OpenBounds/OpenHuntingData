@@ -1,5 +1,5 @@
 {
-   "name":"NJ Deer Zones",
+   "name":"NJ Deer Management Zones",
    "url": "http://www.nj.gov/dep/gis/digidownload/zips/statewide/Envr_admin_deer_zone.zip",
    "species": [
       "Deer"
@@ -11,5 +11,7 @@
    },
    "country": "US",
    "state": "NJ",
-   "filetype": "shp"
+   "filetype": "shp",
+    "year": "2017",
+    "source": "http://njogis-newjersey.opendata.arcgis.com/datasets/new-jersey-deer-management-zones"
 }
