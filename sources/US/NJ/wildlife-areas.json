@@ -1,0 +1,17 @@
+{
+   "name":"NJ Wildlife Management Areas",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/NJ-WMAs.zip",
+   "species": [
+      "all"
+   ],
+   "attribution": "New Jersey Division of Fish & Wildlife",
+   "properties": {
+      "id": "MAP_LABEL",
+      "name": "MAP_LABEL"
+   },
+   "country": "US",
+   "state": "NJ",
+   "filetype": "shp"
+    "year": "2017",
+    "source": "http://njogis-newjersey.opendata.arcgis.com/datasets/state-open-space & filtered to only include WMAs then use the SAGA vector polygon dissolve (by attribute) tool in QGIS"
+}
