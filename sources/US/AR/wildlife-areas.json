@@ -1,0 +1,17 @@
+{
+    "name" : "AR Wildlife Management Areas",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/AR-WMA_no_privateland.zip",
+    "species": [
+       "all"
+    ],
+    "attribution": "Arkansas Game and Fish Commission",
+    "properties": {
+       "id": "objectid",
+       "name": "fname"
+    },
+    "country": "US",
+    "state": "AR",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://gis.agfc.com/arcgis/rest/services/agfc/MapServer using the SAGA vector polygon difference tool on the Inholdings & WMA Boundaries"
+}
