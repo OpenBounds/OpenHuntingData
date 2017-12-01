@@ -1,1 +1,18 @@
-
+{
+    "name" : "AR Private Inholdings within Wildlife Management Areas",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ar-wmas-private-lands.zip",
+    "filenameInZip": "AR-PrivateInholdings.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "Arkansas Game and Fish Commission",
+    "properties": {
+       "id": "objectid",
+       "name": "fname"
+    },
+    "country": "US",
+    "state": "AR",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "https://gis.agfc.com/ & Inholdings (Private Property) Boundaries layer"
+}
