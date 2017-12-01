@@ -11,7 +11,7 @@
    },
    "country": "US",
    "state": "NJ",
-   "filetype": "shp"
+   "filetype": "shp",
     "year": "2017",
     "source": "http://njogis-newjersey.opendata.arcgis.com/datasets/state-open-space & filtered to only include WMAs then use the SAGA vector polygon dissolve (by attribute) tool in QGIS"
 }
