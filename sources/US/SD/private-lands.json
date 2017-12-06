@@ -1,5 +1,5 @@
 {
-    "name" : "SD Private Land Access (CHAP, CREP, DU, & WIA Areas)",
+    "name" : "SD Private Land Access - CHAP, CREP, DU, & WIA Areas",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/sd-public-private-lands.zip",
     "filenameInZip": "SD-PrivateLandsHuntingAccess.shp",
     "species": [
