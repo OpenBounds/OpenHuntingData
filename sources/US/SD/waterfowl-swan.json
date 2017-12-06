@@ -1,0 +1,18 @@
+{
+    "name" : "SD Tundra Swan Unit",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/sd-waterfowl-zones.zip",
+    "filenameInZip": "SD-HuntingUnits-TundraSwan.shp",
+    "species": [   
+       "tundra swan"
+    ],
+    "attribution": "South Dakota Game, Fish & Parks",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "GaiaLabel"
+    },
+    "country": "US",
+    "state": "SD",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://arcgis.sd.gov/arcgis/rest/services/GFP/Hunting_Atlas_26/MapServer/32 & edit label"
+}

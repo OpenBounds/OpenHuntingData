@@ -1,0 +1,19 @@
+{
+    "name" : "SD Canada Goose Units",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/sd-waterfowl-zones.zip",
+    "filenameInZip": "SD-HuntingUnits-CanadaGoose.shp",
+    "species": [   
+       "canada goose",
+       "brant geese"
+    ],
+    "attribution": "South Dakota Game, Fish & Parks",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "UNITNO"
+    },
+    "country": "US",
+    "state": "SD",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://arcgis.sd.gov/arcgis/rest/services/GFP/Hunting_Atlas_26/MapServer/14"
+}

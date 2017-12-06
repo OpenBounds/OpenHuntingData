@@ -1,0 +1,20 @@
+{
+    "name" : "SD Nonresident Waterfowl Units",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/sd-waterfowl-zones.zip",
+    "filenameInZip": "SD-waterfowl-nonresident.shp",
+    "species": [
+       "waterfowl",
+       "ducks",
+       "geese"
+    ],
+    "attribution": "South Dakota Game, Fish & Parks",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "GaiaLabel"
+    },
+    "country": "US",
+    "state": "SD",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "merged http://arcgis.sd.gov/arcgis/rest/services/GFP/Hunting_Atlas_26/MapServer/19 & http://arcgis.sd.gov/arcgis/rest/services/GFP/Hunting_Atlas_26/MapServer/18 and add custom labels based on pg13 http://gfp.sd.gov/hunting/docs/huntinghandbook.pdf"
+}
