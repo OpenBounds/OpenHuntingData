@@ -1,0 +1,18 @@
+{
+    "name" : "SD Deer - Archery Antlerless & Muzzleloader Units",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/sd-deer-all-units.zip",
+    "filenameInZip": "SD-HuntingUnits-MuzzleloaderDeer.shp",
+    "species": [   
+       "deer"
+    ],
+    "attribution": "South Dakota Game, Fish & Parks",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "GaiaLabel"
+    },
+    "country": "US",
+    "state": "SD",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://arcgis.sd.gov/arcgis/rest/services/GFP/Hunting_Atlas_26/MapServer/15 & add custom label"
+}

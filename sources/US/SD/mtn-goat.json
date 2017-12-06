@@ -1,0 +1,18 @@
+{
+    "name" : "SD Mountain Goat - Black Hills Unit",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/sd-bighornsheep-mtngoat-units.zip",
+    "filenameInZip": "SD-HuntingUnits-MountainGoat.shp",
+    "species": [   
+       "mountain goat"
+    ],
+    "attribution": "South Dakota Game, Fish & Parks",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "GaiaLabel"
+    },
+    "country": "US",
+    "state": "SD",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://arcgis.sd.gov/arcgis/rest/services/GFP/Hunting_Atlas_26/MapServer/30 & add custom label"
+}

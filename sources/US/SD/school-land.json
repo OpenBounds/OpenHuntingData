@@ -1,0 +1,18 @@
+{
+    "name" : "SD School Lands",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/sd-public-private-lands.zip",
+    "filenameInZip": "SD-SchoolandPublicLands.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "South Dakota Game, Fish & Parks",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "GaiaLabel"
+    },
+    "country": "US",
+    "state": "SD",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "http://arcgis.sd.gov/arcgis/rest/services/GFP/Hunting_Atlas_26/MapServer/1 & add column for map label"
+}

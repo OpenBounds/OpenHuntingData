@@ -1,0 +1,18 @@
+{
+    "name" : "SD Turkey - Spring Units",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/sd-turkey-units.zip",
+    "filenameInZip": "SD-SpringTurkey.shp",
+    "species": [   
+       "turkey"
+    ],
+    "attribution": "South Dakota Game, Fish & Parks",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "GaiaLabel"
+    },
+    "country": "US",
+    "state": "SD",
+    "filetype": "shp",
+    "year": "2017",
+    "source": "SAGA merge http://arcgis.sd.gov/arcgis/rest/services/GFP/Hunting_Atlas_26/MapServer/20 http://arcgis.sd.gov/arcgis/rest/services/GFP/Hunting_Atlas_26/MapServer/36 http://arcgis.sd.gov/arcgis/rest/services/GFP/Hunting_Atlas_26/MapServer/28 & edit labels to match pg6 http://gfp.sd.gov/hunting/licenses/limited/forms/SpringTurkey.pdf"
+}
