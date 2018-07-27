@@ -1,0 +1,18 @@
+{
+   "name" : "CO WIA Areas - 2018",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/walk-in-updates-2018.zip",
+   "filenameInZip": "CPWWalkInAccess04092018.shp",
+   "species": [
+      "all"
+   ],
+   "attribution": "Colorado Parks and Wildlife",
+   "properties": {
+      "id": "COVER",
+      "name": "COVER"
+   },
+   "country": "US",
+   "state": "CO",
+   "filetype": "shp",
+   "year": "2018",
+   "source": "http://www.arcgis.com/home/item.html?id=d50af5fb22764db198ba826e35f117a8"
+}

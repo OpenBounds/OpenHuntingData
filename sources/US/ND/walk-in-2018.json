@@ -1,0 +1,18 @@
+{
+    "name" : "ND PLOTS Areas - 2018",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/walk-in-updates-2018.zip",
+    "filenameInZip": "NDGAMEFISH.PLOTSLANDSVW_polygon.shp",
+    "species": [
+       "all"
+   ],
+    "attribution": "North Dakota Game & Fish Dept.",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "UNTI_TYPE"
+    },
+    "country": "US",
+    "state": "ND",
+    "filetype": "shp",
+    "year": "2018",
+    "source": "https://gishubdata.nd.gov/dataset/plots-land"
+}

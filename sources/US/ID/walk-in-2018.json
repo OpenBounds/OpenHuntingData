@@ -1,0 +1,18 @@
+{
+   "name" : "ID Access Yes! - 2018",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/walk-in-updates-2018.zip",
+    "filenameInZip": "ID-Access Yes!.shp",
+   "species": [
+      "all"
+   ],
+   "attribution": "Idaho Department of Fish and Game",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "NAME"
+   },
+   "country": "US",
+   "state": "ID",
+   "filetype": "shp",
+    "year": "2018",
+    "source": "https://idfg.idaho.gov/gis/rest/services/Data/Hunting/MapServer/"
+}

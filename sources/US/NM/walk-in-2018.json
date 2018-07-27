@@ -1,0 +1,18 @@
+{
+   "name": "NM Open Gate Areas - 2018",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/walk-in-updates-2018.zip",
+    "filenameInZip": "NM-Open_Gate_Properties.shp",
+   "species": [
+      "all"
+   ],
+   "attribution": "New Mexico Department of Game and Fish",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "NAME"
+   },
+   "country": "US",
+   "state": "NM",
+   "filetype": "shp",
+   "year": "2018",
+   "source": "https://services2.arcgis.com/CjbW1bVhK4dB3WOa/ArcGIS/rest/services/NM_Open_Gate/FeatureServer/"
+}

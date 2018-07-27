@@ -1,0 +1,18 @@
+{
+    "name" : "MO MRAP Areas - 2018",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/walk-in-updates-2018.zip",
+    "filenameInZip": "MO-MRAP Lands.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "Missouri Department of Conservation",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "Area_Name"
+    },
+    "country": "US",
+    "state": "MO",
+    "filetype": "shp",
+    "year": "2018",
+    "source": "https://gisblue.mdc.mo.gov/arcgis/rest/services/Boundaries/MDC_Administrative_Boundaries/MapServer/"
+}
