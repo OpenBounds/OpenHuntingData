@@ -8,7 +8,7 @@
     "attribution": "Kansas Sept. of Wildlife, Parks, & Tourism",
     "properties": {
        "id": "FID",
-       "name": "LEGENDID"
+       "name": "LegendID"
     },
     "country": "US",
     "state": "KS",

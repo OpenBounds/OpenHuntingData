@@ -8,7 +8,7 @@
     "attribution": "North Dakota Game & Fish Dept.",
     "properties": {
        "id": "OBJECTID",
-       "name": "UNTI_TYPE"
+       "name": "UNIT_TYPE"
     },
     "country": "US",
     "state": "ND",

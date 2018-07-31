@@ -8,7 +8,7 @@
    "attribution": "Wyoming Fish and Wildlife",
    "properties": {
       "id": "OBJECTID",
-      "name": "LABEL"
+      "name": "Label"
    },
    "country": "US",
    "state": "WY",
