@@ -1,0 +1,18 @@
+{
+    "name" : "NE OFW Areas - 2018",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/walk-in-updates-2018.zip",
+    "filenameInZip": "NE-Open Fields and Waters Contracts.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "Nebraska Game and Parks",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "OFWProgram"
+    },
+    "country": "US",
+    "state": "NE",
+    "filetype": "shp",
+    "year": "2018",
+    "source": "https://maps.outdoornebraska.gov/arcgis/rest/services/Programs/PublicAccessAtlas/MapServer/"
+}

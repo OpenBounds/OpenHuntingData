@@ -1,0 +1,18 @@
+{
+   "name" : "WY WIH Areas - 2018",
+   "url": "https://opendata.arcgis.com/datasets/5d87c370e473423c9ba7ae30a9598a16_0.zip",
+   "filenameInZip": "Walk_In_Hunting_Boundaries.shp",
+   "species": [
+      "all"
+   ],
+   "attribution": "Wyoming Fish and Wildlife",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "Label"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp",
+   "year": "2018",
+   "source": "https://wyoming-wgfd.opendata.arcgis.com/datasets/walk-in-hunting-boundaries"
+}
