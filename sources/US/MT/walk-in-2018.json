@@ -1,0 +1,18 @@
+{
+  "name": "MT Block Mgmt Areas 2018",
+  "country": "US",
+  "state": "MT",
+  "attribution": "Montana Fish, Wildlife, & Parks",
+  "year": "2018",
+  "properties": {
+    "id": "OBJECTID",
+    "name": "BMANAME",
+    "url": "ACCESSINFO"
+  },
+  "species": [
+    "all"
+  ],
+  "filetype": "shp",
+  "url": "https://opendata.arcgis.com/datasets/c27de035320b4921b0fd981f9f5d8561_0.zip",
+  "source": "https://gis-mtfwp.opendata.arcgis.com/datasets/block-management-bma-boundaries-2018-hunting-season"
+}
