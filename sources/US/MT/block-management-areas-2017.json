@@ -1,5 +1,5 @@
 {
-  "name": "MT Block Management Areas 2017",
+  "name": "MT Block Mgmt Areas 2017",
   "country": "US",
   "state": "MT",
   "attribution": "Montana Fish, Wildlife, & Parks",
@@ -10,7 +10,7 @@
     "url": "ACCESSINFO"
   },
   "species": [
-    "wolf"
+    "all"
   ],
   "filetype": "shp",
   "url": "http://data-mtfwp.opendata.arcgis.com/datasets/e3fe3af948ff43bca8ce1928fff37ede_0.zip"
