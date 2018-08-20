@@ -1,0 +1,18 @@
+{
+  "name": "MT UGBEP Access Areas 2018",
+  "country": "US",
+  "state": "MT",
+  "description": "Upland Game Bird Enhancement Program Access Areas",
+  "attribution": "Montana Fish, Wildlife, & Parks",
+  "year": "2018",
+  "properties": {
+    "id": "OBJECTID",
+    "name": "Project_ID",
+    "url": "PDF_Map"
+  },
+  "species": [
+    "Upland Game Birds"
+  ],
+  "filetype": "shp",
+  "url": "https://opendata.arcgis.com/datasets/83c247c0c67a40d6a5fa2d26f4d76251_0.zip"
+}

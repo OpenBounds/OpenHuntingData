@@ -1,0 +1,16 @@
+{
+  "name": "MT Bison Districts 2018-2019",
+  "country": "US",
+  "state": "MT",
+  "attribution": "Montana Fish, Wildlife, & Parks",
+  "year": "2018,2019",
+  "properties": {
+    "id": "DISTRICT",
+    "name": "NAME"
+  },
+  "species": [
+    "bison"
+  ],
+  "filetype": "shp",
+  "url": "https://opendata.arcgis.com/datasets/787f82f4fb434338acc39a7a8d4483c7_0.zip"
+}

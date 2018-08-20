@@ -1,0 +1,19 @@
+{
+  "name": "MT Deer Elk and Lion Districts 2018-2019",
+  "country": "US",
+  "state": "MT",
+  "attribution": "Montana Fish, Wildlife, & Parks",
+  "year": "2018,2019",
+  "properties": {
+    "id": "DISTRICT",
+    "name": "NAME"
+  },
+  "species": [
+    "mule deer",
+    "white tail deer",
+    "elk",
+    "mountain lion"
+  ],
+  "filetype": "shp",
+  "url": "https://opendata.arcgis.com/datasets/d148ae5ae2374132b53b438b6c03264f_0.zip"
+}
