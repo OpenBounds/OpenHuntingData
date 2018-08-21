@@ -1,0 +1,16 @@
+{
+  "name": "MT Black Bear Districts 2018-2019",
+  "country": "US",
+  "state": "MT",
+  "attribution": "Montana Fish, Wildlife, & Parks",
+  "year": "2018,2019",
+  "properties": {
+    "id": "DISTRICT",
+    "name": "NAME"
+  },
+  "species": [
+    "black bear"
+  ],
+  "filetype": "shp",
+  "url": "https://opendata.arcgis.com/datasets/36c34df6f02249169bad33f2e4e54b56_0.zip"
+}

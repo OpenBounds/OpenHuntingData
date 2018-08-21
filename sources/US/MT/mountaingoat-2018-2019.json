@@ -1,0 +1,16 @@
+{
+  "name": "MT Mountain Goat Districts 2018-2019",
+  "country": "US",
+  "state": "MT",
+  "attribution": "Montana Fish, Wildlife, & Parks",
+  "year": "2018,2019",
+  "properties": {
+    "id": "DISTRICT",
+    "name": "NAME"
+  },
+  "species": [
+    "mountain goat"
+  ],
+  "filetype": "shp",
+  "url": "https://opendata.arcgis.com/datasets/4ca7724705e34edfa0bd23396909d369_0.zip"
+}
