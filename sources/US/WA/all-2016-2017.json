@@ -1,6 +1,7 @@
 {
-    "name" : "WA Game Management Units",
+    "name" : "WA GMUs",
     "url": "http://geo.wa.gov/datasets/e4b4b1e2275842c3a8d6ca6d7d8cd261_0.geojson",
+    "description": "Game Management Units",
     "species": [
        "all"
     ],

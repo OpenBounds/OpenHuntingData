@@ -1,7 +1,8 @@
 {
-    "name" : "ND Wildlife Management Areas",
+    "name" : "ND WMAs",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/nd-wildlife-areas.zip",
     "filenameInZip": "NDGAMEFISH_WMA_LANDSVW_polygon.shp",
+    "description": "Wildlife Management Areas",
     "species": [
        "all"
    ],

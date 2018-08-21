@@ -1,6 +1,7 @@
 {
-    "name" : "SC Wildlife Management Areas & Public Lands Open for Hunting",
+    "name" : "SC WMAs & Public Lands Open for Hunting",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/sc-wildlife-management-areas.zip",
+    "description": "Wildlife Management Areas & Public Lands open for hunting",
     "species": [
        "all"
     ],

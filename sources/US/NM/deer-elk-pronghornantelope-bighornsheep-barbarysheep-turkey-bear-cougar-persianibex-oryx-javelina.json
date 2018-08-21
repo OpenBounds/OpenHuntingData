@@ -1,6 +1,7 @@
 {
-   "name": "NM Game Management Units",
+   "name": "NM GMUs",
    "url": "http://www.wildlife.state.nm.us/download/hunting/maps/NM_GMU_Shapefile-201606.zip",
+   "description": "Game Management Units",
    "species": [
       "deer",
       "elk",

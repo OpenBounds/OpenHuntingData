@@ -1,6 +1,7 @@
 {
-    "name" : "WV Wildlife Management Areas",
+    "name" : "WV WMAs",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/wvdnrManagedLands_wvdnr_20170731_utm83_shp.zip",
+    "description": "Wildlife Management Areas",
     "species": [
        "all"
     ],

@@ -1,7 +1,8 @@
 {
-    "name" : "AL Wildlife Management Areas",
+    "name" : "AL WMAs",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/AL-WMAs.zip",
     "filenameInZip": "AL-WMAs.shp",
+    "description": "Wildlife Management Areas",
     "species": [
        "all"
     ],

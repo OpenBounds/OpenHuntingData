@@ -1,6 +1,7 @@
 {
-   "name":"NJ Wildlife Management Areas",
+   "name":"NJ WMAs",
    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/NJ-WMAs.zip",
+   "description": "Wildlife Management Areas",
    "species": [
       "all"
    ],

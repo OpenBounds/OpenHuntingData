@@ -1,7 +1,8 @@
 {
-    "name" : "GA Wildlife Management Areas",
+    "name" : "GA WMAs",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ga-wildlife-management-areas.zip",
     "filenameInZip": "dnr17c.shp",
+    "description": "Wildlife Management Areas",
     "species": [
        "all"
     ],

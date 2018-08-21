@@ -1,6 +1,7 @@
 {
-    "name" : "NE Wildlife Management Areas, State Recreations Areas, & Waterfowl Production Areas",
+    "name" : "NE WMAs, WPAs & State Recreations Areas",
     "url": "https://opendata.arcgis.com/datasets/bbb12fbab3154b19803715b6ee561939_35.zip",
+    "description": "Wildlife Management Areas, Waterfowl Production Areas, & State Recreation Areas open for hunting",
     "species": [
        "all"
     ],

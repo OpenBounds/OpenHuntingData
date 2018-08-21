@@ -2,6 +2,7 @@
    "name" : "WY WIH Areas - 2018",
    "url": "https://opendata.arcgis.com/datasets/5d87c370e473423c9ba7ae30a9598a16_0.zip",
    "filenameInZip": "Walk_In_Hunting_Boundaries.shp",
+   "description": "Walk-In Hunting Areas",
    "species": [
       "all"
    ],

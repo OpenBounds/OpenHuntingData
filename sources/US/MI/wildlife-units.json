@@ -1,6 +1,7 @@
 {
-    "name" : "MI Wildlife Management Units",
+    "name" : "MI WMUs",
     "url": "https://opendata.arcgis.com/datasets/b0c0353c7b8949cba7ff3f6a073ed2d0_0.geojson",
+    "description": "Wildlife Management Units",
     "species": [
        "all"
     ],
