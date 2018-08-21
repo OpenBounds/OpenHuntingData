@@ -2,6 +2,7 @@
    "name" : "WY HMA Areas - 2018",
    "url": "https://opendata.arcgis.com/datasets/de189980f9f34a32a819a84be9235feb_0.zip",
    "filenameInZip": "Hunter_Management_Area_Boundaries.shp",
+   "description": "Hunter Management Areas",
    "species": [
       "all"
    ],

@@ -1,6 +1,7 @@
 {
-    "name" : "PA Wildlife Management Units",
+    "name" : "PA WMUs",
     "url": "ftp://ftp.pasda.psu.edu/pub/pasda/pgc/PGC_BNDWildlifeManagementUnits2017.zip",
+    "description": "Wildlife Management Units",
     "species": [
        "all"
     ],

@@ -1,6 +1,7 @@
 {
-   "name": "NH Wildlife Management Units",
+   "name": "NH WMUs",
    "url": "http://www.wildlife.state.nh.us/maps/documents/NHFG_WMU.zip",
+   "description": "Wildlife Management Units",
    "species": [
       "All"
    ],

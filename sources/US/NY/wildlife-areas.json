@@ -1,6 +1,7 @@
 {
-    "name" : "NY Wildlife Management Areas",
+    "name" : "NY WMAs",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ny-wma.zip",
+    "description": "Wildlife Management Areas",
     "species": [
        "all"
     ],

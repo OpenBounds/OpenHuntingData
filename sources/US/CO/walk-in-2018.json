@@ -2,6 +2,7 @@
    "name" : "CO WIA Areas - 2018",
    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/walk-in-updates-2018.zip",
    "filenameInZip": "CPWWalkInAccess04092018.shp",
+   "description": "Walk-In Access Areas",
    "species": [
       "all"
    ],

@@ -1,7 +1,8 @@
 {
-   "name" : "CO Game Management Units - Bighorn Sheep",
+   "name" : "CO GMUs - Bighorn Sheep",
    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/co-BighornGMUBoundaries08152017.zip",
    "filenameInZip": "BighornGMUBoundaries08152017.shp",
+   "description": "Game Management Units",
    "species": [
       "bighorn sheep"
    ],

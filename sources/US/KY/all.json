@@ -1,7 +1,8 @@
 {
-   "name": "KY Wildlife Management Areas & Public Hunting Areas",
+   "name": "KY WMAs & Public Hunting Areas",
    "url": "http://app.fw.ky.gov/kfwis/kygeonet//Public_Hunting_areas.zip",
    "filenameInZip": "Public_hunting_areas.shp",
+   "description": "Wildlife Management Areas and Public Hunting Areas",
    "species": [
       "all"
    ],

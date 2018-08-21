@@ -2,6 +2,7 @@
     "name" : "MN WIA Areas - 2018",
     "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_walk_in_access_sites/shp_bdry_dnr_walk_in_access_sites.zip",
     "filenameInZip": "walk_in_access_sites.shp",
+    "description": "Walk-In Access Areas",
     "species": [
        "all"
     ],

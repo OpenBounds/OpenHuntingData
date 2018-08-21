@@ -1,7 +1,8 @@
 {
-   "name" : "CO Game Management Units - Big Game",
+   "name" : "CO GMUs - Big Game",
    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/co-BigGameGMUBoundaries08152017.zip",
    "filenameInZip": "BigGameGMUBoundaries08152017.shp",
+   "description": "Game Management Units",
    "species": [
       "bear",
       "black bear",

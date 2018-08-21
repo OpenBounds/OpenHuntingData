@@ -1,7 +1,8 @@
 {
-    "name" : "IA Wildlife Management Areas",
+    "name" : "IA WMAs",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/IA-WMAs.zip",
     "filenameInZip": "IA-WMAs.shp",
+    "description": "Wildlife Management Areas",
     "species": [
        "all"
     ],

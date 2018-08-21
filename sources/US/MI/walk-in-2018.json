@@ -2,6 +2,7 @@
     "name" : "MI HAP Areas - 2018",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/walk-in-updates-2018.zip",
     "filenameInZip": "MI-Hunter Access Program.shp",
+    "description": "Hunter Access Program Areas",
     "species": [
        "all"
     ],

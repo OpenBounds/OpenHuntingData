@@ -1,6 +1,7 @@
 {
-    "name" : "OK Wildlife Management Units",
+    "name" : "OK WMAs",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/OK-WMAs.zip",
+    "description": "Wildlife Management Areas",
     "species": [
        "all"
     ],

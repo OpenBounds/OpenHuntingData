@@ -2,6 +2,7 @@
     "name" : "IA IHAP Areas - 2018",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/walk-in-updates-2018.zip",
     "filenameInZip": "IA-Iowa Habitat Access Program Tracts.shp",
+    "description": "Idaho Habitat & Access Program Areas",
     "species": [
        "all"
     ],

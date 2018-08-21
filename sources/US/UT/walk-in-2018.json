@@ -2,6 +2,7 @@
    "name": "UT CWMU Areas - 2018",
    "url": "https://dwrcdc.nr.utah.gov/ucdc/DownloadGIS/Data/Abiotic/2018_CWMUs.zip",
    "filenameInZip": "2018_CWMUs.shp",
+   "description": "Cooperative Wildlife Management Units",
    "species": [
       "all"
    ],

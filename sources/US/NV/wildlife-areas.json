@@ -1,6 +1,7 @@
 {
-   "name": "NV Wildlife Management Areas",
+   "name": "NV WMAs",
    "url": "http://gis.ndow.nv.gov/ndowdata/data/NDOW_WildlifeManagementAreas_2016.zip",
+   "description": "Wildlife Management Areas",
    "species": [
       "All"
    ],
