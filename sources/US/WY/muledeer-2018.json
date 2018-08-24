@@ -1,0 +1,17 @@
+{
+   "name" : "WY Mule Deer Units - 2018",
+   "url": "https://opendata.arcgis.com/datasets/8007408ce4a94e0f8e188e40ec402824_0.zip",
+   "species": [
+      "mule deer"
+   ],
+   "attribution": "Wyoming Game and Fish Department",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "HUNTAREA"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp",
+   "year": "2018",
+   "source": "http://wyoming-wgfd.opendata.arcgis.com/datasets/mule-deer-hunt-areas"
+}

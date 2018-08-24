@@ -1,0 +1,17 @@
+{
+   "name" : "WY Elk Units - 2018",
+   "url": "https://opendata.arcgis.com/datasets/2e3558f2628a476a9cbe3d0f4f1c3cbf_0.zip",
+   "species": [
+      "elk"
+   ],
+   "attribution": "Wyoming Fish and Wildlife",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "HUNTAREA"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp",
+   "year": "2018",
+   "source": "http://wyoming-wgfd.opendata.arcgis.com/datasets/elk-hunt-areas"
+}

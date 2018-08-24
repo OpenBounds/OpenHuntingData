@@ -1,0 +1,17 @@
+{
+   "name" : "WY Bison Units - 2018",
+   "url": "https://opendata.arcgis.com/datasets/3835571e38d24ac6b5aa77722a6f1e9e_0.zip",
+   "species": [
+      "bison"
+   ],
+   "attribution": "Wyoming Fish and Wildlife",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "HUNTAREA"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp",
+   "year": "2018",
+   "source": "http://wyoming-wgfd.opendata.arcgis.com/datasets/bison-hunt-areas"
+}
