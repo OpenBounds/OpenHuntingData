@@ -1,0 +1,17 @@
+{
+   "name": "WY Turkey Units - 2018",
+   "url": "https://opendata.arcgis.com/datasets/8b421ee6ce0843d2b38ffc52f6056dba_0.zip",
+   "species": [
+      "turkey"
+   ],
+   "attribution": "Wyoming Game and Fish Department",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "HUNTAREA"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp",
+   "year": "2018",
+   "source": "https://wyoming-wgfd.opendata.arcgis.com/datasets/2015-turkey-hunt-areas"
+}

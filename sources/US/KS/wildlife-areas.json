@@ -1,0 +1,19 @@
+{
+    "name" : "KS Wildlife Areas",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ks-wildlife-areas.zip",
+    "filenameInZip": "Kansas_Protected_Areas_16April2018_filtered.shp",
+    "description": "Wildlife Areas open for hunting",
+    "species": [
+       "all"
+    ],
+    "attribution": "Kansas Sept. of Wildlife, Parks, & Tourism",
+    "properties": {
+       "id": "Name",
+       "name": "Name"
+    },
+    "country": "US",
+    "state": "KS",
+    "filetype": "shp",
+    "year": "2018",
+    "source": "https://www.kansasgis.org/catalog/index.cfm?data_id=2281&SH=wildlife?data_id=314&show_cat=7?data_id=2281&show_cat=16"
+}

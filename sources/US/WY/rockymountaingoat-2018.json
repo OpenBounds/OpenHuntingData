@@ -1,0 +1,17 @@
+{
+   "name" : "WY Rocky Mtn Goat Units - 2018",
+   "url": "https://opendata.arcgis.com/datasets/3c38d40a86014bc7b13718cedfc322da_0.zip",
+   "species": [
+      "Rocky Mountain Goat"
+   ],
+   "attribution": "Wyoming Game and Fish Department",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "HUNTAREA"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp",
+   "year": "2018",
+   "source": "https://wyoming-wgfd.opendata.arcgis.com/datasets/rocky-mountain-goat-hunt-areas"
+}

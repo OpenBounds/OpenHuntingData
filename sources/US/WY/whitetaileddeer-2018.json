@@ -1,0 +1,17 @@
+{
+   "name" : "WY Whitetailed Deer Units - 2018",
+   "url": "https://opendata.arcgis.com/datasets/b7d962ee16204fb79becaefcebf85036_0.zip",
+   "species": [
+      "Whitetailed Deer"
+   ],
+   "attribution": "Wyoming Game and Fish Department",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "HUNTAREA"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp",
+   "year": "2018",
+   "source": "http://wyoming-wgfd.opendata.arcgis.com/datasets/white-tailed-deer-hunt-areas"
+}

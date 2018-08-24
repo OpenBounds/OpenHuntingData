@@ -6,11 +6,12 @@
    ],
    "attribution": "Wyoming Game and Fish Department",
    "properties": {
-      "id": "HUNTAREA",
+      "id": "OBJECTID",
       "name": "HUNTAREA"
    },
    "country": "US",
    "state": "WY",
    "filetype": "shp",
-   "year": "2016"
+   "year": "2016",
+   "source": "https://wyoming-wgfd.opendata.arcgis.com/datasets/2015-sage-grouse-hunt-areas"
 }

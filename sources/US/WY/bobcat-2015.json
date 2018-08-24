@@ -1,12 +1,12 @@
 {
-   "name": "WY Bobcat Management Areas 2015",
+   "name": "WY Bobcat Mgmt Areas - 2015",
    "url": "https://opendata.arcgis.com/datasets/d526b7840cab4be9bf3d6489c8d8fb6b_0.geojson",
    "species": [
       "bobcat"
    ],
    "attribution": "Wyoming Game and Fish Department",
    "properties": {
-      "id": "MGMTAREA",
+      "id": "OBJECTID",
       "name": "MGMTAREA"
    },
    "country": "US",
