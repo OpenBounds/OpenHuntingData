@@ -1,7 +1,8 @@
 {
-    "name" : "SD Elk - Custer State Park Antlerless Unit",
+    "name" : "SD Elk - CSP Antlerless Unit",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/sd-elk-units.zip",
     "filenameInZip": "SD-HuntingUnits-CSPSpecialAntlerlessElk.shp",
+    "description": "Custer State Park Antlerless Unit",
     "species": [   
        "elk"
     ],

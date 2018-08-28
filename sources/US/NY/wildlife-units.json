@@ -1,6 +1,7 @@
 {
-    "name" : "NY Wildlife Management Units",
+    "name" : "NY WMUs",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/NY-WMUs.zip",
+    "description": "Wildlife Management Units",
     "species": [
        "all"
     ],

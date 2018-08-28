@@ -1,0 +1,16 @@
+{
+  "name": "MT Antelope Districts 2018-2019",
+  "country": "US",
+  "state": "MT",
+  "attribution": "Montana Fish, Wildlife, & Parks",
+  "year": "2018,2019",
+  "properties": {
+    "id": "DISTRICT",
+    "name": "NAME"
+  },
+  "species": [
+    "antelope"
+  ],
+  "filetype": "shp",
+  "url": "https://opendata.arcgis.com/datasets/1a35c4bbdfdc411ca8758f45d861b583_0.zip"
+}

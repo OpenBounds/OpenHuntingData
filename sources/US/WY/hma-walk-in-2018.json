@@ -1,0 +1,19 @@
+{
+   "name" : "WY HMA Areas - 2018",
+   "url": "https://opendata.arcgis.com/datasets/de189980f9f34a32a819a84be9235feb_0.zip",
+   "filenameInZip": "Hunter_Management_Area_Boundaries.shp",
+   "description": "Hunter Management Areas",
+   "species": [
+      "all"
+   ],
+   "attribution": "Wyoming Fish and Wildlife",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "HMA_NAME"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp",
+   "year": "2018",
+   "source": "https://wyoming-wgfd.opendata.arcgis.com/datasets/hunter-management-area-boundaries"
+}

@@ -1,0 +1,19 @@
+{
+    "name" : "PA HAP Areas - 2018",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/walk-in-updates-2018.zip",
+    "filenameInZip": "PA-HAP-2018.shp",
+    "description": "Hunter Access Program Areas",
+    "species": [
+       "all"
+    ],
+    "attribution": "Pennsylvania Game Commission",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "ACCOUNT_CO"
+    },
+    "country": "US",
+    "state": "PA",
+    "filetype": "shp",
+    "year": "2018",
+    "source": "https://pgcmaps.pa.gov/arcgis/rest/services/PGC/PGC_PUBLIC/MapServer/18"
+}

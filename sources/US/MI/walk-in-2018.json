@@ -1,0 +1,19 @@
+{
+    "name" : "MI HAP Areas - 2018",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/walk-in-updates-2018.zip",
+    "filenameInZip": "MI-Hunter Access Program.shp",
+    "description": "Hunter Access Program Areas",
+    "species": [
+       "all"
+    ],
+    "attribution": "Michigan Department of Natural Resources",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "HAPLASTNAM"
+    },
+    "country": "US",
+    "state": "MI",
+    "filetype": "shp",
+    "year": "2018",
+    "source": "https://gis5.mcgi.state.mi.us/maps/rest/services/DNR/MIHUNT/MapServer/"
+}

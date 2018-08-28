@@ -1,6 +1,7 @@
 {
-    "name" : "UT Wildlife Management Areas",
+    "name" : "UT WMAs",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ut-wildlife-areas.zip",
+    "description": "Wildlife Management Areas",
     "species": [
        "all"
     ],

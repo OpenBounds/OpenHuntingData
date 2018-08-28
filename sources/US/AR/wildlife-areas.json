@@ -1,6 +1,7 @@
 {
-    "name" : "AR Wildlife Management Areas",
+    "name" : "AR WMAs",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/AR-WMA_no_privateland.zip",
+    "description": "Wildlife Management Areas",
     "species": [
        "all"
     ],

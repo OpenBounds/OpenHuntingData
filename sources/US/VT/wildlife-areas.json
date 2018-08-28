@@ -1,6 +1,7 @@
 {
-   "name" : "VT Wildlife Management Areas",
+   "name" : "VT WMAs",
    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/vt-wildlife-management-areas.zip",
+   "description": "Wildlife Management Areas",
    "species": [
       "all"
    ],

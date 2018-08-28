@@ -1,6 +1,7 @@
 {
-    "name" : "TN Wildlife Management Areas",
+    "name" : "TN WMAs",
     "url": "https://opendata.arcgis.com/datasets/8e9f8135c6594c959ae777d1c6830127_0.geojson",
+    "description": "Wildlife Management Areas",
     "species": [
        "all"
     ],

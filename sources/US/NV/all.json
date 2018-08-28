@@ -1,6 +1,7 @@
 {
-   "name": "NV Game Management Units",
+   "name": "NV GMUs",
    "url": "http://gis.ndow.nv.gov/ndowdata/data/NDOW_GameManagementUnits_2016.zip",
+   "description": "Game Management Units",
    "species": [
       "All"
    ],

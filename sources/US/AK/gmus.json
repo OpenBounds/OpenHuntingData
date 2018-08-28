@@ -1,6 +1,7 @@
 {
-   "name" : "AK Game Management Units and Subunits",
+   "name" : "AK GMUs and Subunits",
    "url": "https://s3.amazonaws.com/data.openbounds.org/USAHunting/manual-downloads/ak-gmus.zip",
+   "description": "Game Management Units and Subunits",
    "species": [
       "all"
    ],

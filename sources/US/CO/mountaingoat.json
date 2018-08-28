@@ -1,7 +1,8 @@
 {
-   "name" : "CO Game Management Units - Mountain Goats",
+   "name" : "CO GMUs - Mountain Goats",
    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/co-MtnGoatGMUBoundaries08152017.zip",
    "filenameInZip": "MtnGoatGMUBoundaries08152017.shp",
+   "description": "Game Management Units",
    "species": [
       "mountain goat"
    ],

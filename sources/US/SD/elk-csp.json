@@ -1,7 +1,8 @@
 {
-    "name" : "SD Elk - Custer State Park Early Archery Unit",
+    "name" : "SD Elk - CSP Early Archery Unit",
     "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/sd-elk-units.zip",
     "filenameInZip": "SD-HuntingUnits-CSPElk.shp",
+    "description": "Custer State Park Early Archery Unit",
     "species": [   
        "elk"
     ],

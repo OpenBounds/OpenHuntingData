@@ -1,7 +1,8 @@
 {
-    "name" : "MN Wildlife Management Areas",
+    "name" : "MN WMAs",
     "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_wildlife_mgmt_areas_pub/shp_bdry_dnr_wildlife_mgmt_areas_pub.zip",
     "filenameInZip": "dnr_wildlife_management_area_boundaries_publicly_accessible.shp",
+    "description": "Wildlife Management Areas",
     "species": [
        "all"
     ],

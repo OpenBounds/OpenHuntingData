@@ -1,0 +1,19 @@
+{
+    "name" : "OK OLAP Areas - 2018",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/walk-in-updates-2018.zip",
+    "filenameInZip": "ok-walk-in-july2018.shp",
+    "description": "Oklahoma Land Access Program Areas",
+    "species": [
+       "all"
+    ],
+    "attribution": "Oklahoma Department of Wildlife Conservation",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "WIACAT"
+    },
+    "country": "US",
+    "state": "OK",
+    "filetype": "shp",
+     "year": "2018",
+    "source": "http://gisprod.usda.okstate.edu:6080/arcgis/rest/services/Private_Lands/PublicOLAP/MapServer/"
+}

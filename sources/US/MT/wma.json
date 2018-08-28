@@ -1,0 +1,18 @@
+{
+  "name": "MT WMAs",
+  "country": "US",
+  "state": "MT",
+  "description": "Wildlife Management Areas",
+  "attribution": "Montana Fish, Wildlife, & Parks",
+  "year": "2018",
+  "properties": {
+    "id": "OBJECTID",
+    "name": "NAME",
+    "url": "WEB_PAGE"
+  },
+  "species": [
+    "all"
+  ],
+  "filetype": "shp",
+  "url": "https://opendata.arcgis.com/datasets/a832efc4e3de4f07a60442ad7327fd74_0.zip"
+}

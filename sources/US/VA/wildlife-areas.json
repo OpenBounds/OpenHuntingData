@@ -1,7 +1,8 @@
 {
-    "name" : "VA Wildlife Management Areas",
+    "name" : "VA WMAs",
     "url": "https://www.dgif.virginia.gov/-/gis-data/VDGIF_Wildlife_Management_Area_WMA_Boundaries.zip",
     "filenameInZip": "VDGIF_Wildlife_Management_Area_WMA_Boundaries.shp",
+    "description": "Wildlife Management Areas",
     "species": [
        "all"
     ],

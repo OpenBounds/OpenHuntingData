@@ -1,0 +1,19 @@
+{
+    "name" : "SD Private Land Access - 2018",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/walk-in-updates-2018.zip",
+    "filenameInZip": "SD-Private Lands Hunting Access.shp",
+    "description": "Walk-In Areas (WIA), Conservation Reserve Enhancement Program (CREP), Controlled Hunting Access Program (CHAP), & COOP Management Areas open for hunting", 
+    "species": [
+       "all"
+    ],
+    "attribution": "South Dakota Game, Fish & Parks",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "Type"
+    },
+    "country": "US",
+    "state": "SD",
+    "filetype": "shp",
+    "year": "2018",
+    "source": "https://arcgis.sd.gov/arcgis/rest/services/GFP/Hunting_Atlas_26/MapServer/"
+}

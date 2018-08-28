@@ -1,0 +1,17 @@
+{
+  "name": "MT Gray Wolf Mgmt Units 2018-2019",
+  "country": "US",
+  "state": "MT",
+  "attribution": "Montana Fish, Wildlife, & Parks",
+  "year": "2018,2019",
+  "properties": {
+    "id": "DISTRICT",
+    "name": "NAME",
+    "url": "WEBPAGE"
+  },
+  "species": [
+    "wolf"
+  ],
+  "filetype": "shp",
+  "url": "https://opendata.arcgis.com/datasets/f2b9be818b73400d81ef616e54d48c20_0.zip"
+}

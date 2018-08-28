@@ -1,6 +1,7 @@
 {
-    "name" : "TX Wildlife Management Areas",
+    "name" : "TX WMAs",
     "url": "http://tpwd.texas.gov/gis/resources/wildlife-management-areas.zip",
+    "description": "Wildlife Management Areas",
     "species": [
        "all"
     ],

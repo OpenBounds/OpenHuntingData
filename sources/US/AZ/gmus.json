@@ -1,6 +1,7 @@
 {
-   "name" : "AZ Game Management Units",
+   "name" : "AZ GMUs",
    "url": "https://s3.amazonaws.com/data.openbounds.org/USAHunting/manual-downloads/az-gmus.geojson",
+   "description": "Game Management Units",
    "species": [
       "all"
    ],
