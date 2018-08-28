@@ -1,0 +1,19 @@
+{
+  "name": "FL Deer Mgmt Units",
+  "url": "https://opendata.arcgis.com/datasets/15133ab182634401849e6d212749b92d_16.zip",
+  "filenameInZip": "Whitetailed_Deer_Management_Unit_Areas_in_Florida.shp",
+  "description": "Whitetail Deer Management Units",
+  "species": [
+    "deer"
+  ],
+  "attribution": "Florida Fish and Wildlife Conservation Commission",
+  "properties": {
+    "id": "OBJECTID",
+    "name": "DMU"
+  },
+  "country": "US",
+  "state": "FL",
+  "filetype": "shp",
+  "year": "2018",
+  "source": "http://geodata.myfwc.com/datasets/white-tailed-deer-management-unit-areas-in-florida"
+}

@@ -1,15 +1,19 @@
 {
    "name" : "FL Black Bear Mgmt Units",
-   "url": "http://geodata.myfwc.com/datasets/1af166d8eb6b485b8b0061183cf7a8aa_14.zip",
-   "species": [
-      "Black Bear"
-   ],
-   "attribution": "Florida Fish and Wildlife Conservation Commission",
-   "properties": {
-      "id": "OBJECTID",
-      "name": "BMU_Name"
-   },
-   "country": "US",
-   "state": "FL",
-   "filetype": "shp"
+   "url": "https://opendata.arcgis.com/datasets/1af166d8eb6b485b8b0061183cf7a8aa_14.zip",
+  "filenameInZip": "Black_Bear_Management_Units_in_Florida.shp",
+  "description": "Black Bear Management Units",
+  "species": [
+    "black bear"
+  ],
+  "attribution": "Florida Fish and Wildlife Conservation Commission",
+  "properties": {
+    "id": "OBJECTID",
+    "name": "BMU_Name"
+  },
+  "country": "US",
+  "state": "FL",
+  "filetype": "shp",
+  "year": "2018",
+  "source": "http://geodata.myfwc.com/datasets/black-bear-management-units-in-florida"
 }
