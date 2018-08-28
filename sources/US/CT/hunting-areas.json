@@ -1,0 +1,19 @@
+{
+    "name" : "CT Public Hunting Areas",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ct-vt-hunting-areas-2018.zip",
+    "filenameInZip": "CT-HuntingAreas.shp",
+    "description": "Wildlife Mgmt Areas, State Forests, State Parks, and other areas open for public hunting",
+    "species": [
+       "all"
+    ],
+    "attribution": "Connecticut Dept of Energy & Environmental Protection",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "Hunt_AName"
+    },
+    "country": "US",
+    "state": "CT",
+    "filetype": "shp",
+    "year": "2018",
+    "source": "http://ctdeep.maps.arcgis.com/apps/webappviewer/index.html?id=58663e71ca114e439f7f3473836db929&deepNav=|"
+}
