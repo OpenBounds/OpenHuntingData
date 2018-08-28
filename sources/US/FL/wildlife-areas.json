@@ -1,0 +1,19 @@
+{
+  "name": "FL WMAs",
+  "url": "https://opendata.arcgis.com/datasets/d7f8470d9df1451d8e950cdd409bee66_9.zip",
+  "filenameInZip": "Wildlife_Management_Areas_Florida.shp",
+  "description": "Wildlife Management Areas",
+  "species": [
+    "all"
+  ],
+  "attribution": "Florida Fish and Wildlife Conservation Commission",
+  "properties": {
+    "id": "OBJECTID",
+    "name": "NAME_SHORT"
+  },
+  "country": "US",
+  "state": "FL",
+  "filetype": "shp",
+  "year": "2018",
+  "source": "http://geodata.myfwc.com/datasets/wildlife-management-areas-florida"
+}
