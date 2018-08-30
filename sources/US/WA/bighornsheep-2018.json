@@ -1,0 +1,18 @@
+{
+   "name" : "WA Bighorn Sheep Units - 2018",
+   "url": "https://opendata.arcgis.com/datasets/61490bfb6a5e4e138dc9314bfc8667d5_1.zip",
+   "filenameInZip" : "Bighorn_Sheep_Units_Polygons_2018.shp",
+   "species": [
+      "bighorn sheep"
+   ],
+   "attribution": "Washington Department of Fish and Wildlife",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "BSU_ID"
+   },
+   "country": "US",
+   "state": "WA",
+   "filetype": "shp",
+    "year": "2018",
+    "source": "http://geo.wa.gov/datasets/61490bfb6a5e4e138dc9314bfc8667d5_1"
+}

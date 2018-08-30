@@ -1,0 +1,18 @@
+{
+    "name" : "WA Elk Special Hunt Units - 2018",
+    "url": "https://opendata.arcgis.com/datasets/53c450bef99a43a0892fb00c8d52147c_3.zip",
+    "filenameInZip" : "Elk_Areas_Polygons_2018.shp",
+    "species": [
+       "elk"
+    ],
+    "attribution": "Washington Department of Fish and Wildlife",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "EA_ID"
+    },
+    "country": "US",
+    "state": "WA",
+    "filetype": "shp",
+    "year": "2018",
+    "source": "http://geo.wa.gov/datasets/wdfw::elk-areas-polygons-2018"
+}

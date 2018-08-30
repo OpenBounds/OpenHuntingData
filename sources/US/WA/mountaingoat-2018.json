@@ -1,0 +1,18 @@
+{
+   "name" : "WA Mountain Goat Units - 2018",
+   "url": "https://opendata.arcgis.com/datasets/6ed7cc65d8b7403db1b7630023a19c11_4.zip",
+   "filenameInZip" : "Mountain_Goat_Areas_Polygons_2018.shp",
+   "species": [
+      "mountain goat"
+   ],
+   "attribution": "Washington Department of Fish and Wildlife",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "MGU_Id"
+   },
+   "country": "US",
+   "state": "WA",
+   "filetype": "shp",
+    "year": "2018",
+    "source": "http://geo.wa.gov/datasets/6ed7cc65d8b7403db1b7630023a19c11_4"
+}

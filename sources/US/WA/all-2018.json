@@ -1,0 +1,18 @@
+{
+    "name" : "WA GMUs",
+    "url": "https://opendata.arcgis.com/datasets/1131768cf65f4464aff68e6c0b98ead0_0.geojson",
+    "description": "Game Management Units",
+    "species": [
+       "all"
+    ],
+    "attribution": "Washington Department of Fish and Wildlife",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "GMU_Num"
+    },
+    "country": "US",
+    "state": "WA",
+    "filetype": "geojson",
+    "year": "2018",
+    "source": "http://geo.wa.gov/datasets/1131768cf65f4464aff68e6c0b98ead0_0"
+}
