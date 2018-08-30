@@ -1,6 +1,6 @@
 {
-   "name": "WY Black Bear Hunt Areas 2016",
-   "url": "https://wgfd.wyo.gov/WGFD/media/content/Wildlife/Geospatial/BlackBear_HuntAreasManagementUnits.zip",
+   "name": "WY Black Bear Units",
+   "url": "https://opendata.arcgis.com/datasets/86020b0adb4744a782d3fb6926da8275_0.zip",
    "species": [
       "Black Bear"
    ],
@@ -12,6 +12,6 @@
    "country": "US",
    "state": "WY",
    "filetype": "shp",
-   "year": "2016",
+   "year": "2018",
    "source": "https://wyoming-wgfd.opendata.arcgis.com/datasets/2015-black-bear-hunt-areas"
 }
