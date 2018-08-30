@@ -7,11 +7,11 @@
    "attribution": "California Department of Fish and Wildlife",
    "properties": {
       "id": "ZONE_LTR",
-      "name": "Zone_Name"
+      "name": "Zone_Nam"
    },
    "country": "US",
    "state": "CA",
    "filetype": "shp",
-   "year": "2017",
+   "year": "2018",
    "source": "http://portal.gis.ca.gov/geoportal/catalog/search/search.page & search for deer hunt"
 }
