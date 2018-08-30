@@ -1,0 +1,18 @@
+{
+    "name" : "WA Deer Special Hunt Units - 2018",
+    "url": "https://opendata.arcgis.com/datasets/ed326a0a4c7d4d4f9026bba14ca2275c_2.zip",
+    "filenameInZip" : "Deer_Areas_Polygons_2018.shp",
+    "species": [
+       "deer"
+    ],
+    "attribution": "Washington Department of Fish and Wildlife",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "DA_Id"
+    },
+    "country": "US",
+    "state": "WA",
+    "filetype": "shp",
+    "year": "2018",
+    "source": "http://geo.wa.gov/datasets/ed326a0a4c7d4d4f9026bba14ca2275c_2"
+}

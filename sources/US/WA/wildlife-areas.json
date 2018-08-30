@@ -1,0 +1,18 @@
+{
+    "name" : "WA Wildlife Areas",
+    "url": "https://opendata.arcgis.com/datasets/54642c30a0f842f2b8603976b5625678_0.zip",
+    "filenameInZip" : "Wildlife_Areas.shp",
+    "species": [
+       "all"
+    ],
+    "attribution": "Washington Department of Fish and Wildlife",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "WA_Full_Name"
+    },
+    "country": "US",
+    "state": "WA",
+    "filetype": "shp",
+    "year": "2018",
+    "source": "http://geo.wa.gov/datasets/wdfw::wildlife-areas"
+}

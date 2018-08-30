@@ -1,0 +1,18 @@
+{
+   "name" : "WA Moose Units - 2018",
+   "url": "https://opendata.arcgis.com/datasets/d0409e827d57441b84139e9d0586cca6_5.zip",
+   "filenameInZip" : "Moose_Areas_Polygons_2018.shp",
+   "species": [
+      "moose"
+   ],
+   "attribution": "Washington Department of Fish and Wildlife",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "MU_ID"
+   },
+   "country": "US",
+   "state": "WA",
+   "filetype": "shp",
+    "year": "2018",
+    "source": "http://geo.wa.gov/datasets/wdfw::moose-areas-polygons-2018"
+}
