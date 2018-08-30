@@ -7,7 +7,7 @@
    ],
    "attribution": "Washington Department of Fish and Wildlife",
    "properties": {
-      "id": "OBJECTID"
+      "id": "OBJECTID",
       "name": "BSU_ID"
    },
    "country": "US",
