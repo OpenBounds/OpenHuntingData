@@ -1,0 +1,17 @@
+{
+   "name": "WY Pheasant Units - 2018",
+   "url": "https://opendata.arcgis.com/datasets/aa33c32d5e594287a2f1c83ddb8b588d_0.zip",
+   "species": [
+      "pheasant"
+   ],
+   "attribution": "Wyoming Game and Fish Department",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "HUNTAREA"
+   },
+   "country": "US",
+   "state": "WY",
+   "filetype": "shp",
+   "year": "2018",
+   "source": "http://wyoming-wgfd.opendata.arcgis.com/datasets/2015-pheasant-hunt-areas"
+}
