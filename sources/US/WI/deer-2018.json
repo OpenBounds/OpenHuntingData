@@ -1,0 +1,19 @@
+{
+    "name" : "WI Deer Mgmt Zones, Units, & Subunits",
+    "url": "https://opendata.arcgis.com/datasets/8a8fdd26d8874f1f969356bdba815341_2.zip",
+    "filenameInZip": "Deer_Management_Zones_Units_and_Metro_Subunits.shp",
+    "description": "Deer Management Zones, Units, and Metro Subunits",
+    "species": [
+       "deer"
+    ],
+    "attribution": "Wisconsin Department of Natural Resources",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "DEER_MGM_1"
+    },
+    "country": "US",
+    "state": "WI",
+    "filetype": "shp",
+     "year": "2018",
+    "source": "https://data-wi-dnr.opendata.arcgis.com/datasets/deer-management-zones-units-and-metro-subunits"
+}
