@@ -1,0 +1,19 @@
+{
+   "name" : "WI Turkey Mgmt Zones",
+   "url": "https://opendata.arcgis.com/datasets/fa9eecb69c5644a2b8016093ecb93e5a_2.zip",
+   "filenameInZip": "Turkey_Hunting_Management_Zones.shp",
+   "description": "Turkey Hunting Management Zones",
+   "species": [
+      "turkey"
+   ],
+   "attribution": "Wisconsin Department of Natural Resources",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "TURKEY_MGM"
+   },
+   "country": "US",
+   "state": "WI",
+   "filetype": "shp",
+   "year": "2018",
+   "source": "https://data-wi-dnr.opendata.arcgis.com/datasets/turkey-hunting-management-zones"
+}

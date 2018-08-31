@@ -1,0 +1,20 @@
+{
+   "name" : "WI Bear Mgmt Zones",
+   "url": "https://opendata.arcgis.com/datasets/a961b7942ab7456892a482aa11cbab83_0.zip",
+   "filenameInZip": "Bear_Hunting_Management_Zones.shp",
+   "description": "Bear Hunting Management Zones",
+   "species": [
+      "bear"
+   ],
+   "attribution": "Wisconsin Department of Natural Resources",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "BEAR_MGMT"
+   },
+   "country": "US",
+   "state": "WI",
+   "filetype": "shp",
+   "year": "2018",
+   "source": "https://data-wi-dnr.opendata.arcgis.com/datasets/bear-hunting-management-zones"
+}
+
