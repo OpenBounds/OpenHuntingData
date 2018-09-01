@@ -1,15 +1,20 @@
 {
    "name": "HI Hunt Areas",
-   "url": "http://files.hawaii.gov/dbedt/op/gis/data/huntareas.shp.zip",
+   "url": "https://opendata.arcgis.com/datasets/903568fa96f44e83a376a8aaf128d49e_33.zip",
+   "filenameInZip": "Public_Hunting_Areas.shp",
+   "description": "Public Hunting Areas",
    "species": [
       "all"
    ],
-   "attribution": "State of Hawaii, Hawaii Department of Land and Natural Resources, and the Hawaii Department of Fish and Wildlife",
+   "attribution": "State of Hawaii, Division of Forestry and Wildlife",
    "properties": {
-      "id": "HUNTAREAS_",
-      "name": "HUNTAREAS_"
+      "id": "objectid",
+      "name": "unit_name"
    },
    "country": "US",
    "state": "HI",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2018",
+   "source": "http://geoportal.hawaii.gov/datasets/public-hunting-areas"
+   
 }
