@@ -1,17 +1,21 @@
 {
-   "name" : "ID Deer Controlled Hunt Units",
-   "url": "http://data.idfggis.opendata.arcgis.com/datasets/b774c9d5ffeb475bbd80f2300092bb20_0.zip",
+   "name" : "ID Deer Units 2017-2018",
+   "url": "https://opendata.arcgis.com/datasets/0c00bfb92ece41adaf45d4b75e59cbf3_0.zip",
+   "filenameInZip": "Controlled_Hunts__Deer_201718.shp",
+   "description": "Deer Controlled Hunt Units 2017-2018",
    "species": [
       "deer"
    ],
    "attribution": "Idaho Department of Fish and Game",
    "properties": {
-      "id": "AreaID",
+      "id": "OBJECTID",
       "name": "HuntArea",
       "note" : "AreaNote",
       "area rank" : "AreaRank"
    },
    "country": "US",
    "state": "ID",
-   "filetype": "shp"
+   "filetype": "shp",
+   "year": "2018",
+   "source": "https://data-idfggis.opendata.arcgis.com/datasets/controlled-hunts-deer-2017-18"
 }

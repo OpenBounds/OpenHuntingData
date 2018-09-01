@@ -1,0 +1,20 @@
+{
+   "name" : "ID Turkey Units 2018-2019",
+   "url": "https://opendata.arcgis.com/datasets/e8fc173a899e41269009712f968fb49c_0.zip",
+   "filenameInZip": "Controlled_Hunts__Turkey_201819.shp",
+   "description": "Turkey Controlled Hunt Units 2017-2018",
+   "species": [
+      "turkey"
+   ],
+   "attribution": "Idaho Department of Fish and Game",
+   "properties": {
+      "id": "OBJECTID",
+      "name": "HuntArea",
+      "note" : "AreaNote"
+   },
+   "country": "US",
+   "state": "ID",
+   "filetype": "shp",
+   "year": "2018",
+   "source": "https://data-idfggis.opendata.arcgis.com/datasets/controlled-hunts-turkey-2018-19"
+}

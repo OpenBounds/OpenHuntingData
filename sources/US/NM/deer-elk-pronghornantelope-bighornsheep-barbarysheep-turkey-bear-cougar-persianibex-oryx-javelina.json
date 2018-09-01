@@ -1,28 +1,19 @@
 {
    "name": "NM GMUs",
-   "url": "http://www.wildlife.state.nm.us/download/hunting/maps/NM_GMU_Shapefile-201606.zip",
+   "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/NM-NM_GMU_1535836219216.zip",
+   "filenameInZip": "NM-NM_GMU.shp",
    "description": "Game Management Units",
    "species": [
-      "deer",
-      "elk",
-      "pronghorn antelope",
-      "bighorn sheep",
-      "Barbary sheep",
-      "turkey",
-      "bear",
-      "cougar",
-      "Persian ibex",
-      "oryx",
-      "javelina"
+      "all"
    ],
    "attribution": "New Mexico Department of Game and Fish",
    "properties": {
-      "id": "GMU",
+      "id": "FID",
       "name": "GMU"
    },
    "country": "US",
    "state": "NM",
    "filetype": "shp",
-   "year": "2016",
-   "source": "http://www.wildlife.state.nm.us/hunting/maps/big-game-unit-maps-pdfs/"
+   "year": "2018",
+   "source": "https://services2.arcgis.com/CjbW1bVhK4dB3WOa/ArcGIS/rest/services/NM_GMU/FeatureServer/"
 }
