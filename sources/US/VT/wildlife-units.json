@@ -1,18 +1,19 @@
 {
-   "name" : "VT Wildlife Management Units",
+   "name" : "VT Wildlife Mgmt Units",
    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/vt-wildlife-management-units.zip",
    "filenameInZip": "vt-wildlife-management-units.shp",
+   "description": "Wildlife Management Units and Subunits",
    "species": [
       "all"
    ],
    "attribution": "Vermont Fish and Wildlife Department",
    "properties": {
-      "id": "WMU_name",
+      "id": "OBJECTID",
       "name": "WMU_name"  
    },
    "country": "US",
    "state": "VT",
    "filetype": "shp",
-   "year": "2008",
+   "year": "2017",
    "source": "http://anrgeodata.vermont.gov/datasets/wildlife-management-units"
 }
