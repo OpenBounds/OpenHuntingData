@@ -1,0 +1,19 @@
+{
+    "name" : "MS WMAs",
+    "url": "https://data.openbounds.org.s3.amazonaws.com/USAHunting/manual-downloads/ms-wma-and-dove.zip",
+    "filenameInZip": "MS-WMA DOVE FIELDS.shp",
+    "description": "Wildlife Management Areas and State Parks open for hunting",
+    "species": [
+       "all"
+    ],
+    "attribution": "Mississippi Mississippi Department of Wildlife, Fisheries, and Parks",
+    "properties": {
+       "id": "OBJECTID",
+       "name": "Label"
+    },
+    "country": "US",
+    "state": "MS",
+    "filetype": "shp",
+    "year": "2018",
+    "source": "https://arcgis.mdwfp.com/arcgis/rest/services/Public/Public_WMA_Data/FeatureServer/2"
+}
