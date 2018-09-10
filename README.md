@@ -1,3 +1,7 @@
+# Project Archived
+
+This project is no longer being publicly being maintained.
+
 # OpenHuntingData
 
 [![Build Status](https://travis-ci.org/OpenBounds/OpenHuntingData.svg?branch=master)](https://travis-ci.org/OpenBounds/OpenHuntingData)
